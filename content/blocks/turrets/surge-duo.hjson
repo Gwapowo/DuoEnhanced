@@ -61,9 +61,9 @@ ammo: {
 }
 requirements: [
 copper/15
-titanium/15
+titanium/35
 thorium/35
-surge-alloy/45
+surge-alloy/55
 ]
 category: turret
 research: duo
