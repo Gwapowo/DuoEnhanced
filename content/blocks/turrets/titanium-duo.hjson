@@ -1,0 +1,53 @@
+type: DoubleTurret
+name: Titanium Duo
+description: A more advanced version of the Duo, upgraded with titanium.
+health: 400
+size: 1
+reload: 20
+ammoUseEffect: shellEjectSmall 
+inaccuracy: 2
+rotatespeed: 12
+ammo: {
+	copper : {
+		speed: 3
+		damage: 20
+		bulletWidth: 7
+		bulletHeight: 9
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 4
+		}
+		graphite : {
+			speed: 4
+			damage: 11
+			bulletWidth: 7
+			bulletHeight: 9
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			}
+			silicon : {
+				speed: 4
+				damage: 10
+				bulletWidth: 7
+				bulletHeight: 9
+				shootEffect: shootSmall
+				smokeEffect: shootSmallSmoke
+				ammoMultiplier: 5
+				}
+				pryatite: {
+					speed: 4
+					damage: 18
+					bulletWidth: 7
+					bulletHeight: 9
+					shootEffect: shootSmall
+					smokeEffect: shootSmallSmoke
+				     	}
+}
+requirements: [
+copper/15
+titanium/35
+]
+category: turret
+research: duo
+ 

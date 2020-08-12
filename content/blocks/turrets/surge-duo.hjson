@@ -1,0 +1,70 @@
+type: DoubleTurret
+name: Surge Duo
+description: A highly advanced version of the duo, upgraded with surge alloy. 
+health: 850
+size: 1
+reload: 20
+ammoUseEffect: shellEjectSmall 
+inaccuracy: 2
+rotatespeed: 12
+ammo: {
+	copper : {
+		speed: 5
+		damage: 25
+		bulletWidth: 7
+		bulletHeight: 9
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 4
+		}
+		graphite : {
+			speed: 6
+			damage: 17
+			bulletWidth: 7
+			bulletHeight: 9
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			}
+			silicon : {
+				speed: 6
+				damage: 25
+				bulletWidth: 7
+				bulletHeight: 9
+				shootEffect: shootSmall
+				smokeEffect: shootSmallSmoke
+				ammoMultiplier: 5
+				}
+				pryatite: {
+					speed: 6
+					damage: 22
+					bulletWidth: 7
+					bulletHeight: 9
+					shootEffect: shootSmall
+					smokeEffect: shootSmallSmoke
+				  	}
+				   thorium: {
+				   	speed: 8
+				   	damage: 50
+				   	bulletWidth: 8
+				   	bulletHeight: 10
+				   	shootEffect: shootSmall
+				   	smokeEffect: shootSmallSmoke
+				   	}
+				   	surge-alloy: {
+				   		speed: 10
+				   		damage: 46
+				   		bulletWidth: 8
+				   		bulletHeight: 10
+				   		shootEffect: shootSmall
+				   		smokeEffect: shootSmallSmoke
+}
+requirements: [
+copper/15
+titanium/15
+thorium/35
+surge-alloy/55
+]
+category: turret
+research: duo
+ 
