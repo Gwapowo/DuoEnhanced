@@ -53,7 +53,7 @@ ammo: {
 				  		}     
  }
 requirements: [
-copper/15
+copper/35
 titanium/35
 thorium/55
 ]
