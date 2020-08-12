@@ -37,7 +37,7 @@ ammo: {
 				}
 				pryatite: {
 					speed: 4
-					damage: 20
+					damage: 22
 					bulletWidth: 7
 					bulletHeight: 9
 					shootEffect: shootSmall
