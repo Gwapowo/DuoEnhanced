@@ -12,13 +12,14 @@ copper: standardCopper
 graphite: standardDense
 pyratite:standardIncendiary 
 silicon: standardHoming
+}
   reload = 19
   restitution = 0.03
   range = 110
   shootCone = 15
   inaccuracy = 1
   rotateSpeed = 12
-}
+
 requirements: [
 copper/15
 titanium/35
