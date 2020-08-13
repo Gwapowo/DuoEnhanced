@@ -8,6 +8,10 @@ ammoUseEffect: shellEjectSmall
 inaccuracy: 2
 rotatespeed: 12
 ammo: {
+copper: standardCopper
+graphite: standardDense
+pyratite:standardIncendiary 
+silicon: standardHoming
 	copper : {
 		speed: 3
 		damage: 14
