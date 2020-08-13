@@ -14,59 +14,16 @@ pyratite:standardIncendiary
 silicon: standardHoming
 thorium: standardThorium
 surge-alloy: flakSurge
-
-	copper : {
-		speed: 5
-		damage: 21
-		bulletWidth: 7
-		bulletHeight: 9
-		shootEffect: shootSmall
-		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 4
-		}
-		graphite : {
-			speed: 6
-			damage: 42
-			bulletWidth: 7
-			bulletHeight: 9
-			shootEffect: shootSmall
-			smokeEffect: shootSmallSmoke
-			ammoMultiplier: 2
-			}
-			silicon : {
-				speed: 6
-				damage: 26
-				bulletWidth: 7
-				bulletHeight: 9
-				shootEffect: shootSmall
-				smokeEffect: shootSmallSmoke
-				ammoMultiplier: 5
-				}
-				pyratite: {
-					speed: 6
-					damage: 29
-					bulletWidth: 7
-					bulletHeight: 9
-					shootEffect: shootSmall
-					smokeEffect: shootSmallSmoke
-				  	}
-				   thorium: {
-				   	speed: 8
-				   	damage: 55
-				   	bulletWidth: 8
-				   	bulletHeight: 10
-				   	shootEffect: shootSmall
-				   	smokeEffect: shootSmallSmoke
-				   	}
-				   	surge-alloy: {
-				   		speed: 10
-				   		damage: 60
-				   		bulletWidth: 8
-				   		bulletHeight: 10
-				   		shootEffect: shootSmall
-				   		smokeEffect: shootSmallSmoke
-                                                }
 }
+reload : 10
+restitution : 0.03
+range : 150
+shootCone : 15
+inaccuracy : 0
+rotateSpeed : 16
+
+	
+					
 requirements: [
 copper/15
 titanium/35
