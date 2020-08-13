@@ -12,41 +12,12 @@ copper: standardCopper
 graphite: standardDense
 pyratite:standardIncendiary 
 silicon: standardHoming
-	copper : {
-		speed: 3
-		damage: 14
-		bulletWidth: 7
-		bulletHeight: 9
-		shootEffect: shootSmall
-		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 4
-		}
-		graphite : {
-			speed: 4
-			damage: 28
-			bulletWidth: 7
-			bulletHeight: 9
-			shootEffect: shootSmall
-			smokeEffect: shootSmallSmoke
-			ammoMultiplier: 2
-			}
-			silicon : {
-				speed: 4
-				damage: 16
-				bulletWidth: 7
-				bulletHeight: 9
-				shootEffect: shootSmall
-				smokeEffect: shootSmallSmoke
-				ammoMultiplier: 5
-				}
-				pyratite: {
-					speed: 4
-					damage: 19
-					bulletWidth: 7
-					bulletHeight: 9
-					shootEffect: shootSmall
-					smokeEffect: shootSmallSmoke
-				     	}
+  reload = 19
+  restitution = 0.03
+  range = 110
+  shootCone = 15
+  inaccuracy = 1
+  rotateSpeed = 12
 }
 requirements: [
 copper/15
