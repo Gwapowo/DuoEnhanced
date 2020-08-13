@@ -8,6 +8,11 @@ ammoUseEffect: shellEjectSmall
 inaccuracy: 1
 rotatespeed: 14
 ammo: {
+copper: standardCopper
+graphite: standardDense
+pyratite:standardIncendiary 
+silicon: standardHoming
+thorium: standardThorium
 	copper : {
 		speed: 3
 		damage: 18
@@ -58,4 +63,4 @@ titanium/35
 thorium/55
 ]
 category: turret
-research: duo
+research: titanium-duo
