@@ -58,6 +58,7 @@ ammo: {
 				   		bulletHeight: 10
 				   		shootEffect: shootSmall
 				   		smokeEffect: shootSmallSmoke
+                                                }
 }
 requirements: [
 copper/15
