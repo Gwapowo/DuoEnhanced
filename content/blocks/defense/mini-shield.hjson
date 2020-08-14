@@ -3,8 +3,8 @@
     description: A very durable shield generator.
     health: 275
     size: 1
-    radius: 100
-    copperUseTime: 500
+    radius: 50
+    copperUseTime: 250
     copperRadiusBoost: 50 
     cooldownNormal: 2.0
     cooldownLiquid: 1.75
@@ -21,7 +21,9 @@
     }
     requirements: [
         copper/ 50 
+        lead/ 50
         titanium/ 20
+        silicon/ 20
     ]
     category: effect
     research: duo
