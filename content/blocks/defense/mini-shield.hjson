@@ -16,7 +16,6 @@
         items: {
             items: [
                 {item: copper, amount: 1}
-                {liquid: water, amount: 1}
             ]
         }
     }
