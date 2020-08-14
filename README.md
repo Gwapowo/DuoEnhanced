@@ -1,2 +1,2 @@
 # DuoEnhanced
-A mod that adds a multitude of new enhanced duo turrets!
+A mod in Mindustry that adds a multitude of new enhanced duo turrets! 
