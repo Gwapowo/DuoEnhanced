@@ -15,7 +15,7 @@
         power: 10.5
         items: {
             items: [
-                { tem: copper, amount: 1}
+                {item: copper, amount: 1}
                 {item: water, amount: 1}
             ]
         }
