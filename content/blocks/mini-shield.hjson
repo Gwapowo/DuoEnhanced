@@ -1,0 +1,31 @@
+{
+    "name": "Mini shield",
+    "description": "A very durable shield generator.",
+    "type": "forceProjector",
+    "health": 100,
+    "size": 1,
+    "radius": 100,
+    "copperUseTime": 500,
+    "coppeeRadiusBoost": 50,
+    "cooldownNormal": 2.0,
+    "cooldownLiquid": 1.75,
+    "cooldownBrokenBase": 0.5,
+    "basePowerDraw": 1,
+    "breakage": 1250,
+    "consumes":{
+        "power": 10.5,
+        "items": {
+            "items": [
+                { "item": "copper", "amount": 1}
+                {"item: "water", "amount": 1
+                }
+            ]
+        },
+    },
+    "requirements": [
+        { "item": "copper", "amount": 50 }
+        {"item": "titanium", "amount": 20
+    ],
+    "category": "effect",
+    "research": "duo"
+}
