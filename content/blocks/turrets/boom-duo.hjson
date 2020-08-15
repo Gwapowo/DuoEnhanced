@@ -17,8 +17,8 @@ ammo: {
 		splashDamageRadius: 90
 		splashDamage: 67
 		lifetime: 100
-		hitEffect: coreLand
-		despawnEffect: coreLand
+		hitEffect: nuclearCloud
+		despawnEffect: nuclearCloud
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 3
