@@ -7,15 +7,15 @@ reload: 25
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotatespeed: 12
-range: 100
+range: 120
 ammo: {
 	blast-compound : {
 		speed: 3
 		damage: 10
 		bulletWidth: 9
-		bulletHeight: 8
-		splashDamageRadius: 150
-		splashDamage: 70
+		bulletHeight: 11
+		splashDamageRadius: 90
+		splashDamage: 67
 		lifetime: 100
 		hitEffect: blastExplosion
 		despawnEffect: blastExplosion
@@ -27,7 +27,7 @@ ammo: {
 			speed: 3
 			damage: 18
 			bulletWidth: 9
-			bulletHeight: 12
+			bulletHeight: 11
 			frontColor: lightishOrange
 			backColor: lightOrange
 			splashDamageRadius: 35
