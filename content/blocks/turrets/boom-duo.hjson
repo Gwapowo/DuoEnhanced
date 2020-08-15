@@ -7,13 +7,14 @@ reload: 25
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotatespeed: 12
+range: 100
 ammo: {
 	blast-compound : {
 		speed: 3
 		damage: 10
 		bulletWidth: 9
 		bulletHeight: 8
-		splashDamageRadius: 100
+		splashDamageRadius: 150
 		splashDamage: 70
 		lifetime: 100
 		hitEffect: blastExplosion
@@ -30,7 +31,7 @@ ammo: {
 			frontColor: lightishOrange
 			backColor: lightOrange
 			splashDamageRadius: 35
-			splashDamage: 12
+			splashDamage: 18
 			status: burning
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
@@ -55,9 +56,9 @@ ammo: {
 requirements: [
 copper/85
 titanium/55
-thorium/45
+thorium/55
 plastanium/35
-blast-compound/40
+blast-compound/30
 
 ]
 category: turret
