@@ -17,19 +17,17 @@ ammo: {
 		splashDamageRadius: 90
 		splashDamage: 67
 		lifetime: 100
-		hitEffect: nuclearcloud
-		despawnEffect: nuclearcloud
+		hitEffect: nuclearsmoke
+		despawnEffect: nuclearsmoke
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 3
+		ammoMultiplier: 2
 		}
 		pyratite: {
 			speed: 3
 			damage: 18
 			bulletWidth: 9
 			bulletHeight: 11
-			frontColor: lightishOrange
-			backColor: lightOrange
 			splashDamageRadius: 35
 			splashDamage: 18
 			status: burning 
@@ -58,11 +56,11 @@ ammo: {
 				}
 		}
 requirements: [
-copper/85
+copper/95
 titanium/55
 thorium/55
 plastanium/35
-blast-compound/30
+blast-compound/35
 
 ]
 category: turret
