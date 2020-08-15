@@ -1,0 +1,65 @@
+type: DoubleTurret
+name: Boom Duo
+description: Maximizes explosiveness to deliver a great BOOM.
+health: 1550
+size: 2
+reload: 25
+ammoUseEffect: shellEjectSmall 
+inaccuracy: 2
+rotatespeed: 12
+ammo: {
+	blast-compound : {
+		speed: 3
+		damage: 10
+		bulletWidth: 9
+		bulletHeight: 8
+		splashDamageRadius: 100
+		splashDamage: 70
+		lifetime: 100
+		hitEffect: blastExplosion
+		despawnEffect: blastExplosion
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 3
+		}
+		pryatite: {
+			speed: 3
+			damage: 18
+			bulletWidth: 9
+			bulletHeight: 12
+			frontColor: lightishOrange
+			backColor: lightOrange
+			splashDamageRadius: 35
+			splashDamage: 12
+			status: burning
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 4
+			}
+			plastinum: {
+				speed: 3
+				damage: 8
+				bulletWidth: 9
+				bulletHeight: 11
+				splashDamageRadius: 65
+				splashDamage: 45
+				fragBullet: artilleryPlasticFrag
+				fragBullets: 5
+				backColor: plastinumBack
+				frontColor: plastaniumFront
+				shootEffect: shootSmall
+				smokeEffect: shootSmallSmoke
+				ammoMultiplier: 3
+				}
+		}
+requirements: [
+copper/85
+titanium/55
+thorium/45
+plastanium/35
+blast-compound/40
+
+]
+category: turret
+research: duo
+ 
