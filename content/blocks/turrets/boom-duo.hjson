@@ -22,7 +22,7 @@ ammo: {
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 3
 		}
-		pryatite: {
+		pyratite: {
 			speed: 3
 			damage: 18
 			bulletWidth: 9
