@@ -36,7 +36,7 @@ ammo: {
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 4
 			}
-			plastinum: {
+			plastanium: {
 				speed: 3
 				damage: 8
 				bulletWidth: 9
