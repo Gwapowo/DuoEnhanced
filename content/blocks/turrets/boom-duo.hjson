@@ -17,8 +17,8 @@ ammo: {
 		splashDamageRadius: 90
 		splashDamage: 67
 		lifetime: 100
-		hitEffect: nuclearCloud
-		despawnEffect: nuclearCloud
+		hitEffect: nuclearcloud
+		despawnEffect: nuclearcloud
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 3
@@ -32,7 +32,9 @@ ammo: {
 			backColor: lightOrange
 			splashDamageRadius: 35
 			splashDamage: 18
-			status: burning
+			status: burning 
+			hitEffect: blastExplosion 
+			despawnEffect: blastExplosion 
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 4
@@ -48,6 +50,8 @@ ammo: {
 				fragBullets: 5
 				backColor: plastinumBack
 				frontColor: plastaniumFront
+				hitEffect: blastExplosion 
+				despawnEffect: blastExplosion
 				shootEffect: shootSmall
 				smokeEffect: shootSmallSmoke
 				ammoMultiplier: 3
