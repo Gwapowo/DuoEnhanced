@@ -33,6 +33,8 @@ ammo: {
 			smokeEffect: shootSmallSmoke
 			reloadMultiplier: 0.6
 			ammoMultiplier: 3
+			}
+			
 		thorium: {
 			speed: 6
 			damage: 89
