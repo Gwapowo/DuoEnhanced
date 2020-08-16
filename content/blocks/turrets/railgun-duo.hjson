@@ -43,13 +43,15 @@ ammo: {
 			hitEffect: dynamicExplosion
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 2
+			}
+     }
+			
 		
 		requirements: [
 copper/65
 lead/65
 titanium/65
 thorium/85
-
 
 ]
 category: turret
