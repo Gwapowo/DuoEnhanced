@@ -7,6 +7,7 @@ reload: 75
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 1
 rotatespeed: 10
+range: 200
 powerUse: 45
 ammo: {
 	copper: {
