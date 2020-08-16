@@ -17,8 +17,8 @@ ammo: {
 		splashDamageRadius: 65
 		splashDamage: 67
 		lifetime: 100
-		hitEffect: nuclearsmoke
-		despawnEffect: nuclearsmoke
+		hitEffect: blastExplosion 
+		despawnEffect: blastExplosion
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2
