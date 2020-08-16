@@ -1,0 +1,56 @@
+type: DoubleTurret
+name: Railgun Duo
+description: Uses power to rapidly fire high velocity bullets. The power of electromagnetism!
+health: 1350
+size: 2
+reload: 75
+ammoUseEffect: shellEjectSmall 
+inaccuracy: 1
+rotatespeed: 10
+powerUse: 45
+ammo: {
+	copper: {
+		speed: 6
+		damage: 31
+		bulletWidth: 8
+		bulletHeight: 12
+		lifetime: 100
+		pierce: true
+		hitEffect: dynamicExplosion
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 3
+		}
+		graphite: {
+			speed: 6
+			damage: 62
+			bulletWidth: 8
+			bulletHeight: 12
+			lifetime: 100
+			pierce: true
+			hitEffect: dynamicExplosion
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			reloadMultiplier: 0.6
+			ammoMultiplier: 3
+		thorium: {
+			speed: 6
+			damage: 89
+			bulletWidth: 8
+			bulletHeight: 12
+			lifetime: 100
+			pierce: true
+			hitEffect: dynamicExplosion
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+		
+		requirements: [
+copper/65
+lead/65
+titanium/65
+thorium/85
+
+
+]
+category: turret
+research: duo
