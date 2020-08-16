@@ -56,11 +56,11 @@ ammo: {
 				}
 		}
 requirements: [
-copper/95
-titanium/55
-thorium/55
-plastanium/35
-blast-compound/35
+copper/115
+lead/85
+titanium/65
+thorium/65
+plastanium/65
 
 ]
 category: turret
