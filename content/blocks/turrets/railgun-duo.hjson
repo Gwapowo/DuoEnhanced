@@ -17,7 +17,7 @@ ammo: {
 		bulletHeight: 12
 		lifetime: 100
 		pierce: true
-		hitEffect: dynamicExplosion
+		hitEffect: shockwave
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 3
@@ -29,7 +29,7 @@ ammo: {
 			bulletHeight: 12
 			lifetime: 100
 			pierce: true
-			hitEffect: dynamicExplosion
+			hitEffect: shockwave
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			reloadMultiplier: 0.6
@@ -43,7 +43,7 @@ ammo: {
 			bulletHeight: 12
 			lifetime: 100
 			pierce: true
-			hitEffect: dynamicExplosion
+			hitEffect: shockwave
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 2
 			}
