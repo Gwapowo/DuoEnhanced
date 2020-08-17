@@ -28,7 +28,7 @@ ammo: {
 	}
 				
 		requirements: [
-blast-compound/10101010101010101010101010101
+blast-compound/10101
 // Had to make sure you can't use it outside of sandbox.
 ]
 category: turret
