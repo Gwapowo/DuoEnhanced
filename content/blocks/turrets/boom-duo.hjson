@@ -11,11 +11,11 @@ range: 120
 ammo: {
 	blast-compound : {
 		speed: 3
-		damage: 10
+		damage: 12
 		bulletWidth: 9
 		bulletHeight: 11
 		splashDamageRadius: 65
-		splashDamage: 67
+		splashDamage: 87
 		lifetime: 100
 		hitEffect: blastExplosion 
 		despawnEffect: blastExplosion
@@ -29,7 +29,7 @@ ammo: {
 			bulletWidth: 9
 			bulletHeight: 11
 			splashDamageRadius: 35
-			splashDamage: 18
+			splashDamage: 21
 			status: burning 
 			hitEffect: blastExplosion 
 			despawnEffect: blastExplosion 
@@ -43,9 +43,9 @@ ammo: {
 				bulletWidth: 9
 				bulletHeight: 11
 				splashDamageRadius: 55
-				splashDamage: 45
+				splashDamage: 49
 				fragBullet: artilleryPlasticFrag
-				fragBullets: 5
+				fragBullets: 6
 				backColor: plastinumBack
 				frontColor: plastaniumFront
 				hitEffect: blastExplosion 
