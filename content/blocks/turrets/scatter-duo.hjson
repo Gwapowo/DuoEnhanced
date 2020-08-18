@@ -1,10 +1,11 @@
 type: DoubleTurret
 name: Scatter Duo
-description: Scatters multiple bullets at once.
+description: Shoots multiple bullets at once.
 health: 450
 size: 1
 reload: 15
 bullets: 4
+burstSpacing: 3
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotatespeed: 12
@@ -36,7 +37,7 @@ ammo: {
 				smokeEffect: shootSmallSmoke
 				ammoMultiplier: 3
 				}
-				pryatite: {
+				pyratite: {
 					speed: 4
 					damage: 16
 					bulletWidth: 7
