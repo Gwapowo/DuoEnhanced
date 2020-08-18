@@ -3,16 +3,16 @@ name: Railgun Duo
 description: Fires high velocity armor piercing bullets. The power of electromagnetism!
 health: 1350
 size: 2
-reload: 80
+reload: 85
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 1
 rotatespeed: 10
-range: 200
-powerUse: 45
+range: 220
+recoil: 2
 ammo: {
 	copper: {
 		speed: 6
-		damage: 28
+		damage: 31
 		bulletWidth: 8
 		bulletHeight: 13
 		lifetime: 100
@@ -24,7 +24,7 @@ ammo: {
 		}
 		graphite: {
 			speed: 6
-			damage: 56
+			damage: 62
 			bulletWidth: 9
 			bulletHeight: 14
 			lifetime: 100
@@ -38,7 +38,7 @@ ammo: {
 			
 		thorium: {
 			speed: 6
-			damage: 82
+			damage: 86
 			bulletWidth: 8
 			bulletHeight: 13
 			lifetime: 100
@@ -51,9 +51,9 @@ ammo: {
 			
 		
 		requirements: [
-copper/65
-lead/65
-titanium/65
+copper/55
+lead/55
+titanium/55
 thorium/115
 
 ]
