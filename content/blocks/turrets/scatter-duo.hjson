@@ -1,4 +1,4 @@
-type: DoubleTurret
+type: BurstTurret
 name: Scatter Duo
 description: Shoots multiple bullets at once.
 health: 450
@@ -28,16 +28,16 @@ ammo: {
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 2
 			}
-			silicon : {
+			lead : {
 				speed: 4
-				damage: 10
+				damage: 2
 				bulletWidth: 7
 				bulletHeight: 9
+				splashDamageRadius: 25
+				splashDamage: 6
 				shootEffect: shootSmall
 				smokeEffect: shootSmallSmoke 
-				homingPower: 6
-				reloadMultiplier: 1.4
-				ammoMultiplier: 3
+				ammoMultiplier: 2
 				}
 				pyratite: {
 					speed: 4
