@@ -34,7 +34,9 @@ ammo: {
 				bulletWidth: 7
 				bulletHeight: 9
 				shootEffect: shootSmall
-				smokeEffect: shootSmallSmoke
+				smokeEffect: shootSmallSmoke 
+				homingPower: 6
+				reloadMultiplier: 1.4
 				ammoMultiplier: 3
 				}
 				pyratite: {
