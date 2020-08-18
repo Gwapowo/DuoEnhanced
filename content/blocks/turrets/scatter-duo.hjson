@@ -1,0 +1,57 @@
+type: DoubleTurret
+name: Scatter Duo
+description: Scatters multiple bullets at once.
+health: 450
+size: 1
+reload: 15
+bullets: 4
+ammoUseEffect: shellEjectSmall 
+inaccuracy: 2
+rotatespeed: 12
+ammo: {
+	copper : {
+		speed: 3
+		damage: 8
+		bulletWidth: 7
+		bulletHeight: 9
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+		}
+		graphite : {
+			speed: 4
+			damage: 16
+			bulletWidth: 7
+			bulletHeight: 9
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			}
+			silicon : {
+				speed: 4
+				damage: 10
+				bulletWidth: 7
+				bulletHeight: 9
+				shootEffect: shootSmall
+				smokeEffect: shootSmallSmoke
+				ammoMultiplier: 3
+				}
+				pryatite: {
+					speed: 4
+					damage: 16
+					bulletWidth: 7
+					bulletHeight: 9
+					effect: burning
+					shootEffect: shootSmall
+					smokeEffect: shootSmallSmoke
+					ammoMultiplier: 2
+				     	}
+}
+requirements: [
+copper/35
+lead/35
+titanium/15
+]
+category: turret
+research: duo
+ 
