@@ -1,0 +1,17 @@
+type: MassDriver
+name: Duo Driver
+description: A Mass Driver version of the duo. Rapidly fires and has significantly less storage.
+health: 400
+size: 2
+itemCapacity: 30
+reloadTime: 40
+range: 330
+consumes.power(1.25)
+				    requirements: [
+titanium/105
+silicon/55
+lead/155
+]
+category: distribution 
+research: massDriver
+ 
