@@ -7,10 +7,12 @@ itemCapacity: 30
 reloadTime: 40
 range: 330
 consumes.power(1.25)
-				    requirements: [
+
+requirements: [
 titanium/105
 silicon/55
 lead/155
+
 ]
 category: distribution 
 research: massDriver
