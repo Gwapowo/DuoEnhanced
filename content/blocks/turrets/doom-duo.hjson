@@ -7,8 +7,8 @@ size: 2
 reload: 250
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 0
-range: 200
-rotatespeed: 4
+range: 500
+rotatespeed: 6
 ammo: {
 	blast-compound: {
 		speed: 2
@@ -20,7 +20,8 @@ ammo: {
 		splashDamage: 1000
 		hitEffect: dynamicExplosion
 		// This hit effect is absolutely insane.. 
-		shootEffect: shootSmall
+		shootEffect: shootSmall 
+		volume: 50
 		// Such an innocent sound, for a duo that spawns DOOMSDAY!
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 1
