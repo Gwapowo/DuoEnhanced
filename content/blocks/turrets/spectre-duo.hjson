@@ -1,0 +1,39 @@
+type: DoubleTurret
+name: Spectre Duo
+description: The ultimate rapid fire duo! Stronger than the actual Spectre.
+health: 400
+size: 2
+itemCapacity: 60
+reload: 10
+coolantMultiplier: 0.5
+restitution: 0.1
+ammoUseEffect: shellEjectBig
+range: 250
+inaccuracy: 3
+recoil: 3
+xRand: 3
+shotWidth: 4
+shootShake: 1
+shots: 4
+size: 4
+shootCone: 24
+shootSound: shootBig
+
+ammo : {
+	copper: driverBolt
+	graphite: standardDenseBig
+	pyratite: standardIncendiaryBig
+	thorium: standardThoriumBig
+	}
+	
+
+	  requirements: [
+copper/450
+thorium/250
+plastanium/75
+surge-alloy/125
+]
+
+category: turret
+research: duo
+ 
