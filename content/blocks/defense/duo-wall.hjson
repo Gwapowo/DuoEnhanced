@@ -1,0 +1,10 @@
+name: Duo Wall
+description: A wall made out of duos. It doesn't shoot, it's just multiple duos mashed together to form a wall. Yes, it's extremely cursed.
+type: Wall
+health: 3250
+size: 2
+requirements: [
+copper/350
+]
+category: defense
+research: copper-wall
