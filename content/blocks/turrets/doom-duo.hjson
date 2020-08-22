@@ -15,7 +15,7 @@ ammo: {
 		damage: 9999
 		bulletWidth: 16
 		bulletHeight: 24
-		lifetime: 100
+		lifetime: 150
 		splashDamageRadius: 1000
 		splashDamage: 1000
 		hitEffect: dynamicExplosion
