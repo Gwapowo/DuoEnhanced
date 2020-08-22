@@ -1,6 +1,6 @@
 type: DoubleTurret
 name: Railgun Duo
-description: Fires high velocity armor piercing bullets. The power of electromagnetism!
+description: Fires high velocity armor piercing bullets. The power of electromagnetism! A certified boss killer.
 health: 1350
 size: 2
 reload: 85
@@ -54,7 +54,7 @@ ammo: {
 copper/55
 lead/55
 titanium/55
-thorium/115
+thorium/555
 
 ]
 category: turret
