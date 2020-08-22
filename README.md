@@ -9,7 +9,7 @@ A mod in Mindustry that adds a multitude of new enhanced duo turrets! The Duo is
 
 <b>MECHS:</b> Omega Duo
 
-<b>MISCELLANEOUS:</b> Duo Driver, Duo Force Projector
+<b>MISCELLANEOUS:</b> Duo Driver, Duo Force Projector, Duo Wall
 
 -----------------------------
 
