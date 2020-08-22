@@ -3,7 +3,7 @@ name: Boom Duo
 description: Maximizes explosiveness to deliver a great BOOM.
 health: 1550
 size: 2
-reload: 25
+reload: 20
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotatespeed: 12
@@ -15,10 +15,10 @@ ammo: {
 		bulletWidth: 9
 		bulletHeight: 11
 		splashDamageRadius: 65
-		splashDamage: 87
+		splashDamage: 96
 		lifetime: 100
-		hitEffect: bigShockwave
-		despawnEffect: shockwave
+		hitEffect: shockwave
+		despawnEffect: bigShockwave
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2
@@ -29,10 +29,10 @@ ammo: {
 			bulletWidth: 9
 			bulletHeight: 11
 			splashDamageRadius: 35
-			splashDamage: 21
+			splashDamage: 24
 			status: burning 
 			hitEffect: bigShockwave 
-			despawnEffect: shockwave
+			despawnEffect: bigShockwave
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 4
@@ -49,7 +49,7 @@ ammo: {
 				backColor: plastinumBack
 				frontColor: plastaniumFront
 				hitEffect: bigShockwave
-				despawnEffect: shockwave
+				despawnEffect: bigShockwave
 				shootEffect: shootSmall
 				smokeEffect: shootSmallSmoke
 				ammoMultiplier: 3
