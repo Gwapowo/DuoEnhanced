@@ -1,8 +1,8 @@
 type: DoubleTurret
 name: Spectre Duo
 description: The ultimate rapid fire duo! Stronger than the actual Spectre.
-health: 1450
-size: 2
+health: 1850
+size: 3
 itemCapacity: 60
 reload: 4.5
 coolantMultiplier: 0.5
@@ -28,9 +28,10 @@ ammo : {
 
 	  requirements: [
 copper/450
+graphite/150
 thorium/225
-plastanium/75
-surge-alloy/125
+plastanium/45
+surge-alloy/85
 ]
 
 category: turret
