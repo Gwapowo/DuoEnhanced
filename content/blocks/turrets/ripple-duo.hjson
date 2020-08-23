@@ -1,0 +1,32 @@
+type: DoubleTurret
+name: Ripple Duo
+description: Rapid fire artillery! Ground units beware.
+health: 770
+size: 2
+reload: 20
+ammoEjectBack: 5
+ammoUseEffect: shellEjectBig
+velocityInaccuracy: 0.2
+restitution: 0.2
+recoil: 4
+shootShake: 1
+inaccuracy: 4
+rotatespeed: 12
+range: 250
+ammo: {
+	graphite:  artilleryDense
+	silicon: artilleryHoming
+	pyratite: artilleryIncendiary
+	blast-compound: artilleryExplosive
+	plastnium: artilleryPlasticFrag 
+				}
+							
+			
+requirements: [
+copper/200
+graphite/55
+titanium/55
+]
+category: turret
+research: ripple
+ 
