@@ -4,7 +4,7 @@ description: It's a duo on steroids!!
 health: 400
 size: 1
 reload: 0
-range: 1000
+range: 800
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotatespeed: 12
@@ -16,7 +16,7 @@ ammo: {
 		bulletHeight: 9
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		lifetime: 100
+		lifetime: 1000
 		ammoMultiplier: 4
 		}
 		
