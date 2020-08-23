@@ -18,9 +18,10 @@ ammo: {
 		lifetime: 100
 		pierce: true
 		hitEffect: shockwave
-		shootEffect: shootSmall
-		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 2
+		smokeEffect: shootBigSmoke
+		ammoMultiplier: 2 
+		trailEffect: incendTrail
+		
 		}
 		graphite: {
 			speed: 8
@@ -30,10 +31,10 @@ ammo: {
 			lifetime: 100
 			pierce: true
 			hitEffect: shockwave
-			shootEffect: shootSmall
-			smokeEffect: shootSmallSmoke
+			smokeEffect: shootBigSmoke
 			reloadMultiplier: 0.65
-			ammoMultiplier: 2
+			ammoMultiplier: 2 
+			trailEffect: incendTrail
 			}
 			
 		thorium: {
@@ -44,8 +45,9 @@ ammo: {
 			lifetime: 100
 			pierce: true
 			hitEffect: shockwave
-			smokeEffect: shootSmallSmoke
-			ammoMultiplier: 1
+			smokeEffect: shootBigSmoke
+			ammoMultiplier: 1 
+			trailEffect: incendTrail
 			}
      }
 			
