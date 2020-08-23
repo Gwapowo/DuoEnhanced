@@ -1,60 +1,60 @@
 type: DoubleTurret
 name: Railgun Duo
-description: Fires high velocity armor piercing bullets. The power of electromagnetism! A certified boss killer.
+description: Fires high velocity armor piercing bullets. The power of electromagnetism! Annihilates huge and heavy units with ease.
 health: 1350
-size: 2
+size: 3
 reload: 85
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 1
 rotatespeed: 10
 range: 220
-recoil: 2
+recoil: 4
 ammo: {
 	copper: {
-		speed: 6
-		damage: 31
+		speed: 8
+		damage: 29
 		bulletWidth: 8
-		bulletHeight: 13
+		bulletHeight: 15
 		lifetime: 100
 		pierce: true
 		hitEffect: shockwave
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 3
+		ammoMultiplier: 2
 		}
 		graphite: {
-			speed: 6
-			damage: 62
+			speed: 8
+			damage: 58
 			bulletWidth: 9
-			bulletHeight: 14
+			bulletHeight: 15
 			lifetime: 100
 			pierce: true
 			hitEffect: shockwave
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
-			reloadMultiplier: 0.6
-			ammoMultiplier: 3
+			reloadMultiplier: 0.65
+			ammoMultiplier: 2
 			}
 			
 		thorium: {
-			speed: 6
-			damage: 86
+			speed: 8
+			damage: 82
 			bulletWidth: 8
-			bulletHeight: 13
+			bulletHeight: 15
 			lifetime: 100
 			pierce: true
 			hitEffect: shockwave
 			smokeEffect: shootSmallSmoke
-			ammoMultiplier: 2
+			ammoMultiplier: 1
 			}
      }
 			
 		
 		requirements: [
-copper/55
+copper/145
 lead/55
 titanium/55
-thorium/555
+thorium/185
 
 ]
 category: turret
