@@ -18,9 +18,8 @@ ammo: {
 	silicon: artilleryHoming
 	pyratite: artilleryIncendiary
 	blast-compound: artilleryExplosive
-	plastnium: artilleryPlasticFrag 
-				}
-							
+	plastanium: artilleryPlasticFrag 
+}
 			
 requirements: [
 copper/200
