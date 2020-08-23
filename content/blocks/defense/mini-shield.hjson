@@ -1,10 +1,10 @@
   type:forceProjector
   name: Mini Force Projector
-    description: A very durable shield generator.
+    description: A very durable shield generator. (WIP)
     health: 275
     size: 1
     radius: 50
-    copperUseTime: 250
+    copperUseTime: 220
     copperRadiusBoost: 50 
     cooldownNormal: 2.0
     cooldownLiquid: 1.75
@@ -20,11 +20,10 @@
         }
     }
     requirements: [
-        copper/ 50 
+        copper/ 125
         lead/ 50
         titanium/ 20
         silicon/ 20
     ]
     category: effect
-    research: duo
-
+    research: force-projector
