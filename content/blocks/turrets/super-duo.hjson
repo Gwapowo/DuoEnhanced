@@ -1,0 +1,27 @@
+type: DoubleTurret
+name: Super Duo
+description: It's a duo on steroids!!
+health: 400
+size: 1
+reload: 0
+range: 1000
+ammoUseEffect: shellEjectSmall 
+inaccuracy: 2
+rotatespeed: 12
+ammo: {
+	copper : {
+		speed: 3
+		damage: 8
+		bulletWidth: 7
+		bulletHeight: 9
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		lifetime: 100
+		ammoMultiplier: 4
+}
+requirements: [
+copper/2000
+]
+category: turret
+research: duo
+ 
