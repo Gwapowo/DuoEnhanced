@@ -18,6 +18,8 @@ ammo: {
 		smokeEffect: shootSmallSmoke
 		lifetime: 100
 		ammoMultiplier: 4
+		}
+		
 }
 requirements: [
 copper/2000
