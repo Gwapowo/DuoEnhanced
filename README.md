@@ -2,6 +2,7 @@
 A mod in Mindustry that adds a multitude of new enhanced duo turrets! The Duo is the most basic turret, it is only used when you have no other choice or you just started playing the campaign.. but with this mod, you'll definitely use duos even up to late game!
 
 -----------------------------
+<h2> Content </h2>
 
 <b>TURRETS:</b> Titanium Duo, Thorium Duo, Surge Duo, Boom Duo, Railgun Duo, Spectre Duo, Ripple Duo, Doom Duo, Water Duo
 
