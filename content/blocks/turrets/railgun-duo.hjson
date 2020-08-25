@@ -9,10 +9,13 @@ inaccuracy: 1
 rotatespeed: 10
 range: 220
 recoil: 4
+hasPower: true
+powerUse: 12
+trailEffect: incendTrail
 ammo: {
 	copper: {
 		speed: 8
-		damage: 29
+		damage: 34
 		bulletWidth: 8
 		bulletHeight: 15
 		lifetime: 100
@@ -25,7 +28,7 @@ ammo: {
 		}
 		graphite: {
 			speed: 8
-			damage: 58
+			damage: 68
 			bulletWidth: 9
 			bulletHeight: 15
 			lifetime: 100
@@ -39,7 +42,7 @@ ammo: {
 			
 		thorium: {
 			speed: 8
-			damage: 82
+			damage: 88
 			bulletWidth: 8
 			bulletHeight: 15
 			lifetime: 100
