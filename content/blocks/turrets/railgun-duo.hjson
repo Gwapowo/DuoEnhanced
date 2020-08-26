@@ -10,12 +10,12 @@ rotatespeed: 10
 range: 220
 recoil: 4
 hasPower: true
-powerUse: 12
-trailEffect: incendTrail
+consumes: {
+power: 1
 ammo: {
 	copper: {
 		speed: 8
-		damage: 34
+		damage: 35
 		bulletWidth: 8
 		bulletHeight: 15
 		lifetime: 100
@@ -24,11 +24,14 @@ ammo: {
 		smokeEffect: shootBigSmoke
 		ammoMultiplier: 2 
 		trailEffect: incendTrail
+		trailColor: orange
+		
+		
 		
 		}
 		graphite: {
 			speed: 8
-			damage: 68
+			damage: 70
 			bulletWidth: 9
 			bulletHeight: 15
 			lifetime: 100
@@ -37,12 +40,15 @@ ammo: {
 			smokeEffect: shootBigSmoke
 			reloadMultiplier: 0.65
 			ammoMultiplier: 2 
-			trailEffect: incendTrail
+			trailEffect: incendTrail 
+			trailColor: gray
+			
 			}
+			
 			
 		thorium: {
 			speed: 8
-			damage: 88
+			damage: 89
 			bulletWidth: 8
 			bulletHeight: 15
 			lifetime: 100
@@ -50,16 +56,20 @@ ammo: {
 			hitEffect: shockwave
 			smokeEffect: shootBigSmoke
 			ammoMultiplier: 1 
-			trailEffect: incendTrail
+			trailEffect: incendTrail 
+			trailColor: pink
+			
 			}
+		}
+			
      }
 			
 		
 		requirements: [
-copper/145
+copper/155
 lead/55
 titanium/55
-thorium/185
+thorium/195
 
 ]
 category: turret
