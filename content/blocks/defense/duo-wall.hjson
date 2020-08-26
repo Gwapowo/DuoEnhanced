@@ -4,7 +4,7 @@ type: Wall
 health: 3250
 size: 2
 requirements: [
-copper/350
+duo-fragment/32
 ]
 category: defense
 research: copper-wall
