@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Duo Factory
+description: Constructs pieces of copper into a duo fragment, used for constructing special types of duo turrets.
+liquidCapacity: 25
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+consumes: {
+	power: 1
+	items: {
+		items: [
+		copper/5
+	     	]
+    		}
+		}
+		
+		requirements: [
+		copper/85
+		lead/35
+		titanium/15
+		silicon/15
+		]
+		category: crafting
+		research: silicon-smelter
+		idleSound: 
+		idleSoundVolume: 0.5
+		outputItem: duo-fragment/1
