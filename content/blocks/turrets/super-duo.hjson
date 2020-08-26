@@ -16,13 +16,14 @@ ammo: {
 		bulletHeight: 9
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		lifetime: 1000
+		lifetime: 500
 		ammoMultiplier: 4
 		}
 		
 }
 requirements: [
-copper/2000
+copper/500
+duo-fragment/50
 ]
 category: turret
 research: duo
