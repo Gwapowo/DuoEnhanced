@@ -42,8 +42,6 @@ ammo: {
 			}
 					
 		thorium: { 
-		shootType: standardCopper
-		
 			speed: 8
 			damage: 89
 			bulletWidth: 8
