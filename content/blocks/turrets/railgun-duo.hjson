@@ -10,8 +10,11 @@ rotatespeed: 10
 range: 220
 recoil: 4
 hasPower: true
+
 consumes: {
 power: 1
+}
+
 ammo: {
 	copper: {
 		speed: 8
@@ -25,10 +28,8 @@ ammo: {
 		ammoMultiplier: 2 
 		trailEffect: incendTrail
 		trailColor: orange
-		
-		
-		
 		}
+		
 		graphite: {
 			speed: 8
 			damage: 70
@@ -42,10 +43,8 @@ ammo: {
 			ammoMultiplier: 2 
 			trailEffect: incendTrail 
 			trailColor: gray
-			
 			}
-			
-			
+					
 		thorium: {
 			speed: 8
 			damage: 89
@@ -57,11 +56,8 @@ ammo: {
 			smokeEffect: shootBigSmoke
 			ammoMultiplier: 1 
 			trailEffect: incendTrail 
-			trailColor: pink
-			
-			}
-		}
-			
+			trailColor: pink			
+			}					
      }
 			
 		
