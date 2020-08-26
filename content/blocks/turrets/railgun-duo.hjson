@@ -1,4 +1,4 @@
-type: DoubleTurret
+type: PowerTurret
 name: Railgun Duo
 description: Fires high velocity armor piercing bullets. The power of electromagnetism! Annihilates huge and heavy units with ease.
 health: 1350
@@ -9,11 +9,7 @@ inaccuracy: 1
 rotatespeed: 10
 range: 220
 recoil: 4
-hasPower: true
-
-consumes: {
-power: 1
-}
+powerUse: 1 
 
 ammo: {
 	copper: {
@@ -45,7 +41,9 @@ ammo: {
 			trailColor: gray
 			}
 					
-		thorium: {
+		thorium: { 
+		shootType: standardCopper
+		
 			speed: 8
 			damage: 89
 			bulletWidth: 8
