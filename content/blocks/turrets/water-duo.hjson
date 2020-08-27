@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Hydro Duo
-description: Rapidly sprays water to knockback enemies. [gray] This was supposed to have a different purpose but I gave up on making a custom liquid shot.
+description: Rapidly sprays water to knockback enemies. [gray] This was supposed to have a different purpose but I gave up on making a custom liquid shot. []
 health: 850
 size: 2
 reload: 1
@@ -12,9 +12,8 @@ shootSound: splash
 
 ammo: {
 	water : waterShot
-}		
-	
-	
+}	
+
 requirements: [
 copper/35
 titanium/65
