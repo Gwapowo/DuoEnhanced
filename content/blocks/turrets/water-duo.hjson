@@ -12,7 +12,9 @@ shootSound: splash
 
 ammo: {
 	water : {
-		speed: 5
+	LiquidBulletType: waterShot
+
+                speed: 5
 		knockback: 1.2
 		damage: 1
 		sprite: waterShot
