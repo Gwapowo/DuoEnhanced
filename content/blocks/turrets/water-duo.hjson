@@ -17,7 +17,10 @@ ammo: {
                 speed: 5
 		knockback: 1.2
 		damage: 1
-		sprite: waterShot
+		sprite: shot
+		frontColor: blue 
+		backColor: blue
+		
 		
 		}		
 	}
