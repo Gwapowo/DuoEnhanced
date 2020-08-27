@@ -15,7 +15,9 @@ ammo: {
 		speed: 5
 		knockback: 1.2
 		damage: 1
+		}		
 	}
+	
 requirements: [
 copper/45
 titanium/85
