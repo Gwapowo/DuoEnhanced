@@ -1,9 +1,9 @@
-type: WaterTurret
+type: LiquidTurret
 name: Hydro Duo
 description: Shoots water at high speeds that push back the enemy, extinguishes fires effectively.
 health: 850
 size: 2
-reload: 1.5
+reload: 1
 shootCone: 50
 inaccuracy: 4
 recoil: 1
