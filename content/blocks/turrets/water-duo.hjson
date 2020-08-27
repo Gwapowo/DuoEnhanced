@@ -1,0 +1,26 @@
+type: WaterTurret
+name: Hydro Duo
+description: Shoots water at high speeds that push back the enemy, extinguishes fires effectively.
+health: 850
+size: 2
+reload: 1.5
+shootCone: 50
+inaccuracy: 4
+recoil: 1
+range: 150
+shootSound: splash
+
+ammo: {
+	water : {
+		speed: 5
+		knockback: 1.2
+		damage: 1
+	}
+requirements: [
+copper/45
+titanium/85
+metaglass/35
+]
+category: turret
+research: duo
+ 
