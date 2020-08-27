@@ -1,25 +1,24 @@
 type: LiquidTurret
 name: Hydro Duo
-description: Magically turns water into water flowing bullets.
+description: Rapidly sprays water to knockback enemies. [gray] This was supposed to have a different purpose but I gave up on making a custom liquid shot.
 health: 850
 size: 2
 reload: 1
-shootCone: 50
-inaccuracy: 4
+shootCone: 45
+inaccuracy: 3
 recoil: 1
 range: 150
 shootSound: splash
 
 ammo: {
 	water : waterShot
-	knockback: 12	
 }		
 	
 	
 requirements: [
-copper/45
-titanium/85
-metaglass/35
+copper/35
+titanium/65
+metaglass/25
 ]
 category: turret
 research: duo
