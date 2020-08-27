@@ -1,6 +1,8 @@
 type: LiquidTurret
 name: Hydro Duo
-description: Rapidly sprays water to knockback enemies. [gray] This was supposed to have a different purpose but I gave up on making a custom liquid shot. []
+description: Rapidly sprays water to knockback enemies. 
+// This was supposed to have a different purpose but I gave up on making a custom liquid shot.
+// How does one do it,, I made blue bullets instead that can't even extinguish fire ;-;
 health: 850
 size: 2
 reload: 1
@@ -21,4 +23,3 @@ metaglass/25
 ]
 category: turret
 research: duo
- 
