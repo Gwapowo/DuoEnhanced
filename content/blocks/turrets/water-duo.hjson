@@ -12,15 +12,14 @@ shootSound: splash
 
 ammo: {
 	water : {
-	LiquidBulletType: waterShot
+	BulletType: LiquidBulletType
 
                 speed: 5
 		knockback: 1.2
 		damage: 1
 		sprite: shot
-		frontColor: blue 
-		backColor: blue
-		
+		frontColor: 0000FFFF
+		backColor: 5E5EFFFF
 		
 		}		
 	}
