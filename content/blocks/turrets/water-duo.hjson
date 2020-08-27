@@ -11,18 +11,10 @@ range: 150
 shootSound: splash
 
 ammo: {
-	water : {
-	BulletType: LiquidBulletType
-
-                speed: 5
-		knockback: 1.2
-		damage: 1
-		sprite: shot
-		frontColor: 0000FFFF
-		backColor: 5E5EFFFF
-		
-		}		
-	}
+	water : waterShot
+	knockback: 12	
+}		
+	
 	
 requirements: [
 copper/45
