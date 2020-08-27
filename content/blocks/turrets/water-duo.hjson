@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Hydro Duo
-description: Shoots water at high speeds that push back the enemy, extinguishes fires effectively.
+description: Magically turns water into water flowing bullets.
 health: 850
 size: 2
 reload: 1
@@ -15,6 +15,8 @@ ammo: {
 		speed: 5
 		knockback: 1.2
 		damage: 1
+		sprite: waterShot
+		
 		}		
 	}
 	
