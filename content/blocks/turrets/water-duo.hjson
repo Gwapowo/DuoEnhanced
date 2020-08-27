@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Hydro Duo
-description: Rapidly sprays water to knockback enemies. 
+description: Sprays water much more better than the Wave, but cannot spray other liquid types.
 // This was supposed to have a different purpose but I gave up on making a custom liquid shot.
 // How does one do it,, I made blue bullets instead that can't even extinguish fire ;-;
 health: 850
@@ -9,7 +9,7 @@ reload: 1
 shootCone: 45
 inaccuracy: 3
 recoil: 1
-range: 150
+range: 200
 shootSound: splash
 
 ammo: {
@@ -17,9 +17,9 @@ ammo: {
 }	
 
 requirements: [
-copper/35
-titanium/65
+copper/25
+titanium/45
 metaglass/25
 ]
 category: turret
-research: duo
+research: wave
