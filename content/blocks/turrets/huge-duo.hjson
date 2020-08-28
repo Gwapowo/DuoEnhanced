@@ -11,7 +11,7 @@ rotatespeed: 12
 ammo: {
 	copper : {
 		speed: 5
-		damage: 21
+		damage: 24
 		bulletWidth: 48
 		bulletHeight: 58
 		shootEffect: shootSmall
@@ -19,12 +19,12 @@ ammo: {
 		ammoMultiplier: 1 
 		pierce: true
 		lifetime: 120 
-		knockback: 40	
+		knockback: 80	
 	}
 	
 	graphite: {
 		speed: 5
-		damage: 42
+		damage: 48
 		bulletWidth: 52
 		bulletHeight: 62
 		shootEffect: shootBig
@@ -33,7 +33,7 @@ ammo: {
 		ammoMultiplier: 2 
 		pierce: true
 		lifetime: 120 
-		knockback: 40		
+		knockback: 115	
 		}
 		
 	pyratite: {
@@ -49,7 +49,7 @@ ammo: {
 		status: burning 
 		pierce: true 
 		lifetime: 120 
-		knockback: 40
+		knockback: 80
 		}
 			
 		silicon: {
@@ -64,13 +64,13 @@ ammo: {
 		reloadMultiplier: 1.4 
 		pierce: true 
 		lifetime: 120 
-		knockback: 40		
+		knockback: 80	
 		}
 }
 		
 requirements: [
 copper/2050
-duo-fragment/50
+duo-fragment/60
 ]
 category: turret
 research: salvo
