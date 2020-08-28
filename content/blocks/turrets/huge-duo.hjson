@@ -4,13 +4,13 @@ description: A HUGE version of the Duo.
 health: 5590
 size: 8
 reload: 20
-range: 300
+range: 335
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotatespeed: 12
 ammo: {
 	copper : {
-		speed: 4
+		speed: 5
 		damage: 21
 		bulletWidth: 48
 		bulletHeight: 58
@@ -19,11 +19,11 @@ ammo: {
 		ammoMultiplier: 1 
 		pierce: true
 		lifetime: 120 
-		knockback: 4	
+		knockback: 40	
 	}
 	
 	graphite: {
-		speed: 4
+		speed: 5
 		damage: 42
 		bulletWidth: 52
 		bulletHeight: 62
@@ -33,11 +33,11 @@ ammo: {
 		ammoMultiplier: 2 
 		pierce: true
 		lifetime: 120 
-		knockback: 4		
+		knockback: 40		
 		}
 		
 	pyratite: {
-		speed: 4
+		speed: 5
 		damage: 48
 		bulletWidth: 48
 		bulletHeight: 58
@@ -49,11 +49,11 @@ ammo: {
 		status: burning 
 		pierce: true 
 		lifetime: 120 
-		knockback: 4
+		knockback: 40
 		}
 			
 		silicon: {
-		speed: 4
+		speed: 5
 		damage: 23
 		bulletWidth: 48
 		bulletHeight: 58
@@ -64,7 +64,7 @@ ammo: {
 		reloadMultiplier: 1.4 
 		pierce: true 
 		lifetime: 120 
-		knockback: 4		
+		knockback: 40		
 		}
 }
 		
