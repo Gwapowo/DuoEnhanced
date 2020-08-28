@@ -18,9 +18,8 @@ ammo: {
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 1 
 		pierce: true
-		lifetime: 120
-		
-		
+		lifetime: 120 
+		knockback: 4	
 	}
 	
 	graphite: {
@@ -33,8 +32,8 @@ ammo: {
 		reloadMultiplier: 0.6
 		ammoMultiplier: 2 
 		pierce: true
-		lifetime: 120
-		
+		lifetime: 120 
+		knockback: 4		
 		}
 		
 	pyratite: {
@@ -49,9 +48,9 @@ ammo: {
 		backColor: lightOrange
 		status: burning 
 		pierce: true 
-		lifetime: 120
-		
-			}
+		lifetime: 120 
+		knockback: 4
+		}
 			
 		silicon: {
 		speed: 4
@@ -64,14 +63,14 @@ ammo: {
 		ammoMultiplier: 3
 		reloadMultiplier: 1.4 
 		pierce: true 
-		lifetime: 120
-		
-		
+		lifetime: 120 
+		knockback: 4		
 		}
 }
 		
 requirements: [
-copper/3550
+copper/3050
+duo-fragment/50
 ]
 category: turret
 research: salvo
