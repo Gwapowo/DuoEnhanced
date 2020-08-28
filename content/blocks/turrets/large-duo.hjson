@@ -40,9 +40,8 @@ ammo: {
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 5
-		reloadMultiplier: 1.4 
-		status: homing
-		
+		reloadMultiplier: 1.4
+		homingPower: 5		
 		}
 }
 		
