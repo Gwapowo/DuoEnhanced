@@ -1,4 +1,4 @@
-![Logo](Internal storage/Pixel Studio/logo.png)
+![Logo](Pixel Studio/logo.png)
 # DuoEnhanced
 A mod in Mindustry that adds a multitude of new enhanced duo turrets! The Duo is the most basic turret, it is only used when you have no other choice or you just started playing the campaign.. but with this mod, you'll definitely use duos even up to late game!
 
