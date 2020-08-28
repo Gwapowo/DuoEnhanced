@@ -19,15 +19,16 @@ ammo: {
 	}
 	
 	graphite: {
-			speed: 4
+		speed: 4
 		damage: 42
 		bulletWidth: 15
 		bulletHeight: 21
-			shootEffect: shootBig
+		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		reloadMultiplier: 0.6
 		ammoMultiplier: 2
 		}
+		
 	pyratite: {
 		speed: 4
 		damage: 48
@@ -40,6 +41,7 @@ ammo: {
 		backColor: lightOrange
 		status: burning
 			}
+			
 		silicon: {
 			speed: 3
 		damage: 13
@@ -50,10 +52,12 @@ ammo: {
 		ammoMultiplier: 5
 		reloadMultiplier: 1.4
 		}
+}
+	
 		
 requirements: [
 copper/2500
 ]
 category: turret
-research: duo
+research: large-duo
  
