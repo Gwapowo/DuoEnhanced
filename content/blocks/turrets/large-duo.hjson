@@ -11,9 +11,9 @@ rotatespeed: 12
 ammo: {
 	copper : {
 		speed: 4
-		damage: 11
-		bulletWidth: 9
-		bulletHeight: 11
+		damage: 12
+		bulletWidth: 10
+		bulletHeight: 12
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2
@@ -21,9 +21,9 @@ ammo: {
 	
 	graphite: {
 		speed: 4
-		damage: 22
-		bulletWidth: 10
-		bulletHeight: 22
+		damage: 24
+		bulletWidth: 12
+		bulletHeight: 14
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		reloadMultiplier: 0.6
@@ -34,13 +34,15 @@ ammo: {
 
 		silicon: {
 		speed: 4
-		damage: 13
-		bulletWidth: 9
-		bulletHeight: 11
+		damage: 14
+		bulletWidth: 10
+		bulletHeight: 12
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 5
-		reloadMultiplier: 1.4
+		reloadMultiplier: 1.4 
+		status: homing
+		
 		}
 }
 		
