@@ -4,6 +4,7 @@ description: A HUGE version of the Duo.
 health: 5510
 size: 6
 reload: 20
+range: 300
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotatespeed: 12
@@ -55,8 +56,8 @@ ammo: {
 }
 		
 requirements: [
-copper/2500
+copper/1850
 ]
 category: turret
-research: large-duo
+research: salvo
  
