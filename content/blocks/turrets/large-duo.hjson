@@ -4,6 +4,7 @@ description: A larger version of the Duo.
 health: 1550
 size: 3
 reload: 20
+range: 170
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotatespeed: 12
