@@ -1,0 +1,50 @@
+type: DoubleTurret
+name: Large Duo
+description: A larger version of the Duo.
+health: 1550
+size: 3
+reload: 20
+ammoUseEffect: shellEjectSmall 
+inaccuracy: 2
+rotatespeed: 12
+ammo: {
+	copper : {
+		speed: 4
+		damage: 11
+		bulletWidth: 9
+		bulletHeight: 11
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+	}
+	
+	graphite: {
+			speed: 4
+		damage: 22
+		bulletWidth: 10
+		bulletHeight: 22
+					shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 0.6
+		ammoMultiplier: 4
+			}
+		
+	pyratite: standardIncendiaryBig
+
+		silicon: {
+			speed: 4
+		damage: 13
+		bulletWidth: 9
+		bulletHeight: 11
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 5
+		reloadMultiplier: 1.4
+		}
+		
+requirements: [
+copper/350
+]
+category: turret
+research: duo
+ 
