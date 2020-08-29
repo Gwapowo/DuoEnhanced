@@ -1,6 +1,6 @@
 type: CoreBlock
 name: Core: Duo
-description: Uses a special duo as the core, shining with abundance of pure energy. 
+description: Uses a special duo as the core, shining with pure energy. 
 buildVisibility: shown
 health: 1000
 itemCapacity: 3000
@@ -12,11 +12,10 @@ duo-fragment/200
 thorium/850
 lead/850
 titanium/650
-surge-alloy/425
-graphite/350
+surge-alloy/325
+graphite/125
 phase-fabric/325
-silicon/250
-plastanium/50
+silicon/150
 ]
 //yes I know, this is a LOT of resources
 category: effect
