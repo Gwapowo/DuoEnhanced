@@ -22,9 +22,10 @@ ammo: {
 }
 			
 requirements: [
-copper/200
+copper/150
 graphite/55
 titanium/55
+duo-fragment/10
 ]
 category: turret
 research: ripple
