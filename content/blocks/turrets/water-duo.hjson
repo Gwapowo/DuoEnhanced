@@ -2,14 +2,14 @@ type: LiquidTurret
 name: Hydro Duo
 description: Sprays water much more better than the Wave, but cannot spray other liquid types.
 // This was supposed to have a different purpose but I gave up on making a custom liquid shot.
-// How does one do it,, I made blue bullets instead that can't even extinguish fire ;-;
-health: 850
+// How does one do it, I made blue bullets instead that can't even extinguish fire ;-;
+health: 750
 size: 2
 reload: 1
 shootCone: 45
 inaccuracy: 3
 recoil: 1
-range: 200
+range: 210
 shootSound: splash
 
 ammo: {
@@ -20,6 +20,7 @@ requirements: [
 copper/25
 titanium/45
 metaglass/25
+duo-fragment/5
 ]
 category: turret
 research: wave
