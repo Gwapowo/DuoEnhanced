@@ -4,7 +4,7 @@ A mod in Mindustry that adds a multitude of new enhanced duo turrets! The Duo is
 
 ## Content
 
-<b>TURRETS:</b> Titanium Duo, Thorium Duo, Surge Duo, Boom Duo, Railgun Duo, Spectre Duo, Ripple Duo, Doom Duo, Water Duo, Large Duo, Huge Duo
+<b>TURRETS:</b> Titanium Duo, Thorium Duo, Surge Duo, Boom Duo, Railgun Duo, Spectre Duo, Ripple Duo, Doom Duo, Hydro Duo, Large Duo, Huge Duo
 
 <b>UNITS:</b> (Not worked on yet, future updates will include units)
 
