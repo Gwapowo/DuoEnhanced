@@ -1,5 +1,5 @@
 type: material
 name: Duo Fragment
-description: The essence of the duo, used for creating special types of duo turrets with unique abilities.
-cost: 2
+description: The essence of the duo, used for creating enchanced duos and duo versions of blocks.
+cost: 3
 hardness: 2
