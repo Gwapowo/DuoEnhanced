@@ -9,6 +9,7 @@ ammoUseEffect: shellEjectSmall
 inaccuracy: 0
 range: 500
 rotatespeed: 6
+buildVisibility: sandboxOnly
 ammo: {
 	blast-compound: {
 		speed: 2
