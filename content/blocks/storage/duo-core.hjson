@@ -1,7 +1,7 @@
 type: CoreBlock
 name: Core: Duo
 description: Uses a special duo as the core, shining with abundance of pure energy. 
-buildVisibility: true
+buildVisibility: shown
 health: 1000
 itemCapacity: 3000
 size: 3
