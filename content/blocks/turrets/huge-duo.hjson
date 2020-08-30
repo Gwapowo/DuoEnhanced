@@ -44,8 +44,8 @@ ammo: {
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 1
-		frontColor: lightishOrange
-		backColor: lightOrange
+		frontColor: FC9D5DFF
+		backColor: FFAD7DFF
 		status: burning 
 		pierce: true 
 		lifetime: 120 
