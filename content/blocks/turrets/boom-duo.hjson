@@ -34,8 +34,8 @@ ammo: {
 			frontColor: FC9D5DFF 
 			backColor: FFAD7DFF			
 			status: burning 
-			hitEffect: bigShockwave 
-			despawnEffect: bigShockwave
+			hitEffect: shockwave 
+			despawnEffect: shockwave
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 4
@@ -51,7 +51,7 @@ ammo: {
 				fragBullets: 7
 				backColor: plastaninumBack
 				frontColor: plastaniumFront
-				hitEffect: bigShockwave
+				hitEffect: shockwave
 				despawnEffect: bigShockwave
 				shootEffect: shootSmall
 				smokeEffect: shootSmallSmoke
