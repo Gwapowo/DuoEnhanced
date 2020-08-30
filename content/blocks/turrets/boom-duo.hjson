@@ -8,6 +8,7 @@ ammoUseEffect: shellEjectSmall
 inaccuracy: 2
 rotatespeed: 12
 range: 140
+hitShake: 1
 ammo: {
 	blast-compound : {
 		speed: 3
