@@ -1,7 +1,7 @@
 type: DoubleTurret
 name: Boom Duo
 description: Maximizes explosiveness to deliver a great BOOM.
-health: 1550
+health: 1150
 size: 2
 reload: 20
 ammoUseEffect: shellEjectSmall 
@@ -29,7 +29,9 @@ ammo: {
 			bulletWidth: 9
 			bulletHeight: 11
 			splashDamageRadius: 35
-			splashDamage: 36
+			splashDamage: 36 
+			frontColor: FC9D5DFF 
+			backColor: FFAD7DFF			
 			status: burning 
 			hitEffect: bigShockwave 
 			despawnEffect: bigShockwave
@@ -60,8 +62,8 @@ copper/45
 lead/85
 titanium/65
 thorium/65
-plastanium/65
-duo-fragment/10
+plastanium/55
+duo-fragment/15
 
 ]
 category: turret
