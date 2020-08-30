@@ -7,7 +7,7 @@ reload: 20
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotatespeed: 12
-range: 120
+range: 140
 ammo: {
 	blast-compound : {
 		speed: 3
@@ -15,9 +15,9 @@ ammo: {
 		bulletWidth: 9
 		bulletHeight: 11
 		splashDamageRadius: 65
-		splashDamage: 96
+		splashDamage: 98
 		lifetime: 100
-		hitEffect: shockwave
+		hitEffect: bigShockwave
 		despawnEffect: bigShockwave
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
@@ -29,7 +29,7 @@ ammo: {
 			bulletWidth: 9
 			bulletHeight: 11
 			splashDamageRadius: 35
-			splashDamage: 24
+			splashDamage: 36
 			status: burning 
 			hitEffect: bigShockwave 
 			despawnEffect: bigShockwave
@@ -45,8 +45,8 @@ ammo: {
 				splashDamageRadius: 55
 				splashDamage: 49
 				fragBullet: artilleryPlasticFrag
-				fragBullets: 6
-				backColor: plastinumBack
+				fragBullets: 7
+				backColor: plastaninumBack
 				frontColor: plastaniumFront
 				hitEffect: bigShockwave
 				despawnEffect: bigShockwave
