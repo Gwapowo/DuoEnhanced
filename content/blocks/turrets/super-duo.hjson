@@ -1,9 +1,9 @@
 type: DoubleTurret
 name: Super Duo
-description: It's a duo on steroids!!
+description: It's a duo on steroids!! Fires extremely fast and has absurd range.
 health: 400
 size: 1
-reload: 0
+reload: 0.1
 range: 800
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
