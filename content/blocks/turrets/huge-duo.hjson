@@ -2,7 +2,7 @@ type: DoubleTurret
 name: Huge Duo
 description: A HUGE version of the Duo.
 health: 5590
-size: 12
+size: 8
 reload: 20
 range: 335
 ammoUseEffect: shellEjectSmall 
