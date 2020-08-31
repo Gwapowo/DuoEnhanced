@@ -33,15 +33,17 @@ ammo: {
 				lifetime: 2
 				speed: 2
 				damage: 2
-		        	}
-				}	
-		}					
-			
+		        }
+		}	
+	}
+}
+				
 requirements: [
 copper/135
 duo-fragment/35
 plastanium/155
-titanium/35
+titanium/55
+graphite/35
 metaglass/35
 ]
 category: turret
