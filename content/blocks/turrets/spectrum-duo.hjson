@@ -1,6 +1,7 @@
 type: DoubleTurret
 name: Spectrum Duo
-description: Shoots colorful homing missiles that split into incendiary liquids, destroy your enemy with style! [gray]Sprite by sk7225. []
+description: Shoots colorful homing missiles that split into incendiary liquids, destroy your enemy with style! 
+//sprite by sk7225
 health: 1170
 size: 3
 reload: 20
