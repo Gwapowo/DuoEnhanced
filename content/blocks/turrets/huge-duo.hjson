@@ -5,9 +5,13 @@ health: 5590
 size: 8
 reload: 20
 range: 335
-ammoUseEffect: shellEjectSmall 
+ammoUseEffect: shellEjectBig 
 inaccuracy: 2
 rotatespeed: 12
+ammoPerShot: 2
+shootShake: 0.5
+ammoEjectBack: 3
+spread: 8
 ammo: {
 	copper : {
 		speed: 5
@@ -16,7 +20,7 @@ ammo: {
 		bulletHeight: 58
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 1 
+		ammoMultiplier: 2
 		pierce: true
 		lifetime: 120 
 		knockback: 80	
@@ -30,7 +34,7 @@ ammo: {
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		reloadMultiplier: 0.6
-		ammoMultiplier: 2 
+		ammoMultiplier: 4
 		pierce: true
 		lifetime: 120 
 		knockback: 135	
@@ -43,7 +47,7 @@ ammo: {
 		bulletHeight: 58
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 1
+		ammoMultiplier: 4
 		frontColor: FC9D5DFF
 		backColor: FFAD7DFF
 		status: burning 
@@ -60,7 +64,7 @@ ammo: {
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke 
 		homingPower: 1
-		ammoMultiplier: 3
+		ammoMultiplier: 4
 		reloadMultiplier: 1.2 
 		pierce: true 
 		lifetime: 120 
