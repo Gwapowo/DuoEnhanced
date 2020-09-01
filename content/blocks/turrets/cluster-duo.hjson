@@ -1,7 +1,7 @@
 type: DoubleTurret
 name: Cluster Duo
 description: Shoots bullets that split into other bullet types depending on the ammo you give!
-health: 1055
+health: 1255
 size: 3
 reload: 18
 ammoUseEffect: shellEjectBig
@@ -11,22 +11,22 @@ range: 190
 ammo: {
 	pyratite: {
 		speed: 4
-		damage: 8
+		damage: 9
 		bulletWidth: 12
 		bulletHeight: 16
-		splashDamageRadius: 26
-		splashDamage: 18
-		ammoMultiplier: 3
+		splashDamageRadius: 29
+		splashDamage: 24
+		ammoMultiplier: 2
 		fragBullets: 4
 		fragBullet: {
 			type: BombBulletType 
 			bulletWidth: 9
 			bulletHeight: 13
 			hitEffect: flakExplosion
-			damage: 10
-			incendChance: 2
-			incendAmount: 3
-			incendSpread: 10
+			damage: 13.5
+			incendChance: 3
+			incendAmount: 4
+			incendSpread: 15
 			}
 		}
 		blast-compound:	{
@@ -35,14 +35,14 @@ ammo: {
 			bulletWidth: 12
 			bulletHeight: 16
 			splashDamageRadius: 58
-			splashDamage: 36
+			splashDamage: 46
 			ammoMultiplier: 3
-			fragBullets: 3
+			fragBullets: 4
 			fragBullet: {
 				type: BombBulletType
 				bulletWidth: 9
 				bulletHeight: 13
-				damage: 20
+				damage: 25
 				hitEffect: flakExplosion
 				}
 			}
