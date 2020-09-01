@@ -7,7 +7,7 @@ reload: 18
 ammoUseEffect: shellEjectBig
 inaccuracy: 4
 rotatespeed: 12
-range: 190
+range: 220
 ammo: {
 	pyratite: {
 		speed: 4
@@ -16,14 +16,14 @@ ammo: {
 		bulletHeight: 16
 		splashDamageRadius: 29
 		splashDamage: 24
-		ammoMultiplier: 2
+		ammoMultiplier: 3
 		fragBullets: 4
 		fragBullet: {
 			type: BombBulletType 
 			bulletWidth: 9
 			bulletHeight: 13
 			hitEffect: flakExplosion
-			damage: 13.5
+			damage: 15
 			incendChance: 3
 			incendAmount: 4
 			incendSpread: 15
@@ -42,7 +42,7 @@ ammo: {
 				type: BombBulletType
 				bulletWidth: 9
 				bulletHeight: 13
-				damage: 25
+				damage: 30
 				hitEffect: flakExplosion
 				}
 			}
@@ -71,5 +71,5 @@ surge-alloy/55
 
 ]
 category: turret
-research: salvo
+research: cyclone
  
