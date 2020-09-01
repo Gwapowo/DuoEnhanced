@@ -23,6 +23,7 @@ ammo: {
 		fragBullets: 8
 		fragBullet: pyraFlame
 		}
+		
 		blast-compound:	{
 			speed: 4
 			damage: 6
@@ -34,6 +35,7 @@ ammo: {
 			fragBullets: 3
 			fragBullet: bombExplosive
 			}
+			
 			copper: {
 				speed: 4
 				damage: 16
@@ -42,6 +44,7 @@ ammo: {
 				fragBullets: 8
 				fragBullet: standardCopper
 			  }
+			  
 			  surge-alloy: {
 			  	speed: 4
 			  	damage: 7
