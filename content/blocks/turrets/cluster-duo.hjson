@@ -8,6 +8,7 @@ ammoUseEffect: shellEjectBig
 inaccuracy: 4
 rotatespeed: 12
 range: 190
+recoil: 2
 
 ammo: {
 	pyratite: {
@@ -18,8 +19,6 @@ ammo: {
 		splashDamageRadius: 26
 		splashDamage: 18
 		ammoMultiplier: 3
-		frontColor: ffff00
-		backColor: 00ffff
 		fragBullets: 8
 		fragBullet: pyraFlame
 		}
@@ -43,7 +42,7 @@ ammo: {
 				bulletHeight: 15
 				fragBullets: 8
 				fragBullet: standardCopper
-			  }
+				}
 			  
 			  surge-alloy: {
 			  	speed: 4
@@ -54,8 +53,8 @@ ammo: {
 			  	splashDamage: 23
 			  	fragBullets: 6
 			  	fragBullet: lightning
-			  } 	
-}				
+				}	
+ }				
 			
 requirements: [
 copper/145
@@ -64,6 +63,5 @@ duo-fragment/38
 plastanium/115
 surge-alloy/55
 ]
-
 category: turret
 research: cyclone
