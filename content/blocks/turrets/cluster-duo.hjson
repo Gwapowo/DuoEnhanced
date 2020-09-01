@@ -49,7 +49,6 @@ ammo: {
 			  	damage: 7
 			  	bulletWidth: 12
 			  	bulletHeight; 16
-			  	splashDamageRadius: 33
 			  	splashDamage: 23
 			  	fragBullets: 6
 			  	fragBullet: lightning
