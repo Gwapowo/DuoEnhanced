@@ -1,6 +1,6 @@
 type: DoubleTurret
 name: Spectrum Duo
-description: Shoots colorful homing missiles that burst into liquids, destroy your enemy with style! 
+description: Shoots colorful homing missiles that burst into oil, destroy your enemy with style! 
 //sprite by sk7225
 health: 1170
 size: 3
@@ -14,7 +14,8 @@ ammo: {
 		type: MissileBulletType
 		lifetime: 200
 		speed: 2.5
-		splashDamageRadius: 36
+		splashDamageRadius: 36 
+		ammoMultiplier: 2
 		splashDamage: 26
 		frontColor: ffff00
 		backColor: 00ffff
@@ -33,8 +34,25 @@ ammo: {
 				lifetime: 10
 				speed: 2
 				damage: 2
-		        }
-		}	
+		                } 
+			
+	blast-compound: {
+		speed: 2.5
+		splashDamageRadius: 66
+		splashDamage: 59
+		frontColor: ffff00
+		backColor: 00ffff 
+		ammoMultiplier: 2
+		homingPower: 1
+		homingRange: 40
+		fragBullets: 6
+		fragBullet: {
+			type: LiquidBulletType
+			liquid: oil
+			lifetime: 4
+			speed: 1
+			}
+		}		
 	}
 }
 				
