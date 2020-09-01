@@ -59,23 +59,7 @@ ammo: {
 					bulletHeight: 9
 					lifetime: 60
 				}
-			  }
-			  surge-alloy: {
-			  	speed: 4
-			  	damage: 7
-			  	bulletWidth: 12
-			  	bulletHeight; 16
-			  	splashDamageRadius: 33
-			  	splashDamage: 23
-			  	fragBullets: 4
-			  	fragBullet: {
-			  		type: FlakBulletType
-			  		splashDamage: 13
-			  		splashDamageRadius: 23
-			  		lightining: 4
-			  		lightningLength: 12
-			  			  	}	
-			  		} 	
+			  } 	
 }				
 			
 requirements: [
