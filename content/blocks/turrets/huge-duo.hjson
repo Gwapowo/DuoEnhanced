@@ -63,7 +63,7 @@ ammo: {
 		bulletHeight: 58
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke 
-		homingPower: 1
+		homingPower: 0.3
 		ammoMultiplier: 4
 		reloadMultiplier: 1.2 
 		pierce: true 
