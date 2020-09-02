@@ -9,6 +9,7 @@ ammoUseEffect: shellEjectSmall
 inaccuracy: 4
 rotatespeed: 12
 range: 200
+shootSound: missile
 ammo: {
 	pyratite: {
 		type: MissileBulletType
