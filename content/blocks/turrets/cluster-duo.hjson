@@ -17,7 +17,7 @@ ammo: {
 		splashDamageRadius: 29
 		splashDamage: 24
 		ammoMultiplier: 3
-		fragBullets: 4
+		fragBullets: 5
 		fragBullet: {
 			type: BombBulletType 
 			bulletWidth: 9
@@ -37,7 +37,7 @@ ammo: {
 			splashDamageRadius: 58
 			splashDamage: 46
 			ammoMultiplier: 3
-			fragBullets: 4
+			fragBullets: 5
 			fragBullet: {
 				type: BombBulletType
 				bulletWidth: 9
@@ -58,8 +58,30 @@ ammo: {
 					bulletWidth: 7
 					bulletHeight: 9
 					lifetime: 60
-				}
-			  } 	
+					}			
+				} 
+				
+			surge-alloy: { 
+			speed: 4 
+			damage: 7 
+			splashDamage: 33 
+			splashDamageRadius: 33
+			bulletWidth: 12 
+			bulletHeight: 16 
+			fragBullets: 8
+			fragBullet: { 
+		type: MissileBulletType
+                         bulletWidth: 6 
+			bulletHeight: 6 
+			bulletShrink: 0
+			splashDamageRadius: 30 
+			splashDamage: 6 
+			hitEffect: blastExplosion 
+			despawnEffect: blastExplosion 
+			lightining: 4 
+			lightningLength: 12
+			}				
+		  } 	
 }				
 			
 requirements: [
