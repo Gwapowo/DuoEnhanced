@@ -71,11 +71,13 @@ ammo: {
 			fragBullets: 4
 			fragBullet: { 
 		type: ArtilleryBulletType 
-		lifetime: 1
-                         bulletWidth: 6 
+		lifetime: 1 
+		hitEffect: spark 
+		despawnEffect: spark	
+                        bulletWidth: 6 
 			bulletHeight: 6 
-			splashDamageRadius: 20
-			splashDamage: 6  
+			splashDamageRadius: 50
+			splashDamage: 12 
 			lightining: 4 
 			lightningLength: 12
 			}
