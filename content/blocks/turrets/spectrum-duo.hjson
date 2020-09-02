@@ -19,14 +19,15 @@ ammo: {
 		ammoMultiplier: 2
 		splashDamage: 26
 		frontColor: ffff00
-		backColor: 00ffff
+		backColor: 00ffff 
+		status: burning
 		homingPower: 1
 		homingRange: 40
 		fragBullets: 6
 		fragBullet: {
 			type: LiquidBulletType
 			liquid: oil
-			lifetime: 4
+			lifetime: 10
 			speed: 1
 			fragBullets: 10
 			fragBullet: {
@@ -40,6 +41,7 @@ ammo: {
 		}
 		
 	blast-compound: {
+	lifetime: 200
 		speed: 2.5
 		splashDamageRadius: 66
 		splashDamage: 59
