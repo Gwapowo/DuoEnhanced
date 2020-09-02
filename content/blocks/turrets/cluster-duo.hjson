@@ -71,8 +71,8 @@ ammo: {
 			fragBullets: 4
 			fragBullet: { 
 		type: ArtilleryBulletType 
-		lifetime: 1
-		shootSound: spark	
+		lifetime: 10 
+		volume: 0.5	
 		bulletWidth: 6 
 			bulletHeight: 6 
 			splashDamageRadius: 50
