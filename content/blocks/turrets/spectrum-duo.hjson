@@ -35,7 +35,9 @@ ammo: {
 				speed: 2
 				damage: 2
 		                } 
-			
+			}
+		}
+		
 	blast-compound: {
 		speed: 2.5
 		splashDamageRadius: 66
@@ -53,7 +55,6 @@ ammo: {
 			speed: 1
 			}
 		}		
-	}
 }
 				
 requirements: [
