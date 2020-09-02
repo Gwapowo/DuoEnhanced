@@ -68,16 +68,14 @@ ammo: {
 			splashDamageRadius: 33
 			bulletWidth: 12 
 			bulletHeight: 16 
-			fragBullets: 8
+			fragBullets: 4
 			fragBullet: { 
-		type: MissileBulletType
+		type: ArtilleryBulletType 
+		lifetime: 1
                          bulletWidth: 6 
 			bulletHeight: 6 
-			bulletShrink: 0
-			splashDamageRadius: 30 
-			splashDamage: 6 
-			hitEffect: blastExplosion 
-			despawnEffect: blastExplosion 
+			splashDamageRadius: 20
+			splashDamage: 6  
 			lightining: 4 
 			lightningLength: 12
 			}
