@@ -80,8 +80,7 @@ ammo: {
 			despawnEffect: blastExplosion 
 			lightining: 4 
 			lightningLength: 12
-			}				
-		  }
+			}
         }	
 }				
 			
