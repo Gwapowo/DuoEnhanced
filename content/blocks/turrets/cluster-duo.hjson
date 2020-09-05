@@ -11,7 +11,8 @@ range: 220
 ammo: {
 	pyratite: {
 		speed: 4
-		damage: 9
+		damage: 9 
+		lifetime: 140	
 		bulletWidth: 12
 		bulletHeight: 16
 		splashDamageRadius: 29 
@@ -27,7 +28,7 @@ ammo: {
 			backColor: FFAD7DFF
 			bulletHeight: 13
 			hitEffect: flakExplosion 
-			speed: 7 
+			speed: 5
 			splashDamage: 16
 			splashDamageRadius: 40
 			incendChance: 3
@@ -37,7 +38,8 @@ ammo: {
 		}
 		blast-compound:	{
 			speed: 4
-			damage: 6
+			damage: 6 
+			lifetime: 140			
 			bulletWidth: 12
 			bulletHeight: 16
 			splashDamageRadius: 58
@@ -46,7 +48,7 @@ ammo: {
 			fragBullets: 6
 			fragBullet: {
 				type: BombBulletType 
-				speed: 10
+				speed: 2.5
 				bulletWidth: 9
 				bulletHeight: 13
 				damage: 30
@@ -55,7 +57,8 @@ ammo: {
 			}
 			copper: {
 				speed: 4
-				damage: 16
+				damage: 16 
+				lifetime: 140
 				bulletWidth: 11
 				bulletHeight: 15
 				fragBullets: 8
@@ -64,13 +67,14 @@ ammo: {
 					damage: 9
 					bulletWidth: 7
 					bulletHeight: 9
-					lifetime: 60
+					lifetime: 50
 					}			
 				} 
 				
 			surge-alloy: { 
 			speed: 4 
 			damage: 7 
+			lifetime: 140
 			splashDamage: 33 
 			splashDamageRadius: 33
 			bulletWidth: 12 
@@ -78,7 +82,8 @@ ammo: {
 			fragBullets: 4
 			fragBullet: { 
 		type: BasicBulletType 
-		collidesTiles: false
+		collidesTiles: false 
+		speed: 2.5
 		lifetime: 10 	
 		bulletWidth: 5
 			bulletHeight: 7
