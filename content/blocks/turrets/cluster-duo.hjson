@@ -27,8 +27,9 @@ ammo: {
 			backColor: FFAD7DFF
 			bulletHeight: 13
 			hitEffect: flakExplosion 
-			velocity: 3
-			damage: 15
+			speed: 7 
+			splashDamage: 16
+			splashDamageRadius: 40
 			incendChance: 3
 			incendAmount: 4
 			incendSpread: 15
@@ -42,10 +43,10 @@ ammo: {
 			splashDamageRadius: 58
 			splashDamage: 49
 			ammoMultiplier: 3
-			fragBullets: 5
+			fragBullets: 6
 			fragBullet: {
 				type: BombBulletType 
-				velocity: 3
+				speed: 10
 				bulletWidth: 9
 				bulletHeight: 13
 				damage: 30
@@ -76,11 +77,11 @@ ammo: {
 			bulletHeight: 16 
 			fragBullets: 4
 			fragBullet: { 
-		type: ArtilleryBulletType 
-		lifetime: 10 
-		volume: 0.3	
-		bulletWidth: 6 
-			bulletHeight: 6 
+		type: BasicBulletType 
+		collidesTiles: false
+		lifetime: 10 	
+		bulletWidth: 5
+			bulletHeight: 7
 			splashDamageRadius: 50
 			splashDamage: 12 
 			lightining: 4 
