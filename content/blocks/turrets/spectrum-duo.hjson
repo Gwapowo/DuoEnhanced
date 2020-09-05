@@ -4,7 +4,7 @@ description: Shoots colorful homing missiles that burst into oil, destroy your e
 //sprite by sk7225
 health: 1170
 size: 3
-reload: 20
+reload: 15
 ammoUseEffect: shellEjectSmall
 inaccuracy: 4
 rotatespeed: 12
@@ -40,11 +40,12 @@ ammo: {
 			}
 		}
 		
-	blast-compound: {
+	blast-compound: { 
+	type: MissileBulletType
 	lifetime: 200
 		speed: 2.5
 		splashDamageRadius: 66
-		splashDamage: 59
+		splashDamage: 69
 		frontColor: ffff00
 		backColor: 00ffff 
 		ammoMultiplier: 2
@@ -63,11 +64,11 @@ ammo: {
 requirements: [
 copper/135
 duo-fragment/35
-plastanium/135
+plastanium/115
 titanium/35
 graphite/35
 metaglass/15
 ]
 category: turret
-research: salvo
+research: swarmer
  
