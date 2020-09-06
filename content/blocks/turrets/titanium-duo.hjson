@@ -18,7 +18,7 @@ silicon: standardHoming
   range : 110
   shootCone : 15
   inaccuracy : 1
-  rotateSpeed : 12
+  rotatespeed : 12
 
 requirements: [
 copper/15
