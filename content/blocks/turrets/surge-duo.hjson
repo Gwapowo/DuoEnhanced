@@ -3,10 +3,8 @@ name: Surge Duo
 description: A highly advanced version of the duo, upgraded with surge alloy. 
 health: 850
 size: 1
-reload: 20
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
-rotatespeed: 12
 ammo: {
 copper: standardCopper
 graphite: standardDense
@@ -26,7 +24,7 @@ rotateSpeed : 16
 					
 requirements: [
 copper/15
-titanium/35
+titanium/25
 thorium/35
 surge-alloy/55
 ]
