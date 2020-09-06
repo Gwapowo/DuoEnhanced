@@ -17,7 +17,7 @@ thorium: standardThorium
 	range : 130
 	shootCone : 15 
 	inaccuracy : 0
-	rotateSpeed : 14
+	rotatespeed : 14
 
 requirements: [
 copper/15
