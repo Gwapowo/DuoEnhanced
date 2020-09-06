@@ -18,7 +18,7 @@ restitution : 0.03
 range : 150
 shootCone : 15
 inaccuracy : 0
-rotateSpeed : 16
+rotatespeed : 16
 
 	
 					
