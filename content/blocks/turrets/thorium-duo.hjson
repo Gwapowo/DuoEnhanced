@@ -3,14 +3,12 @@ name: Thorium Duo
 description: An even more advanced version of the Duo, upgraded with thorium.
 health: 650
 size: 1
-reload: 18
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 1
-rotatespeed: 14
 ammo: {
 copper: standardCopper
 graphite: standardDense
-pyratite:standardIncendiary 
+pyratite: standardIncendiary 
 silicon: standardHoming
 thorium: standardThorium
 }
@@ -22,7 +20,7 @@ thorium: standardThorium
 	rotateSpeed : 14
 
 requirements: [
-copper/35
+copper/15
 titanium/35
 thorium/55
 ]
