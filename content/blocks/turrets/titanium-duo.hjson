@@ -6,14 +6,14 @@ size: 1
 reload: 20
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
-rotatespeed: 12
+rotateSpeed: 12
 ammo: {
 copper: standardCopper
 graphite: standardDense
 pyratite:standardIncendiary 
 silicon: standardHoming
 }
-  reload : 19
+  reload : 18.5
   restitution : 0.03
   range : 110
   shootCone : 15
