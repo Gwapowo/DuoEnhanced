@@ -1,6 +1,6 @@
 type: DoubleTurret
 name: Doom Duo
-description: The Duo above all duos. Sandbox only.
+description: The ground shall tremble, for doom has come on those who dare tarnish this duo.
 health: 1835
 size: 2
 reload: 250
@@ -11,13 +11,13 @@ ammoPerShot: 30
 rotatespeed: 8
         ammo: {
 	blast-compound: {
-		speed: 2
-		damage: 6
+		speed: 6
+		damage: 32
 		bulletWidth: 16
 		bulletHeight: 24
 		lifetime: 100
 		splashDamageRadius: 58
-		splashDamage: 58
+		splashDamage: 38
 		hitEffect: dynamicExplosion
 		// This hit effect is insane..
 		shootEffect: shootSmall 
@@ -28,7 +28,7 @@ rotatespeed: 8
                  type: ArtilleryBulletType
 		 splashDamage: 40
                  splashDamageRadius: 30
-                 lifetime: 50
+                 lifetime: 60
                  bulletWidth: 17
                  bulletHeight: 17
                  knockback: 1
@@ -40,7 +40,7 @@ rotatespeed: 8
                   knockback: 1
                   bulletWidth: 13
                   bulletHeight: 13
-                  lifetime: 60
+                  lifetime: 80
                   frontColor: plastaniumFront
                   backColor: plastaniumBack
                   fragBullets: 3
@@ -56,18 +56,31 @@ rotatespeed: 8
                    frontColor: lightishOrange
                    backColor: lightOrange
                    trailEffect: incendTrail
+                   fragBullets: 3
+                   fragBullet: {
+                    type: ArtilleryBulletType
+                    splashDamage: 55
+                    splashDamageRadius: 65
+                    lifetime: 200
+                    knockback: 1.5
+                    frontColor: missileYellowFront
+                    backColor: missileYellowBack
+                    fragBullets: 1
+                    fragBullet: bombIncendiary
                     }
+                   }
                  }  
-              }           
-	}
+               }          
+      }
 }
 				
 		requirements: [
-copper/135
+copper/155
 duo-fragment/40
-plastanium/95
+plastanium/115
 graphite/95
-silicon/45
+silicon/55
 
 ]
 category: turret
+research: ripple
