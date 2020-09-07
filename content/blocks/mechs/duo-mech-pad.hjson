@@ -1,0 +1,11 @@
+name: Duo Mech Pad
+description: Transform into a moving Duo turret which somehow has infinite ammo.
+type: MechPad
+mech: duo-mech
+size: 2
+consumes: { power: 0.1}
+category: upgrade
+research: dart-mech-pad
+requirements: [
+graphite/55
+duo-fragment/25
