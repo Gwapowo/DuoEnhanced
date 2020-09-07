@@ -18,8 +18,7 @@ rotatespeed: 8
 		lifetime: 100
 		splashDamageRadius: 58
 		splashDamage: 38
-		hitEffect: dynamicExplosion
-		// This hit effect is insane..
+		hitEffect: shockwave
 		shootEffect: shootSmall 
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2 
