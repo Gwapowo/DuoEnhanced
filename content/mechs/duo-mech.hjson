@@ -1,15 +1,15 @@
 name: Duo Mech
 description: A duo turned into a mech, somehow has infinite ammo. Unable to fly or mine.
-speed: 0.4
-maxSpeed: 0.6
-boostSpeed: 0.01
+speed: 0.2
+maxSpeed: 1
+boostSpeed: 0.6
 buildPower: 2
 engineColor: "666495"
 flying: false
 health: 350
 mineSpeed: 0
 drawCell: false
-weaponOffsetX: 4
+weaponOffsetX: 5
 weapon: { 
 	name: duo-blaster
 	length: 1.5 
