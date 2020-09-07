@@ -1,5 +1,5 @@
 name: Duo Mech
-description: A duo turned into a mech, somehow has infinite ammo. Unable to fly or mine.
+description: A duo turned into a mech, somehow has infinite ammo. Unable to mine.
 speed: 0.2
 maxSpeed: 1
 boostSpeed: 0.6
