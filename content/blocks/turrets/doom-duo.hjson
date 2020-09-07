@@ -1,31 +1,33 @@
 type: DoubleTurret
 name: Doom Duo
 description: The Duo above all duos. Sandbox only.
-health: 38343
-// What does 38343 means? You'll never know :) 
+health: 3834.3
+// What does 3834.3 means? You'll never know :) 
 size: 2
 reload: 250
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 0
-range: 500
-rotatespeed: 6
+range: 250
+ammoPerShot: 30
+rotatespeed: 8
 buildVisibility: sandboxOnly
 ammo: {
 	blast-compound: {
 		speed: 2
-		damage: 9999
+		damage: 6
 		bulletWidth: 16
 		bulletHeight: 24
-		lifetime: 150
-		splashDamageRadius: 1000
-		splashDamage: 1000
+		lifetime: 100
+		splashDamageRadius: 68
+		splashDamage: 58
 		hitEffect: dynamicExplosion
-		// This hit effect is absolutely insane.. 
+		// This hit effect is insane..
 		shootEffect: shootSmall 
-		volume: 50
-		// Such an innocent sound, for a duo that spawns DOOMSDAY!
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 1
+		ammoMultiplier: 2 
+		fragBullets: 3 
+		
+		
 		}
 	}
 				
