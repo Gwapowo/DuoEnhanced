@@ -1,5 +1,3 @@
- 
-
 name: Duo Mech
 description: A duo turned into a mech, somehow has infinite ammo. Unable to fly or mine.
 speed: 0.4
@@ -19,4 +17,3 @@ weapon: {
 	alternate: true
 	bullet: standardDense
 	}
-
