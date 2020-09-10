@@ -18,8 +18,8 @@ ammo: {
 		splashDamageRadius: 65
 		splashDamage: 98
 		lifetime: 100
-		hitEffect: bigShockwave
-		despawnEffect: bigShockwave
+		hitEffect: boomRed
+		despawnEffect: boomRed
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2
@@ -31,8 +31,8 @@ ammo: {
 			bulletHeight: 10
 			splashDamageRadius: 35
 			splashDamage: 36 
-			frontColor: FC9D5DFF 
-			backColor: FFAD7DFF			
+			frontColor: boomOrange
+			backColor: boomOrange			
 			status: burning 
 			hitEffect: shockwave 
 			despawnEffect: shockwave
@@ -49,8 +49,8 @@ ammo: {
 				splashDamage: 49
 				fragBullet: artilleryPlasticFrag
 				fragBullets: 7
-				backColor: plastaninumBack
-				frontColor: plastaniumFront
+				backColor: boomGreen
+				frontColor: boomGreen
 				hitEffect: shockwave
 				despawnEffect: bigShockwave
 				shootEffect: shootSmall
