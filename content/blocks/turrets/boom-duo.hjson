@@ -31,8 +31,8 @@ ammo: {
 			bulletHeight: 10
 			splashDamageRadius: 35
 			splashDamage: 36 
-			frontColor: boomOrange
-			backColor: boomOrange			
+			frontColor: FC9D5DFF 
+			backColor: FFAD7DFF					
 			status: burning 
 			hitEffect: shockwave
 			despawnEffect: shockwave
@@ -49,8 +49,8 @@ ammo: {
 				splashDamage: 49
 				fragBullet: artilleryPlasticFrag
 				fragBullets: 7
-				backColor: boomGreen
-				frontColor: boomGreen
+				backColor: plastaniumBack
+				frontColor: plastaniumFront
 				hitEffect: shockwave
 				despawnEffect: bigShockwave
 				shootEffect: shootSmall
