@@ -13,8 +13,8 @@ ammo: {
 	blast-compound : {
 		speed: 3
 		damage: 12
-		bulletWidth: 9
-		bulletHeight: 11
+		bulletWidth: 10
+		bulletHeight: 10
 		splashDamageRadius: 65
 		splashDamage: 98
 		lifetime: 100
@@ -27,8 +27,8 @@ ammo: {
 		pyratite: {
 			speed: 3
 			damage: 18
-			bulletWidth: 9
-			bulletHeight: 11
+			bulletWidth: 10
+			bulletHeight: 10
 			splashDamageRadius: 35
 			splashDamage: 36 
 			frontColor: FC9D5DFF 
@@ -43,8 +43,8 @@ ammo: {
 			plastanium: {
 				speed: 3
 				damage: 8
-				bulletWidth: 9
-				bulletHeight: 11
+				bulletWidth: 10
+				bulletHeight: 10
 				splashDamageRadius: 55
 				splashDamage: 49
 				fragBullet: artilleryPlasticFrag
