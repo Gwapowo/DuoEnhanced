@@ -1,4 +1,4 @@
-
+//WIP. This script is heavily unfinished.
 const boomRed = newEffect(20, e => {
 	 Draw.color(Color.red, Color.lightGray, e.fin()); 
 	 Lines.stroke(e.fout() * 4); 
