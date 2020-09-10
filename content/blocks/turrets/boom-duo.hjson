@@ -18,8 +18,8 @@ ammo: {
 		splashDamageRadius: 65
 		splashDamage: 98
 		lifetime: 100
-		hitEffect: boomRed
-		despawnEffect: boomRed
+		hitEffect: blastExplosion 
+		despawnEffect: blastExplosion 
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2
@@ -34,7 +34,7 @@ ammo: {
 			frontColor: boomOrange
 			backColor: boomOrange			
 			status: burning 
-			hitEffect: shockwave 
+			hitEffect: shockwave
 			despawnEffect: shockwave
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
