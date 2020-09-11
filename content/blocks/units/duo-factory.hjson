@@ -1,0 +1,23 @@
+name: Duo Unit Factory
+description: Makes Duo units, which somehow still has infinite ammo.
+type: UnitFactory
+unitType: duo-unit
+size: 2
+produceTime: 150
+maxUnits: 6
+consumes: { 
+power: 0.5 
+items: { 
+ items: [ 
+ copper/20
+ duo-essence/5 ]
+ }
+}
+category: units
+research: dagger-factory
+requirements: [ 
+copper/75
+duo-essence/25 
+silicon/45
+titanium/25
+]
