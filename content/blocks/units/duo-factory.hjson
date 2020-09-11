@@ -1,6 +1,6 @@
+type: UnitFactory
 name: Duo Unit Factory
 description: Makes Duo units, which somehow still has infinite ammo.
-type: UnitFactory
 unitType: duo-unit
 size: 2
 produceTime: 150
