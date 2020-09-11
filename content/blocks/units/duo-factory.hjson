@@ -10,7 +10,9 @@ power: 0.5
 items: { 
  items: [ 
  copper/20
- duo-fragment/5 ]
+ duo-fragment/5
+ silicon/5
+ ]
  }
 }
 category: units
