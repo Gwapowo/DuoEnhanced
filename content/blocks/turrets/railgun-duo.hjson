@@ -9,7 +9,8 @@ inaccuracy: 1
 rotatespeed: 10
 range: 220
 recoil: 4
-
+consumes: {
+power: 0.2
 ammo: {
 	copper: {
 		speed: 8
@@ -47,6 +48,7 @@ ammo: {
 			smokeEffect: shootBigSmoke
 			ammoMultiplier: 2			
 			}					
+       }
      }
 			
 		
