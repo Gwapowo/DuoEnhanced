@@ -5,6 +5,8 @@ speed: 0.2
 flying: false
 health: 350
 engineOffset: 5.5
+engineColor: 0
+drawLight: false
 range: 100
 weapon: { 
 	name: duo
