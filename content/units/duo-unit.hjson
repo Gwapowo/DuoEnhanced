@@ -1,10 +1,10 @@
 type: GroundUnit
 name: Duo Unit
-description: Still somehow has infinite ammo. Wait,, how is it so fast?
+description: Still somehow has infinite ammo. Wait, how is it so fast?
 speed: 0.1
 flying: false
 health: 350
-engineOffset: 5.5
+engineOffset: 7
 engineColor: 0
 drawLight: false
 range: 100
