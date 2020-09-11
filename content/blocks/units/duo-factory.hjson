@@ -10,14 +10,14 @@ power: 0.5
 items: { 
  items: [ 
  copper/20
- duo-essence/5 ]
+ duo-fragment/5 ]
  }
 }
 category: units
 research: dagger-factory
 requirements: [ 
 copper/75
-duo-essence/25 
+duo-fragment/25 
 silicon/45
 titanium/25
 ]
