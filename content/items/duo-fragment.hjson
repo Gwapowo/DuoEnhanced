@@ -1,6 +1,6 @@
 type: material
-name: Duo Fragment
-description: The essence of the duo, used for creating enchanced duos and duo versions of blocks.
-cost: 3
+name: Duo Essence
+description: The essence of the duo, used for anything duo-related.
+cost: 4
 hardness: 2
 color: C9A58FFF
