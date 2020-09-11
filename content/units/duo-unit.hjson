@@ -1,0 +1,17 @@
+type: GroundUnit
+name: Duo Unit
+description: Still somehow has infinite ammo.
+speed: 0.2
+flying: false
+health: 350
+engineOffset: 5.5
+range: 100
+weapon: { 
+	name: duo
+	length: 2
+	 reload: 20
+	alternate: true 
+	bullet: standardDense
+	ejectEffect: shootSmall
+	inaccuracy: 1
+	}
