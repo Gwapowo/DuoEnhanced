@@ -4,16 +4,15 @@ description: Still somehow has infinite ammo. Wait, how is it so fast?
 speed: 0.1
 flying: false
 health: 350
+mass: 3
+hitSize: 9
 engineOffset: 7
-engineColor: 0
-drawLight: false
-range: 100
+range: 70
 weapon: { 
 	name: duo
-	length: 2
-	 reload: 20
+	length: 1.5
+	 reload: 30
 	alternate: true 
 	bullet: standardDense
-	ejectEffect: shootSmall
-	inaccuracy: 1
+	ejectEffect: shootSnap
 	}
