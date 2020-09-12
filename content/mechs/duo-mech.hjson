@@ -16,5 +16,6 @@ weapon: {
 	reload: 20
 	alternate: true
 	bullet: standardDense
+	shootEffect: shootSnap
 	}
 
