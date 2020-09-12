@@ -9,8 +9,7 @@ inaccuracy: 1
 rotatespeed: 10
 range: 220
 recoil: 4
-consumes: {
-power: 0.2
+
 ammo: {
 	copper: {
 		speed: 8
@@ -39,7 +38,7 @@ ammo: {
 					
 		thorium: { 
 			speed: 8
-			damage: 89
+			damage: 88
 			bulletWidth: 8
 			bulletHeight: 15
 			lifetime: 100
@@ -48,17 +47,16 @@ ammo: {
 			smokeEffect: shootBigSmoke
 			ammoMultiplier: 2			
 			}					
-       }
-     }
+           }
+}
 			
 		
-		requirements: [
+requirements: [
 copper/75
 lead/55
 titanium/55
 thorium/175
-duo-fragment/16
-
+duo-fragment/18
 ]
 category: turret
 research: salvo
