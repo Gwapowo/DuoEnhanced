@@ -47,7 +47,6 @@ ammo: {
 			smokeEffect: shootBigSmoke
 			ammoMultiplier: 2			
 			}					
-           }
 }
 			
 		
