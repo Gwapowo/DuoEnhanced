@@ -1,6 +1,6 @@
-type: GroundUnit
+type: mech
 name: Duo Unit
-description: Still somehow has infinite ammo. Wait, how is it so fast?
+description: Duo transformed into a unit. Somehow has infinite ammo. Wait, how is it so fast?
 speed: 0.1
 flying: false
 health: 350
