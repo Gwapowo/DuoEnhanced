@@ -4,7 +4,7 @@ description: Fires high velocity armor piercing bullets. The power of electro ma
 health: 1350
 size: 3
 reload: 85
-ammoUseEffect: shellEjectSmall
+ammoUseEffect: casing1
 shootSound: shootBig
 inaccuracy: 1
 rotatespeed: 10
