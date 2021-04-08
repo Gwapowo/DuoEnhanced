@@ -10,6 +10,7 @@ spread: 6
 alternate: true
 targetGround: true
 targetAir : true
+
 ammoTypes: {
 copper: standardCopper
 graphite: standardDense
@@ -18,15 +19,14 @@ silicon: standardHoming
 thorium: standardThorium
 surge-alloy: flagSurge
 }
+
 reloadTime: 10
 restitution  0.03
 range: 150
 shootCone: 15
 inaccuracy: 0
 rotateSpeed: 16
-
-	
-					
+				
 requirements: [
 copper/15
 titanium/25
@@ -35,4 +35,3 @@ surge-alloy/55
 ]
 category: turret
 research: thorium-duo
- 
