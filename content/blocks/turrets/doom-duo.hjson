@@ -74,7 +74,7 @@ targetAir: false
 		    trailColor: ED735BFF
 		    status: blasted
                     fragBullets: 1
-                    fragBullet: bombIncendiary
+                    fragBullet: artilleryExplosive
                     }
                    }
                  }  
