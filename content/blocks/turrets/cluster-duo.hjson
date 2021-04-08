@@ -3,10 +3,10 @@ localizedName: Cluster Duo
 description: Shoots bullets that split into other bullet types depending on the ammo you give!
 health: 1260
 size: 3
-reload: 18
+reloadTime: 18
 ammoUseEffect: casing1
 inaccuracy: 4
-rotatespeed: 12
+rotateSpeed: 12
 range: 220
 shots: 2
 spread: 4
