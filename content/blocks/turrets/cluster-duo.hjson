@@ -4,11 +4,15 @@ description: Shoots bullets that split into other bullet types depending on the 
 health: 1260
 size: 3
 reload: 18
-ammoUseEffect: shellEjectBig
+ammoUseEffect: casing1
 inaccuracy: 4
 rotatespeed: 12
 range: 220
 shots: 2
+spread: 4
+alternate: true
+targetGround: true
+targetAir: true
 ammo: {
 	pyratite: {
 		speed: 4
