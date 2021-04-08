@@ -16,12 +16,12 @@ pyratite: standardIncendiary
 silicon: standardHoming
 thorium: standardThorium
 }
-	reload : 15
-	restitution : 0.03
-	range : 130
-	shootCone : 15 
-	inaccuracy : 0
-	rotatespeed : 14
+	reload: 15
+	restitution: 0.03
+	range: 130
+	shootCone: 15 
+	inaccuracy: 0
+	rotateSpeed: 14
 
 requirements: [
 copper/15
