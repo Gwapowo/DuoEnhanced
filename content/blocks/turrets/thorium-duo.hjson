@@ -9,14 +9,15 @@ shots: 2
 alternate: true
 targetGround: true
 targetAir: true
-ammo: {
+
+ammoTypes: {
 copper: standardCopper
 graphite: standardDense
 pyratite: standardIncendiary 
 silicon: standardHoming
 thorium: standardThorium
 }
-	reload: 15
+	reloadTime: 15
 	restitution: 0.03
 	range: 130
 	shootCone: 15 
