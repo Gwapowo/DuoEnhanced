@@ -5,7 +5,7 @@ health: 5555
 size: 12
 reload: 20
 range: 335
-ammoUseEffect: shellEjectBig 
+ammoUseEffect: casing1
 inaccuracy: 2
 rotatespeed: 12
 ammoPerShot: 2
