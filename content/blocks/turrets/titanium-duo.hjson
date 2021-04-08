@@ -1,4 +1,4 @@
-type: DoubleTurret
+type: ItemTurret
 name: Titanium Duo
 description: A more advanced version of the Duo, upgraded with titanium.
 health: 400
@@ -7,10 +7,11 @@ reload: 20
 ammoUseEffect: shellEjectSmall 
 inaccuracy: 2
 rotateSpeed: 12
+shots: 2
 ammo: {
 copper: standardCopper
 graphite: standardDense
-pyratite:standardIncendiary 
+pyratite: standardIncendiary 
 silicon: standardHoming
 }
   reload : 18.5
