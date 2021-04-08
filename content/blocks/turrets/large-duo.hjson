@@ -12,7 +12,7 @@ targetGround: true
 targetAir: true
 inaccuracy: 2
 rotatespeed: 12
-ammo: {
+ammoTypes: {
 	copper : {
 		speed: 4
 		damage: 18
