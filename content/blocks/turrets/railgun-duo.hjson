@@ -1,23 +1,29 @@
-type: DoubleTurret
+type: ItemTurret
 name: Railgun Duo
 description: Fires high velocity armor piercing bullets. The power of electro magnetism! Annihilates huge and heavy units with ease. 
 health: 1350
 size: 3
 reload: 85
-ammoUseEffect: shellEjectSmall 
+ammoUseEffect: shellEjectSmall
+shootSound: shootBig
 inaccuracy: 1
 rotatespeed: 10
 range: 220
-recoil: 4
+shots: 2
+alternate: true
+targetGround: true
+targetAir: true
 
 ammo: {
 	copper: {
 		speed: 8
 		damage: 35
-		bulletWidth: 8
-		bulletHeight: 15
+		bulletWidth: 9
+		bulletHeight: 17
 		lifetime: 100
 		pierce: true
+		pierceBuilding: true
+		pierceCap: 6
 		hitEffect: shockwave
 		smokeEffect: shootBigSmoke
 		ammoMultiplier: 2
@@ -26,26 +32,30 @@ ammo: {
 		graphite: {
 			speed: 8
 			damage: 70
-			bulletWidth: 9
-			bulletHeight: 15
+			bulletWidth: 11
+			bulletHeight: 19
 			lifetime: 100
 			pierce: true
+			pierceBuilding: true
+			pierceCap: 8
 			hitEffect: shockwave
 			smokeEffect: shootBigSmoke
 			reloadMultiplier: 0.65
-			ammoMultiplier: 3
+			ammoMultiplier: 2
 			}
 					
 		thorium: { 
 			speed: 8
 			damage: 88
-			bulletWidth: 8
-			bulletHeight: 15
+			bulletWidth: 9
+			bulletHeight: 17
 			lifetime: 100
 			pierce: true
+			pierceBuilding: true
+			pierceCap: 8
 			hitEffect: shockwave
 			smokeEffect: shootBigSmoke
-			ammoMultiplier: 2			
+			ammoMultiplier: 1		
 			}					
 }
 			
