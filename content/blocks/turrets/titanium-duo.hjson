@@ -3,24 +3,23 @@ name: Titanium Duo
 description: A more advanced version of the Duo, upgraded with titanium.
 health: 400
 size: 1
-reload: 20
 ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 12
 shots: 2
-ammo: {
+
+ammoTypes: {
 copper: standardCopper
 graphite: standardDense
 pyratite: standardIncendiary 
 silicon: standardHoming
 }
-  reload : 18.5
-  restitution : 0.03
-  range : 110
-  shootCone : 15
-  inaccuracy : 1
-  rotatespeed : 12
-
+  reloadTime: 18.5
+  restitution: 0.03
+  range: 110
+  shootCone: 15
+  inaccuracy: 1
+ 
 requirements: [
 copper/15
 titanium/35
