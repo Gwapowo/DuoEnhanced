@@ -11,7 +11,7 @@ alternate: true
 targetGround: true
 targetAir: true
 inaccuracy: 2
-rotatespeed: 12
+rotateSpeed: 12
 ammoTypes: {
 	copper : {
 		speed: 4
