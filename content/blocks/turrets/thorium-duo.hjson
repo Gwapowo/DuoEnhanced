@@ -1,11 +1,14 @@
 type: ItemTurret
-name: Thorium Duo
+localizedName: Thorium Duo
 description: An even more advanced version of the Duo, upgraded with thorium.
 health: 650
 size: 1
-ammoUseEffect: shellEjectSmall 
+ammoUseEffect: casing1
 inaccuracy: 1
 shots: 2
+alternate: true
+targetGround: true
+targetAir: true
 ammo: {
 copper: standardCopper
 graphite: standardDense
