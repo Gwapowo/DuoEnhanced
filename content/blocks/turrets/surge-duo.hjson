@@ -20,7 +20,6 @@ silicon: standardHoming
 thorium: standardThorium
 surge-alloy: flagSurge
 }
-
 reloadTime: 10
 restitution  0.03
 shootCone: 15
