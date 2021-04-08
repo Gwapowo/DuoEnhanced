@@ -1,20 +1,23 @@
-type: DoubleTurret
+type: ItemTurret
 name: Spectrum Duo
 description: Shoots colorful homing missiles that burst into oil, destroy your enemy with style! 
-//sprite by sk7225
-health: 1170
+//sprite by sk7225(mother of vela)
+health: 1200
 size: 3
-reload: 15
-ammoUseEffect: shellEjectSmall
+reload: 20
+ammoUseEffect: casing1
 inaccuracy: 4
 rotatespeed: 12
 range: 200
+shots: 4
+alternate: true
+burstSpacing: 7
 shootSound: missile
 ammo: {
 	pyratite: {
 		type: MissileBulletType
 		lifetime: 200
-		speed: 2.5
+		speed: 3
 		splashDamageRadius: 36 
 		ammoMultiplier: 2
 		splashDamage: 26
@@ -36,6 +39,7 @@ ammo: {
 				lifetime: 10
 				speed: 2
 				damage: 2
+				effect: burning
 		                } 
 			}
 		}
@@ -43,7 +47,7 @@ ammo: {
 	blast-compound: { 
 	type: MissileBulletType
 	lifetime: 200
-		speed: 2.5
+		speed: 3
 		splashDamageRadius: 66
 		splashDamage: 69
 		frontColor: ffff00
@@ -51,6 +55,7 @@ ammo: {
 		ammoMultiplier: 2
 		homingPower: 1
 		homingRange: 40
+		effect: blasted
 		fragBullets: 6
 		fragBullet: {
 			type: LiquidBulletType
@@ -62,9 +67,9 @@ ammo: {
 }
 				
 requirements: [
-copper/135
+copper/95
 duo-fragment/35
-plastanium/115
+plastanium/85
 titanium/35
 graphite/35
 metaglass/15
