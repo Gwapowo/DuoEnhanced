@@ -11,7 +11,11 @@ rotatespeed: 12
 ammoPerShot: 2
 shootShake: 0.5
 ammoEjectBack: 3
-spread: 8
+shots: 2
+spread: 20
+alternate: true
+targetGround: true
+targetAir: true
 ammo: {
 	copper : {
 		speed: 8
