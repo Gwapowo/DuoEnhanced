@@ -13,7 +13,7 @@ alternate: true
 rotateSpeed: 2
 targetGround: true
 targetAir: false
-        ammo: {
+        ammoTypes: {
 	blast-compound: {
 		speed: 6
 		damage: 32
