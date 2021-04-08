@@ -1,14 +1,19 @@
-type: DoubleTurret
+type: ItemTurret
 name: Surge Duo
 description: A highly advanced version of the duo, upgraded with surge alloy. 
 health: 850
 size: 1
-ammoUseEffect: shellEjectSmall 
+ammoUseEffect: casing1
 inaccuracy: 2
+shots: 2
+spread: 6
+alternate: true
+targetGround: true
+targetAir : true
 ammo: {
 copper: standardCopper
 graphite: standardDense
-pyratite:standardIncendiary 
+pyratite: standardIncendiary
 silicon: standardHoming
 thorium: standardThorium
 surge-alloy: flakSurge
