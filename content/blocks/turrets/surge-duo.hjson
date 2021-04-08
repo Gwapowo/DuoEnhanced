@@ -16,14 +16,14 @@ graphite: standardDense
 pyratite: standardIncendiary
 silicon: standardHoming
 thorium: standardThorium
-surge-alloy: flakSurge
+surge-alloy: flagSurge
 }
-reload : 10
-restitution : 0.03
-range : 150
-shootCone : 15
-inaccuracy : 0
-rotateSpeed : 16
+reloadTime: 10
+restitution  0.03
+range: 150
+shootCone: 15
+inaccuracy: 0
+rotateSpeed: 16
 
 	
 					
@@ -34,5 +34,5 @@ thorium/35
 surge-alloy/55
 ]
 category: turret
-research: duo
+research: thorium-duo
  
