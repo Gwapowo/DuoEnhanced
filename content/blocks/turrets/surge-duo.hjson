@@ -21,7 +21,7 @@ thorium: standardThorium
 surge-alloy: flagSurge
 }
 reloadTime: 10
-restitution  0.03
+restitution: 0.03
 shootCone: 15
 inaccuracy: 0
 rotateSpeed: 16
