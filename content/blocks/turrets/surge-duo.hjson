@@ -4,6 +4,7 @@ description: A highly advanced version of the duo, upgraded with surge alloy.
 health: 850
 size: 1
 ammoUseEffect: casing1
+range: 150
 inaccuracy: 2
 shots: 2
 spread: 6
@@ -22,7 +23,6 @@ surge-alloy: flagSurge
 
 reloadTime: 10
 restitution  0.03
-range: 150
 shootCone: 15
 inaccuracy: 0
 rotateSpeed: 16
