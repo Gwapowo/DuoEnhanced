@@ -16,7 +16,7 @@ spread: 20
 alternate: true
 targetGround: true
 targetAir: true
-ammo: {
+ammoTypes: {
 	copper : {
 		speed: 8
 		damage: 24
