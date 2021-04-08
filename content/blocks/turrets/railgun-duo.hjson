@@ -1,25 +1,25 @@
 type: ItemTurret
 name: Railgun Duo
-description: Fires high velocity armor piercing bullets. The power of electro magnetism! Annihilates huge and heavy units with ease. 
+description: Fires high velocity armor-piercing bullets. The power of electro magnetism! Shreds swarms of units with ease.
 health: 1350
 size: 3
-reload: 85
+reloadTime: 85
 ammoUseEffect: casing1
 shootSound: shootBig
 inaccuracy: 1
-rotatespeed: 10
+rotateSpeed: 10
 range: 220
 shots: 2
 alternate: true
 targetGround: true
 targetAir: true
 
-ammo: {
+ammoTypes: {
 	copper: {
 		speed: 8
 		damage: 35
-		bulletWidth: 9
-		bulletHeight: 17
+		width: 9
+		height: 17
 		lifetime: 100
 		pierce: true
 		pierceBuilding: true
@@ -32,8 +32,8 @@ ammo: {
 		graphite: {
 			speed: 8
 			damage: 70
-			bulletWidth: 11
-			bulletHeight: 19
+			width: 11
+			height: 19
 			lifetime: 100
 			pierce: true
 			pierceBuilding: true
@@ -47,8 +47,8 @@ ammo: {
 		thorium: { 
 			speed: 8
 			damage: 88
-			bulletWidth: 9
-			bulletHeight: 17
+			width: 9
+			height: 17
 			lifetime: 100
 			pierce: true
 			pierceBuilding: true
@@ -69,3 +69,4 @@ duo-fragment/18
 ]
 category: turret
 research: salvo
+// The sprite is horrendous, I'm keeping it :)
