@@ -1,14 +1,12 @@
 type: LiquidTurret
 localizedName: Hydro Duo
 description: Water go bbrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-// This was supposed to have a different purpose but I gave up on making a custom liquid shot.
-// How does one do it, I made blue bullets instead that can't even extinguish fire ;-;
 health: 750
 size: 2
-reload: 1
+reloadTime: 1
 shootCone: 45
 inaccuracy: 3
-recoil: 1
+recoilAmount: 1
 range: 250
 liquidCapacity: 50
 shootSound: splash
@@ -18,7 +16,7 @@ alternate: true
 targetGround: true
 targetGround: true
 
-ammo: {
+ammoTypes: {
 	water : waterShot
 }	
 
