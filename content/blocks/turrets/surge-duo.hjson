@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Surge Duo
+localizedName: Surge Duo
 description: A highly advanced version of the duo, upgraded with surge alloy. 
 health: 850
 size: 1
@@ -10,7 +10,7 @@ spread: 6
 alternate: true
 targetGround: true
 targetAir : true
-ammo: {
+ammoTypes: {
 copper: standardCopper
 graphite: standardDense
 pyratite: standardIncendiary
@@ -23,7 +23,7 @@ restitution : 0.03
 range : 150
 shootCone : 15
 inaccuracy : 0
-rotatespeed : 16
+rotateSpeed : 16
 
 	
 					
