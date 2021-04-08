@@ -6,11 +6,15 @@ targetGround: true
 health: 1150
 size: 2
 reload: 20
-ammoUseEffect: shellEjectSmall 
+ammoUseEffect: casing1
 inaccuracy: 2
 rotatespeed: 12
 range: 140
 hitShake: 1
+shots: 2
+alternate: true
+targetGround: true
+targetAir: true
 ammoTypes: {
 	blast-compound : {
 		speed: 3
@@ -70,5 +74,5 @@ duo-fragment/15
 
 ]
 category: turret
-research: duo
+research: hail
  
