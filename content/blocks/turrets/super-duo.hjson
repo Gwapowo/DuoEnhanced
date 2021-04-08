@@ -1,22 +1,27 @@
-type: DoubleTurret
-name: Super Duo
-description: It's a duo on steroids!! Fires extremely fast and has absurd range.
-health: 400
+type: ItemTurret
+localizedName: Super Duo
+description: It's a duo on steroids!! Fires extremely fast and has super range.
+health: 600
 size: 1
 reload: 0.1
-range: 800
-ammoUseEffect: shellEjectSmall 
+range: 750
+ammoUseEffect: casing1 
 inaccuracy: 2
 rotatespeed: 12
+shots: 2
+spread: 4
+alternate: true
+targetGround: true
+targetAir: true
 ammo: {
 	copper : {
-		speed: 3
+		speed: 5
 		damage: 8
 		bulletWidth: 7
 		bulletHeight: 9
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		lifetime: 500
+		lifetime: 450
 		ammoMultiplier: 4
 		}
 		
