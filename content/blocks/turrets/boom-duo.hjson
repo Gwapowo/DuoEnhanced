@@ -61,6 +61,7 @@ ammoTypes: {
 				despawnEffect: bigShockwave
 				shootEffect: shootSmall
 				smokeEffect: shootSmallSmoke
+				status: corroded
 				ammoMultiplier: 3
 				}
 		}
