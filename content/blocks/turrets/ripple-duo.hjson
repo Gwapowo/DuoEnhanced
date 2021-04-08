@@ -1,18 +1,25 @@
-type: ArtilleryTurret
+type: ItemTurret
 name: Ripple Duo
 description: Rapid fire artillery! Ground units beware.
 health: 770
 size: 2
 reload: 19.5
 ammoEjectBack: 1
-ammoUseEffect: shellEjectBig
+ammoUseEffect: casing2
+shootSound: bang
 velocityInaccuracy: 0.2
 restitution: 0.2
-recoil: 4
+recoilAmount: 3
 shootShake: 1
 inaccuracy: 6
 rotatespeed: 10
 range: 240
+minRange: 40
+shots: 2
+shootCone: 10
+alternate: true
+targetGround: true
+targetAir: false
 ammo: {
 	graphite:  artilleryDense
 	silicon: artilleryHoming
@@ -28,5 +35,5 @@ titanium/55
 duo-fragment/10
 ]
 category: turret
-research: ripple
+research: hail
  
