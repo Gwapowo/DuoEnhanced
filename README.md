@@ -8,8 +8,6 @@ A mod in Mindustry that adds a multitude of new enhanced duo turrets! The Duo is
 
 <b>UNITS:</b> Duo Unit
 
-<b>MECHS:</b>Duo Mech, Omega Duo<sup>(WIP)</sup>
-
 <b>MISCELLANEOUS:</b> Duo Driver, Duo Force Projector, Duo Wall 
 <br> <br> <br> 
 If you have any suggestions, feel free to tell me (Gwapo #9604) in Discord. Also, I like turtles.
