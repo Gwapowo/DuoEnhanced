@@ -20,7 +20,7 @@ shootCone: 10
 alternate: true
 targetGround: true
 targetAir: false
-ammo: {
+ammoTypes: {
 	graphite:  artilleryDense
 	silicon: artilleryHoming
 	pyratite: artilleryIncendiary
