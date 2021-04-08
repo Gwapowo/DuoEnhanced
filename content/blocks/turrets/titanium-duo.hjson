@@ -4,7 +4,7 @@ description: A more advanced version of the Duo, upgraded with titanium.
 health: 400
 size: 1
 reload: 20
-ammoUseEffect: shellEjectSmall 
+ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 12
 shots: 2
