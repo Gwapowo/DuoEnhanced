@@ -3,25 +3,26 @@ name: Doom Duo
 description: The ground shall tremble, for doom has come on those who dare tarnish this duo. 
 health: 1800
 size: 2
-reload: 250
+reloadTime: 250
 ammoUseEffect: casing3Double
 inaccuracy: 0
 range: 250
 ammoPerShot: 25
 shots: 1
 alternate: true
-rotatespeed: 2
+rotateSpeed: 2
 targetGround: true
 targetAir: false
         ammo: {
 	blast-compound: {
 		speed: 6
 		damage: 32
-		bulletWidth: 16
-		bulletHeight: 24
+		width: 16
+		height: 24
 		lifetime: 100
 		splashDamageRadius: 58
 		splashDamage: 38
+		status: blasted
 		hitEffect: shockwave
 		shootEffect: shootSmall 
 		smokeEffect: shootSmallSmoke
@@ -32,8 +33,9 @@ targetAir: false
 		 splashDamage: 40
                  splashDamageRadius: 30
                  lifetime: 60
-                 bulletWidth: 17
-                 bulletHeight: 17
+                 width: 17
+                 height: 17
+		 status: blasted
                  knockback: 1
                  fragBullets: 6
                   fragBullet: {
@@ -41,11 +43,12 @@ targetAir: false
                   splashDamage: 45
                   splashDamageRadius: 35 
                   knockback: 1
-                  bulletWidth: 13
-                  bulletHeight: 13
+                  width: 13
+                  height: 13
                   lifetime: 80
                   frontColor: EFF2ADFF
 		  backColor: plastaniumBack
+		  status: blasted
                   fragBullets: 3
                    fragBullet: {
                    type: ArtilleryBulletType
@@ -53,8 +56,8 @@ targetAir: false
                    splashDamageRadius: 25
                    knockback: 1
                    lifetime: 100
-                   bulletWidth: 13
-                   bulletHeight: 13
+                   width: 13
+                   height: 13
                    status: burning
                    frontColor: lightishOrange
                    backColor: lightOrange
@@ -69,6 +72,7 @@ targetAir: false
                     frontColor: missileYellowFront
                     backColor: missileYellowBack
 		    trailColor: ED735BFF
+		    status: blasted
                     fragBullets: 1
                     fragBullet: bombIncendiary
                     }
