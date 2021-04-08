@@ -5,10 +5,10 @@ targetAir: true
 targetGround: true
 health: 1150
 size: 2
-reload: 20
+reloadTime: 20
 ammoUseEffect: casing1
 inaccuracy: 2
-rotatespeed: 12
+rotateSpeed: 12
 range: 140
 hitShake: 1
 shots: 2
