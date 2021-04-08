@@ -1,14 +1,18 @@
-type: DoubleTurret
+type: ItemTurret
 name: Doom Duo
-description: The ground shall tremble, for doom has come on those who dare tarnish this duo.
-health: 1835
+description: The ground shall tremble, for doom has come on those who dare tarnish this duo. 
+health: 1800
 size: 2
 reload: 250
-ammoUseEffect: shellEjectBig
+ammoUseEffect: casing3Double
 inaccuracy: 0
 range: 250
-ammoPerShot: 30
-rotatespeed: 8
+ammoPerShot: 25
+shots: 1
+alternate: true
+rotatespeed: 2
+targetGround: true
+targetAir: false
         ammo: {
 	blast-compound: {
 		speed: 6
@@ -75,12 +79,14 @@ rotatespeed: 8
 }
 				
 		requirements: [
-copper/155
+copper/285
 duo-fragment/50
 plastanium/115
 graphite/95
-graphite/55
-silicon/55
+graphite/85
+silicon/85
+blast-compound/75
+pyratite/55
 
 ]
 category: turret
