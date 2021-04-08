@@ -3,11 +3,11 @@ localizedName: HUGE Duo
 description: A HUGE version of the Duo, shoots massive bullets that lets nothing stop it's path.
 health: 5555
 size: 12
-reload: 20
+reloadTime: 20
 range: 335
 ammoUseEffect: casing1
 inaccuracy: 2
-rotatespeed: 12
+rotateSpeed: 12
 ammoPerShot: 2
 shootShake: 0.5
 ammoEjectBack: 3
@@ -20,8 +20,8 @@ ammo: {
 	copper : {
 		speed: 8
 		damage: 24
-		bulletWidth: 48
-		bulletHeight: 58
+		width: 48
+		height: 58
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 0.5
@@ -38,8 +38,8 @@ ammo: {
 	graphite: {
 		speed: 8
 		damage: 48
-		bulletWidth: 52
-		bulletHeight: 62
+		width: 52
+		height: 62
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		reloadMultiplier: 0.6
@@ -56,8 +56,8 @@ ammo: {
 	pyratite: {
 		speed: 8
 		damage: 48
-		bulletWidth: 48
-		bulletHeight: 58
+		width: 48
+		height: 58
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 0.5
@@ -70,14 +70,14 @@ ammo: {
 		lifetime: 80
 		knockback: 60
 		fragBullet: standardIncendiary
-		fragBUllets: u
+		fragBUllets: 8
 		}
 			
 		silicon: {
 		speed: 8
 		damage: 23
-		bulletWidth: 48
-		bulletHeight: 58
+		width: 48
+		height: 58
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke 
 		homingPower: 0.3
