@@ -5,10 +5,10 @@ health: 1800
 size: 2
 reloadTime: 250
 ammoUseEffect: casing3Double
-inaccuracy: 0
-range: 250
-ammoPerShot: 25
-shots: 1
+inaccuracy: 5
+range: 299
+ammoPerShot: 20
+shots: 2
 alternate: true
 rotateSpeed: 2
 targetGround: true
@@ -19,7 +19,7 @@ targetAir: false
 		damage: 32
 		width: 16
 		height: 24
-		lifetime: 100
+		lifetime: 50
 		splashDamageRadius: 58
 		splashDamage: 38
 		status: blasted
@@ -73,6 +73,8 @@ targetAir: false
                     backColor: missileYellowBack
 		    trailColor: ED735BFF
 		    status: blasted
+		    homingPower: 0.2
+		    homingRange: 80
                     fragBullets: 1
                     fragBullet: artilleryExplosive
                     }
@@ -87,10 +89,9 @@ copper/285
 duo-fragment/50
 plastanium/115
 graphite/95
-graphite/85
+titanium/85
 silicon/85
 blast-compound/75
-pyratite/55
 
 ]
 category: turret
