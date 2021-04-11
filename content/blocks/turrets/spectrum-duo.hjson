@@ -16,17 +16,18 @@ shootSound: missile
 ammoTypes: {
 	pyratite: {
 		type: MissileBulletType
-		lifetime: 200
-		speed: 3
+		lifetime: 100
+		speed: 4
 		splashDamageRadius: 36 
 		ammoMultiplier: 2
 		splashDamage: 26
 		frontColor: ffff00
 		backColor: 00ffff 
 		status: burning
+		statusDuration: 120
 		homingPower: 1
-		homingRange: 40
-		fragBullets: 6
+		homingRange: 50
+		fragBullets: 5
 		fragBullet: {
 			type: LiquidBulletType
 			liquid: oil
@@ -34,6 +35,8 @@ ammoTypes: {
 			speed: 1
 			status: tarred
 			fragBullets: 10
+			incendChance: 5
+			incendAmount: 1
 			fragBullet: {
 				type: LiquidBulletType
 				liquid: slag
@@ -47,8 +50,8 @@ ammoTypes: {
 		
 	blast-compound: { 
 	type: MissileBulletType
-	lifetime: 200
-		speed: 3
+	lifetime: 100
+		speed: 4
 		splashDamageRadius: 66
 		splashDamage: 69
 		frontColor: ffff00
@@ -70,11 +73,10 @@ ammoTypes: {
 				
 requirements: [
 copper/95
-duo-fragment/35
+duo-fragment/25
 plastanium/85
-titanium/35
-graphite/35
-metaglass/15
+titanium/55
+graphite/55
 ]
 category: turret
 research: swarmer
