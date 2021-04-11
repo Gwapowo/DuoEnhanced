@@ -14,7 +14,7 @@ inaccuracy: 2
 rotateSpeed: 12
 ammoTypes: {
 	copper : {
-		speed: 4
+		speed: 3
 		damage: 18
 		width: 12
 		height: 14
@@ -24,7 +24,7 @@ ammoTypes: {
 	}
 	
 	graphite: {
-		speed: 4
+		speed: 4.3
 		damage: 32
 		width: 14
 	        height: 18
@@ -34,10 +34,23 @@ ammoTypes: {
 		ammoMultiplier: 4
 			}
 		
-	pyratite: standardIncendiaryBig
+	pyratite: {
+	speed: 4
+	damage: 22
+	width: 12
+	height: 14
+	shootEffect: shootBig
+	smokeEffect: shootSmallSmoke
+	ammoMultiplier: 4
+	status: burning
+	frontColor: lightishOrange
+	backColor: lightOrange
+	makeFire: true
+	
+	}
 
 		silicon: {
-		speed: 4
+		speed: 3.5
 		damage: 20
 		width: 12
 		height: 14
