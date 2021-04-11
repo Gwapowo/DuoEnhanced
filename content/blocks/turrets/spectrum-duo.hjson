@@ -6,12 +6,12 @@ health: 1200
 size: 3
 reloadTime: 20
 ammoUseEffect: casing1
-inaccuracy: 4
+inaccuracy: 8
 rotateSpeed: 12
-range: 200
+range: 220
 shots: 4
 alternate: true
-burstSpacing: 7
+burstSpacing: 5
 shootSound: missile
 ammoTypes: {
 	pyratite: {
@@ -27,6 +27,8 @@ ammoTypes: {
 		statusDuration: 120
 		homingPower: 1
 		homingRange: 50
+		incendChance: 5
+		incendAmount: 1
 		fragBullets: 5
 		fragBullet: {
 			type: LiquidBulletType
@@ -52,11 +54,12 @@ ammoTypes: {
 	type: MissileBulletType
 	lifetime: 100
 		speed: 4
+		damage: 8
 		splashDamageRadius: 66
 		splashDamage: 69
 		frontColor: ffff00
 		backColor: 00ffff 
-		ammoMultiplier: 2
+		ammoMultiplier: 3
 		homingPower: 1
 		homingRange: 40
 		status: blasted
