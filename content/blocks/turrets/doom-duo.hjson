@@ -65,6 +65,7 @@ targetAir: false
                    backColor: lightOrange
                    trailEffect: incendTrail
                    fragBullets: 3
+		   makeFire: true
                    fragBullet: {
                     type: ArtilleryBulletType
                     splashDamage: 55
