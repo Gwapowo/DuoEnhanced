@@ -8,7 +8,7 @@ ammoUseEffect: casing1
 shootSound: shootBig
 inaccuracy: 1
 rotateSpeed: 10
-range: 220
+range: 265
 shots: 2
 alternate: true
 targetGround: true
@@ -20,13 +20,14 @@ ammoTypes: {
 		damage: 35
 		width: 9
 		height: 17
-		lifetime: 100
+		lifetime: 40
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 6
 		hitEffect: shockwave
 		smokeEffect: shootBigSmoke
-		ammoMultiplier: 2
+		ammoMultiplier: 1
+		ammoPerShot: 2
 		}
 		
 		graphite: {
@@ -34,14 +35,15 @@ ammoTypes: {
 			damage: 70
 			width: 11
 			height: 19
-			lifetime: 100
+			lifetime: 40
 			pierce: true
 			pierceBuilding: true
 			pierceCap: 8
 			hitEffect: shockwave
 			smokeEffect: shootBigSmoke
 			reloadMultiplier: 0.65
-			ammoMultiplier: 2
+			ammoMultiplier: 1
+			ammoPerShot: 2
 			}
 					
 		thorium: { 
@@ -49,13 +51,14 @@ ammoTypes: {
 			damage: 88
 			width: 9
 			height: 17
-			lifetime: 100
+			lifetime: 40
 			pierce: true
 			pierceBuilding: true
-			pierceCap: 8
+			pierceCap: 9
 			hitEffect: shockwave
 			smokeEffect: shootBigSmoke
-			ammoMultiplier: 1		
+			ammoMultiplier: 1
+			ammoPerShot: 2
 			}					
 }
 			
