@@ -1,22 +1,19 @@
 type: CoreBlock
 name: Core: Duo
-description: Uses a special duo as the core, shining with pure energy. 
+description: The duo iteration of the Core.
 buildVisibility: shown
-health: 1000
-itemCapacity: 3000
+//unitType: core-duo
+health: 1800
+itemCapacity: 6000
 size: 3
+unitCapModifier: 12
+researchCostMultiplier: 0.04
 
 requirements: [
-copper/4000
-duo-fragment/200
-thorium/850
-lead/850
-titanium/650
-surge-alloy/325
-graphite/125
-phase-fabric/205
-silicon/125
+copper/1000
+lead/1500
+duo-fragment/100
+silicon/500
 ]
-//yes I know, this is a LOT of resources
 category: effect
 research: core-shard
