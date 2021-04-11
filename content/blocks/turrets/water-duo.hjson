@@ -1,14 +1,14 @@
 type: LiquidTurret
 localizedName: Hydro Duo
-description: Water go bbrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+description: Water go bbrrrrrrrrrrrrrrrrrrrrrrrrrrrrr!!
 health: 750
 size: 2
 reloadTime: 1
 shootCone: 45
 inaccuracy: 3
 recoilAmount: 1
-range: 250
-liquidCapacity: 50
+range: 399
+liquidCapacity: 99
 shootSound: splash
 shootEffect: shootLiquid
 shots: 2
@@ -17,7 +17,15 @@ targetGround: true
 targetGround: true
 
 ammoTypes: {
-	water : waterShot
+	water: {
+	type: LiquidBulletType
+	
+	liquid: water
+	speed: 10
+	lifetime: 75
+	height: 13
+	width: 4
+	}
 }	
 
 requirements: [
