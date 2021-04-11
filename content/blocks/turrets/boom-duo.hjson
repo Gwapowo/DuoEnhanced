@@ -46,6 +46,7 @@ ammoTypes: {
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 4
+			makeFire: true
 			}
 			plastanium: {
 				speed: 3
