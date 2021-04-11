@@ -15,9 +15,9 @@ targetGround: true
 targetAir: true
 ammoTypes: {
 	pyratite: {
-		speed: 4
+		speed: 5
 		damage: 9 
-		lifetime: 140	
+		lifetime: 70
 		width: 12
 		height: 16
 		splashDamageRadius: 29 
@@ -26,7 +26,7 @@ ammoTypes: {
 		splashDamage: 24
 		ammoMultiplier: 3
 		status: burning
-		statusDuration: 100
+		statusDuration: 120
 		fragBullets: 5
 		fragBullet: {
 			type: BombBulletType 
@@ -42,13 +42,13 @@ ammoTypes: {
 			incendAmount: 4
 			incendSpread: 15
 			status: burning
-			statusDuration: 40
+			statusDuration: 60
 			}
 		}
 		blast-compound:	{
-			speed: 4
+			speed: 5
 			damage: 6 
-			lifetime: 140			
+			lifetime: 70			
 			width: 12
 			height: 16
 			splashDamageRadius: 58
@@ -59,7 +59,7 @@ ammoTypes: {
 			fragBullets: 6
 			fragBullet: {
 				type: BombBulletType 
-				speed: 2.5
+				speed: 3
 				width: 9
 				height: 13
 				damage: 30
@@ -69,11 +69,12 @@ ammoTypes: {
 				}
 			}
 			copper: {
-				speed: 4
+				speed: 5
 				damage: 18
-				lifetime: 135
+				lifetime: 65
 				width: 11
 				height: 15
+				ammoMultiplier: 2
 				fragBullets: 8
 				fragBullet: {
 					type: BasicBulletType
@@ -86,9 +87,9 @@ ammoTypes: {
 				} 
 				
 			surge-alloy: { 
-			speed: 4 
+			speed: 5
 			damage: 8
-			lifetime: 140
+			lifetime: 70
 			splashDamage: 33 
 			splashDamageRadius: 33
 			width: 12 
@@ -108,8 +109,8 @@ ammoTypes: {
 		status: shocked
 		statusDuration: 30
 		lightning: 4 
-		lightningLength: 9
-		lightningDamage: 20
+		lightningLength: 11
+		lightningDamage: 18
 		}
         }	
 }				
@@ -118,7 +119,7 @@ requirements: [
 copper/145
 lead/55
 plastanium/115
-surge-alloy/45
+surge-alloy/35
 duo-fragment/35
 ]
 category: turret
