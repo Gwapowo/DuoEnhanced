@@ -1,0 +1,10 @@
+//Added in the future. FFUUTTUURREEEEE!!
+type: StorageBlock
+size: 3
+health: 150
+itemCapacity: 375
+
+requirements: [
+copper: 325
+duo-fragment: 5
+]
