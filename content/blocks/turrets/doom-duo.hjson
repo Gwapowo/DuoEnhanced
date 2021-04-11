@@ -5,6 +5,8 @@ health: 1800
 size: 2
 reloadTime: 250
 ammoUseEffect: casing3Double
+shootShake: 3
+shootSound: artillery
 inaccuracy: 5
 range: 299
 ammoPerShot: 20
