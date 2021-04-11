@@ -21,7 +21,7 @@ ammoTypes: {
 		height: 9
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		lifetime: 400
+		lifetime: 150
 		ammoMultiplier: 4
 		}
 		
