@@ -3,7 +3,7 @@ localizedName: Boom Duo
 description: Maximizes explosiveness to deliver a great BOOM.
 targetAir: true
 targetGround: true
-health: 1150
+health: 1050
 size: 2
 reloadTime: 20
 ammoUseEffect: casing1
@@ -17,13 +17,13 @@ targetGround: true
 targetAir: true
 ammoTypes: {
 	blast-compound : {
-		speed: 3
+		speed: 4.5
 		damage: 12
 		width: 10
 		height: 10
 		splashDamageRadius: 69
 		splashDamage: 98
-		lifetime: 100
+		lifetime: 50
 		hitEffect: blastExplosion 
 		despawnEffect: blastExplosion 
 		shootEffect: shootSmall
@@ -31,7 +31,8 @@ ammoTypes: {
 		ammoMultiplier: 2
 		}
 		pyratite: {
-			speed: 3
+			speed: 4.5
+			lifetime: 50
 			damage: 18
 			width: 10
 			height: 10
@@ -48,6 +49,7 @@ ammoTypes: {
 			}
 			plastanium: {
 				speed: 3
+				lifetime: 50
 				damage: 9
 				width: 10
 				height: 10
@@ -66,12 +68,11 @@ ammoTypes: {
 				}
 		}
 requirements: [
-copper/85
-lead/85
-titanium/45
-thorium/45
-blast-compound/35
-duo-fragment/15
+copper/95
+graphite/65
+titanium/65
+blast-compound/45
+duo-fragment/20
 ]
 category: turret
 research: hail
