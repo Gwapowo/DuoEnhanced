@@ -1,0 +1,22 @@
+type: mech
+name: U-Duo T2
+description: Modifications to this Duo has allowed it to become a mech! The second tier of the duo unit tree.
+speed: 0.3
+flying: false
+health: 650
+mass: 4
+hitSize: 10.5
+engineOffset: 7
+range: 80
+drawCell: false
+weapons: [
+       {
+	name: duo-weapon
+	length: 1.45
+	 reload: 25
+	alternate: true 
+	bullet: standardIncendiary
+	ejectEffect: casing1
+	shootEffect: shootSnap
+	}
+	]
