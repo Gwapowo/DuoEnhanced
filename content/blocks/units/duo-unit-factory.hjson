@@ -16,6 +16,7 @@ size: 3
   silicon/15
   duo-fragment/15
   ]
+ }
   
   requirements: [
   copper/55
