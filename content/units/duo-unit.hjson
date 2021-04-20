@@ -1,19 +1,22 @@
 type: mech
-name: Duo Unit
-description: Duo transformed into a unit. Somehow has infinite ammo. Wait, how is it so fast?
-speed: 0.1
+name: Duo
+description: Modifications to this Duo has allowed it to become a mech! 
+speed: 0.3
 flying: false
 health: 350
 mass: 3
 hitSize: 9
 engineOffset: 7
 range: 70
-weapon: { 
-	name: duo
+drawCell: false
+weapons: [
+       {
+	name: duo-weapon
 	length: 1.5
 	 reload: 30
 	alternate: true 
-	bullet: standardDense
+	bullet: standardCopper
 	ejectEffect: shellEjectSmall 
 	shootEffect: shootSnap
 	}
+	]
