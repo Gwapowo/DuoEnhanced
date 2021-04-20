@@ -1,9 +1,10 @@
 type: UnitFactory
 name: Duo Factory
-description: Produces basic Duo Units! 
+description: Produces basic Duo Units!
+health: 360
 size: 3
  consumes: {
- power: 2.3
+ power: 2.2
  }
   plans: {
   {
