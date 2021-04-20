@@ -1,0 +1,28 @@
+type: UnitFactory
+name: Duo Factory
+description: Produces basic Duo Units! 
+size: 3
+ consumes: {
+ power: 2.3
+ }
+  plans: {
+  {
+  unit: duo-unit
+  time: 300
+  requirements: [
+  copper/15
+  silicon/15
+  duo-fragment/15
+  ]
+  
+  requirements: [
+  copper/55
+  silicon/55
+  titanium/35
+  duo-fragment/35
+  
+  research: ground-factory
+  category: units
+  
+  
+  
