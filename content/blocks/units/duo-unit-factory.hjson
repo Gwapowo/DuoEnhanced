@@ -6,7 +6,8 @@ size: 3
  consumes: {
  power: 2.2
  }
-  plans: {
+ 
+  plans: [
   {
   unit: duo-unit
   time: 300
@@ -21,6 +22,7 @@ size: 3
   silicon/55
   titanium/35
   duo-fragment/35
+  ]
   
   research: ground-factory
   category: units
