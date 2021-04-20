@@ -16,7 +16,7 @@ weapons: [
 	 reload: 30
 	alternate: true 
 	bullet: standardCopper
-	ejectEffect: shellEjectSmall 
+	ejectEffect: casing1
 	shootEffect: shootSnap
 	}
 	]
