@@ -15,7 +15,7 @@ weapons: [
 	length: 1.3
 	 reload: 25
 	alternate: true 
-	bullet: standardGraphite
+	bullet: standardDense
 	ejectEffect: casing1
 	shootEffect: shootSnap
 	}
