@@ -10,11 +10,20 @@ size: 3
   plans: [
   {
   unit: duo-unit
-  time: 300
+  time: 350
   requirements: [
   copper/15
   silicon/15
-  duo-fragment/15
+  duo-fragment/5
+  ]
+  }
+   {
+  unit: air-duo-unit
+  time: 400
+  requirements: [
+  titanium/15
+  silicon/15
+  duo-fragment/5
   ]
   }
  ]
