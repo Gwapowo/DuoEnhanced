@@ -1,3 +1,22 @@
-type: mech
+type: flying
 health: 300
+armor: 1
 description: Modifications to this duo has allowed it to become an aircraft! Wait, flying duos?!
+speed: 1
+flying: false
+hovering: true
+hitSize: 8.8
+range: 70
+drawCell: false
+weapons: [
+       {
+	name: duo-weapon
+	length: 1.3
+	 reload: 10
+	 recoil: 0.5
+	alternate: true 
+	bullet: standardCopper
+	ejectEffect: casing1
+	shootEffect: shootSnap
+	}
+	]
