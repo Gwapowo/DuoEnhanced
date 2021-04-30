@@ -16,7 +16,7 @@ alternate: true
 targetGround: true
 targetAir: true
 consumes: {
-power: 20
+power: 1.2
 }
 
 ammoTypes: {
@@ -33,7 +33,7 @@ ammoTypes: {
 }	
 
 requirements: [
-copper/45
+copper/55
 titanium/45
 metaglass/45
 duo-fragment/5
