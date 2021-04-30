@@ -1,6 +1,6 @@
 type: GenericSmelter
-name: Duo Factory
-description: Constructs pieces of copper into a duo fragment, used for constructing special types of duo turrets.
+name: Duo Smelter
+description: Smelts copper into a duo fragment, used for constructing special types of duos.
 liquidCapacity: 25
 size: 2
 hasPower: true
