@@ -10,6 +10,7 @@ shots: 2
 alternate: true
 targetGround: true
 targetAir: true
+recoilAmount: 0.5
 inaccuracy: 2
 rotateSpeed: 12
 ammoTypes: {
@@ -43,10 +44,9 @@ ammoTypes: {
 	smokeEffect: shootSmallSmoke
 	ammoMultiplier: 4
 	status: burning
-	frontColor: lightishOrange
-	backColor: lightOrange
+	frontColor: FC9D5DFF
+	backColor: FFAD7DFF
 	makeFire: true
-	
 	}
 
 		silicon: {
