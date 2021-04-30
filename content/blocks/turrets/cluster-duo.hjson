@@ -17,7 +17,7 @@ ammoTypes: {
 	pyratite: {
 		speed: 5
 		damage: 9 
-		lifetime: 70
+		lifetime: 60
 		width: 12
 		height: 16
 		splashDamageRadius: 29 
@@ -48,7 +48,7 @@ ammoTypes: {
 		blast-compound:	{
 			speed: 5
 			damage: 6 
-			lifetime: 70			
+			lifetime: 60	
 			width: 12
 			height: 16
 			splashDamageRadius: 58
@@ -71,7 +71,7 @@ ammoTypes: {
 			copper: {
 				speed: 5
 				damage: 18
-				lifetime: 65
+				lifetime: 60
 				width: 11
 				height: 15
 				ammoMultiplier: 2
@@ -89,7 +89,7 @@ ammoTypes: {
 			surge-alloy: { 
 			speed: 5
 			damage: 8
-			lifetime: 70
+			lifetime: 60
 			splashDamage: 33 
 			splashDamageRadius: 33
 			width: 12 
