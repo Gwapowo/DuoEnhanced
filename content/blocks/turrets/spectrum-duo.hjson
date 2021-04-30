@@ -6,6 +6,7 @@ health: 1200
 size: 3
 reloadTime: 20
 inaccuracy: 8
+spread: 8
 rotateSpeed: 12
 range: 220
 shots: 4
@@ -15,7 +16,7 @@ shootSound: missile
 ammoTypes: {
 	pyratite: {
 		type: MissileBulletType
-		lifetime: 100
+		lifetime: 90
 		speed: 4
 		splashDamageRadius: 36 
 		ammoMultiplier: 2
@@ -25,7 +26,7 @@ ammoTypes: {
 		status: burning
 		statusDuration: 120
 		homingPower: 1
-		homingRange: 50
+		homingRange: 60
 		incendChance: 5
 		incendAmount: 1
 		fragBullets: 5
@@ -51,7 +52,7 @@ ammoTypes: {
 		
 	blast-compound: { 
 	type: MissileBulletType
-	lifetime: 100
+	lifetime: 90
 		speed: 4
 		damage: 8
 		splashDamageRadius: 66
@@ -60,7 +61,7 @@ ammoTypes: {
 		backColor: 00ffff 
 		ammoMultiplier: 3
 		homingPower: 1
-		homingRange: 40
+		homingRange: 60
 		status: blasted
 		fragBullets: 6
 		fragBullet: {
