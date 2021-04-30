@@ -1,7 +1,8 @@
 type: flying
 health: 300
 armor: 1
-description: Modifications to this duo has allowed it to become an aircraft! Wait, flying duos?!
+name: UA-Duo
+description: Modifications to this duo has allowed it to float midair! Wait, floating duos?!
 speed: 1
 flying: false
 hovering: true
