@@ -7,20 +7,24 @@ reloadTime: 1
 shootCone: 45
 inaccuracy: 3
 recoilAmount: 1
-range: 399
+range: 575
 liquidCapacity: 99
 shootSound: splash
 shootEffect: shootLiquid
 shots: 2
 alternate: true
 targetGround: true
-targetGround: true
+targetAir: true
+consumes: {
+power: 20
+}
 
 ammoTypes: {
 	water: {
 	type: LiquidBulletType
-	
 	liquid: water
+        damage: 2
+        knockback: 10
 	speed: 10
 	lifetime: 75
 	height: 13
@@ -29,9 +33,9 @@ ammoTypes: {
 }	
 
 requirements: [
-copper/25
+copper/45
 titanium/45
-metaglass/25
+metaglass/45
 duo-fragment/5
 ]
 category: turret
