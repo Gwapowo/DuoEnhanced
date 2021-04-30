@@ -1,6 +1,7 @@
 type: MassDriver
 name: Duo Driver
-description: A Mass Driver version of the duo. Rapidly fires and has significantly less storage. Do not use with Mass Driver.
+description: A Mass Driver version of the duo. Rapidly fires and has significantly less storage. 
+details: Do not use with Mass Driver.
 health: 400
 size: 2
 itemCapacity: 12
