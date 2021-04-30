@@ -8,7 +8,7 @@ reloadTime: 20
 inaccuracy: 8
 spread: 8
 rotateSpeed: 12
-range: 220
+range: 240
 shots: 4
 alternate: true
 burstSpacing: 5
@@ -16,7 +16,7 @@ shootSound: missile
 ammoTypes: {
 	pyratite: {
 		type: MissileBulletType
-		lifetime: 90
+		lifetime: 70
 		speed: 4
 		splashDamageRadius: 36 
 		ammoMultiplier: 2
@@ -52,10 +52,10 @@ ammoTypes: {
 		
 	blast-compound: { 
 	type: MissileBulletType
-	lifetime: 90
+	lifetime: 70
 		speed: 4
 		damage: 8
-		splashDamageRadius: 66
+		splashDamageRadius: 36
 		splashDamage: 69
 		frontColor: ffff00
 		backColor: 00ffff 
