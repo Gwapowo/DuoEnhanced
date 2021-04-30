@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Spectrum Duo
 description: Shoots colorful homing missiles that burst into oil, destroy your enemy with style! 
-//sprite by sk7225(mother of vela)
+details: Sprite by sk7225
 health: 1200
 size: 3
 reloadTime: 20
