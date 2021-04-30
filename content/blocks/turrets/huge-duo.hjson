@@ -2,7 +2,7 @@ type: ItemTurret
 localizedName: HUGE Duo
 description: A HUGE version of the Duo, shoots massive bullets that lets nothing stop it's path.
 health: 7550
-size: 14
+size: 16
 reloadTime: 60
 range: 335
 ammoUseEffect: casing1
@@ -17,7 +17,7 @@ targetGround: true
 targetAir: true
 ammoTypes: {
 	copper : {
-		speed: 8
+		speed: 16
 		damage: 24
 		width: 48
 		height: 58
@@ -28,7 +28,7 @@ ammoTypes: {
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 15
-		lifetime: 80
+		lifetime: 40
 		knockback: 80
 		effect: blastExplosion
 		fragBullet: standardCopper
@@ -36,7 +36,7 @@ ammoTypes: {
 	}
 	
 	graphite: {
-		speed: 8
+		speed: 16
 		damage: 48
 		width: 52
 		height: 62
@@ -48,14 +48,14 @@ ammoTypes: {
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 20
-		lifetime: 80
+		lifetime: 40
 		knockback: 135
 		fragBullet: standardDense
 		fragBullets: 10
 		}
 		
 	pyratite: {
-		speed: 8
+		speed: 16
 		damage: 48
 		width: 48
 		height: 58
@@ -69,27 +69,27 @@ ammoTypes: {
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 15
-		lifetime: 80
+		lifetime: 40
 		knockback: 60
 		fragBullet: standardIncendiary
 		fragBullets: 8
 		}
 			
 		silicon: {
-		speed: 8
+		speed: 16
 		damage: 23
 		width: 48
 		height: 58
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke 
-		homingPower: 0.3
+		homingPower: 0.1
 		ammoMultiplier: 1
 		ammoPerShot: 3
 		reloadMultiplier: 1.2 
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 15
-		lifetime: 80
+		lifetime: 40
 		knockback: 60
 		fragBullet: standardHoming
 		fragBullets: 8
