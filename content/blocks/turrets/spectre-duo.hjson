@@ -22,22 +22,20 @@ shootCone: 24
 shootSound: shootBig
 
 ammoTypes: {
-	copper: driverBolt
-	graphite: standardDenseBig
-	pyratite: standardIncendiaryBig
-	thorium: standardThoriumBig
-	}
-	
+  copper: standardCopper
+  graphite: standardDenseBig
+  pyratite: standardIncendiaryBig
+  thorium: standardThoriumBig
+}
 
-	  requirements: [
-copper/350
-graphite/300
-thorium/225
-plastanium/95
-surge-alloy/85
-duo-fragment/30
+requirements: [
+  copper/350
+  graphite/300
+  thorium/225
+  plastanium/95
+  surge-alloy/85
+  duo-fragment/30
 ]
 
 category: turret
 research: salvo
- 
