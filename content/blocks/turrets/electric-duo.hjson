@@ -1,0 +1,37 @@
+type: powerTurret
+name: electric Duo
+description: A Duo that that use power to fire an bullet that have the stat of basic duo both silicon bullet and graphite bullet that also give a shock.
+health: 300
+size: 1
+ammoUseEffect: casing1
+inaccuracy: 2
+rotateSpeed: 10
+shots: 2
+alternate: true
+poweruse: 1.5
+shootType: {
+  type: basicBulletType
+  width: 9
+	height: 12
+	speed: 3
+	damage: 18
+	lifetime: 60
+  homingPower: 0.1
+  reloadMultiplier: 1.5
+  status: shocked
+}
+  reloadTime: 20
+  restitution: 0.03
+  range: 110
+  shootCone: 15
+  inaccuracy: 0
+  spread: 4
+ 
+requirements: [
+silicon/50
+copper/75
+lead/100
+]
+category: turret
+research: duo
+ 

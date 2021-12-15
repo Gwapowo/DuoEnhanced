@@ -1,0 +1,99 @@
+type: ItemTurret
+name: compress Duo
+description: this duo compress 10 bullet and fire compress bullet at enemy does ton of damage at first impect.
+health: 300
+size: 1
+ammoUseEffect: casing1
+inaccuracy: 2
+rotateSpeed: 10
+shots: 2
+alternate: true
+maxAmmo: 250
+ammoPerShot: 10
+ammoTypes: {
+copper: {
+  type: basicBulletType
+  ammoMultiplier: 1
+  width: 10
+  height: 12
+  speed: 2
+  damage: 18
+  lifetime: 60
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  fragBullets: 10
+	fragBullet: standardCopper
+  }
+  graphite: {
+  ammoMultiplier: 1
+  type: basicBulletType
+  width: 10
+  height: 12
+  speed: 2
+  damage: 36
+  lifetime: 60
+  reloadMultiplier: 0.5
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  fragBullets: 10
+	fragBullet: standardDense
+  }
+  pyratite: {
+  type: basicBulletType
+  ammoMultiplier: 1
+  width: 10
+  height: 12
+  speed: 2
+  damage: 22
+  lifetime: 60
+  frontColor: lightishOrange
+  backColor: lightOrange
+  status: burning
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  fragBullets: 10
+	fragBullet: standardIncendiary
+  }
+  silicon: {
+  ammoMultiplier: 1
+  type: basicBulletType
+  width: 10
+  height: 12
+  speed: 2
+  damage: 24
+  lifetime: 60
+  homingPower: 0.1
+  reloadMultiplier: 1.5
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  fragBullets: 10
+	fragBullet: standardHoming
+  }
+  thorium: {
+  type: basicBulletType
+  ammoMultiplier: 1
+  width: 10
+  height: 12
+  speed: 2
+  damage: 58
+  lifetime: 60
+  shootEffect: shootBig
+  smokeEffect: shootBigSmoke
+  fragBullets: 10
+	fragBullet: standardThorium
+  }
+}
+  reloadTime: 20
+  restitution: 0.03
+  range: 110
+  shootCone: 15
+  inaccuracy: 0
+  spread: 4
+requirements: [
+copper/75
+silicon/75
+titanium/55
+plastanium/15
+]
+category: turret
+research: duo

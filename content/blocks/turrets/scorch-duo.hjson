@@ -4,16 +4,15 @@ description: A double barrel scorch that is duo and pure dps turret good with wa
 health: 275
 size: 1
 ammoUseEffect: casing1
-shootsound: flame2
+shootsound: flame
 inaccuracy: 2
 rotateSpeed: 12
 shots: 2
-
 ammoTypes: {
 coal: {
   type: basicBulletType
   ammoMultiplier: 3
-  speed: 3
+  speed: 2
   damage: 16
   hitSize: 7
   lifetime: 60
@@ -34,7 +33,7 @@ coal: {
   pyratite: {
   type: basicBulletType
   ammoMultiplier: 6
-  speed: 3
+  speed: 2
   damage: 25
   hitSize: 7
   lifetime: 60
@@ -55,7 +54,7 @@ coal: {
   spore-pod:{
   type: basicBulletType
   ammoMultiplier: 5
-  speed: 3
+  speed: 2
   damage: 19
   hitSize: 7
   lifetime: 60
@@ -87,7 +86,7 @@ coal: {
   plastanium:{
   type: basicBulletType
   ammoMultiplier: 4
-  speed: 3
+  speed: 2
   damage: 29
   hitSize: 7
   lifetime: 60
