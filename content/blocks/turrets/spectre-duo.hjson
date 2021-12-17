@@ -22,7 +22,16 @@ shootCone: 24
 shootSound: shootBig
 
 ammoTypes: {
-	copper: driverBolt
+	copper: {
+    type: basicBulletType
+    ammoMultiplier: 2
+    width: 15
+    height: 21
+    speed: 7.5
+    damage: 27.5
+    lifetime: 40
+    shootEffect: shootBig
+  }
 	graphite: standardDenseBig
 	pyratite: standardIncendiaryBig
 	thorium: standardThoriumBig
