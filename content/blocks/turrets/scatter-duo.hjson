@@ -76,7 +76,7 @@ ammoTypes: {
     }
   }
 }
-  reloadTime: 19.5
+  reloadTime: 17.5
   restitution: 0.03
   range: 220
   shootCone: 35
