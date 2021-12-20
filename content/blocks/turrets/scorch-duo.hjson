@@ -18,8 +18,8 @@ coal: {
   lifetime: 60
   width: 0.1
 	height: 0.1
-  frontcolor: lightishOrange
-  backcolor: lightOrange
+  frontcolor: F8AD42
+  backcolor: F68021
   pierce: true
   collidesAir: true
   statusDuration: 240
@@ -39,8 +39,8 @@ coal: {
   lifetime: 60
   width: 0.1
 	height: 0.1
-  frontcolor: lightishOrange
-  backcolor: lightOrange
+  frontcolor: F8AD42
+  backcolor: F68021
   pierce: true
   collidesAir: true
   statusDuration: 600
@@ -60,8 +60,8 @@ coal: {
   lifetime: 60
   width: 0.1
 	height: 0.1
-  frontcolor: lightishOrange
-  backcolor: lightOrange
+  frontcolor: F8AD42
+  backcolor: F68021
   pierce: true
   collidesAir: true
   statusDuration: 360
@@ -92,8 +92,8 @@ coal: {
   lifetime: 60
   width: 0.1
 	height: 0.1
-  frontcolor: lightishOrange
-  backcolor: lightOrange
+  frontcolor: F8AD42
+  backcolor: F68021
   pierce: true
   collidesAir: true
   statusDuration: 720

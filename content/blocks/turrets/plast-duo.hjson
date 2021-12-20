@@ -11,10 +11,26 @@ targetGround: true
 targetAir: true
 
 ammoTypes: {
-plastanium: fragPlastic
-metaglass: fragGlass
-blast-compound: missileExplosive
-thorium: standardThorium
+  plastanium: fragPlastic
+  metaglass: fragGlass
+  blast-compound: {
+    type: missileBulletType
+    ammoMultiplier: 4
+    width: 8
+    height: 8
+	strinky: 0
+	drag: -0.01
+    speed: 3.7
+    damage: 10
+	splashDamageRadius: 30
+    splashDamage: 45
+	reloadMultiplier: 0.125
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+	status: blasted
+	statusDuraction: 60
+  }
+  thorium: standardThorium
 }
 	reloadTime: 13.5
 	restitution: 0.03

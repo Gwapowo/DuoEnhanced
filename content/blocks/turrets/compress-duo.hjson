@@ -46,8 +46,8 @@ copper: {
   speed: 2
   damage: 22
   lifetime: 60
-  frontColor: lightishOrange
-  backColor: lightOrange
+  frontColor: F8AD42
+  backColor: F68021
   status: burning
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
@@ -87,7 +87,6 @@ copper: {
   restitution: 0.03
   range: 110
   shootCone: 15
-  inaccuracy: 0
   spread: 4
 requirements: [
 copper/75
