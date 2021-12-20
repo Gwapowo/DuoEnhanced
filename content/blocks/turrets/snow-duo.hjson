@@ -105,7 +105,6 @@ sand: {
   restitution: 0.03
   range: 110
   shootCone: 15
-  inaccuracy: 0
   spread: 4
 requirements: [
 copper/50

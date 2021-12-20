@@ -25,7 +25,6 @@ shootType: {
   restitution: 0.03
   range: 125
   shootCone: 15
-  inaccuracy: 0
  
 requirements: [
 silicon/15
