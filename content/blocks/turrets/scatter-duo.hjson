@@ -7,7 +7,6 @@ ammoUseEffect: casing1
 inaccuracy: 15
 recoilAmount: 0.5
 rotateSpeed: 15
-burstSpacing: 5
 shots: 2
 alternate: true
 targetGround: false
