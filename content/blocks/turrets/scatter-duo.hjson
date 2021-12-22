@@ -37,7 +37,7 @@ ammoTypes: {
     height: 12
     speed: 3
     damage: 5
-    lifetime: 30
+    lifetime: 60
     homingPower: 0.1
     collidesGround: false
     despawnEffect: none
