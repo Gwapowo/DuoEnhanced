@@ -5,7 +5,7 @@ health: 300
 size: 2
 ammoUseEffect: casing1
 inaccuracy: 15
-recoilAmount: 0.5
+recoilAmount: 2
 rotateSpeed: 15
 shots: 2
 alternate: true
