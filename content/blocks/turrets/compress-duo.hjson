@@ -1,6 +1,6 @@
 type: ItemTurret
-name: compress Duo
-description: this duo compress 10 bullet and fire compress bullet at enemy does ton of damage at first impect.
+name: Compress Duo
+description: Compresses an entire item into one bullet, which frags into ten more bullets!
 health: 300
 size: 1
 ammoUseEffect: casing1
