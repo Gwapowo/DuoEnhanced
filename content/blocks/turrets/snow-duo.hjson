@@ -1,6 +1,6 @@
 type: ItemTurret
-name: snow Duo
-description: this duo can create snowball with powder and it can grind item into powder it have buildin pts machine also it was an snowgiving edition duo.
+name: Snowball Duo
+description: Merry Christmas, probably? When the time is merry, or any other day, this duo shoots snowballs!
 health: 250
 size: 1
 ammoUseEffect: casing1
