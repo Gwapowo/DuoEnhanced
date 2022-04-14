@@ -22,7 +22,8 @@ shootCone: 24
 shootSound: shootBig
 
 ammoTypes: {
-	copper: driverBolt
+	copper: standardCopper
+	// lmaooooooooooo
 	graphite: standardDenseBig
 	pyratite: standardIncendiaryBig
 	thorium: standardThoriumBig
