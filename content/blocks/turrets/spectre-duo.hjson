@@ -37,7 +37,6 @@ ammoTypes: {
 	thorium: standardThoriumBig
 	}
 	
-
 	  requirements: [
 copper/350
 graphite/300
@@ -49,4 +48,3 @@ duo-fragment/30
 
 category: turret
 research: salvo
- 
