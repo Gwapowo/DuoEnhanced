@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Compress Duo
 description: Compresses an entire item into one bullet, which frags into ten more bullets!
-health: 300
+health: 450
 size: 1
 ammoUseEffect: casing1
 inaccuracy: 2
@@ -90,9 +90,9 @@ copper: {
   spread: 4
 requirements: [
 copper/75
-silicon/75
-titanium/55
-plastanium/15
+silicon/55
+titanium/45
+duo-essence/15
 ]
 category: turret
 research: duo
