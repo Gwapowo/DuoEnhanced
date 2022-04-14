@@ -1,6 +1,6 @@
 type: ItemTurret
-localizedName: inverted Duo
-description: An iverted version of the Duo but accuracy is just bad.
+localizedName: Inverted Duo
+description: Shoots backwards.
 health: 250
 size: 1
 ammoUseEffect: casing1
@@ -25,7 +25,7 @@ thorium: standardThorium
 
 requirements: [
 copper/35
-lead/15
+duo-essence/3
 ]
 category: turret
 research: duo
