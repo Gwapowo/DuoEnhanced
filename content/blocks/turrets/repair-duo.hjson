@@ -1,6 +1,6 @@
 type: powerTurret
-name: repair Duo
-description: A Duo that shot repair bolt.
+name: Repair Duo
+description: Shoots beams with healing properties. Does it target allied blocks? Of course not!
 health: 250
 size: 1
 ammoUseEffect: casing1
@@ -14,12 +14,12 @@ shootType: {
   width: 7
 	height: 9
 	speed: 4
-	damage: 8
+	damage: 10
   healPercent: 2.5
   collidesTeam: true
   frontColor: ffffff
   backColor: 98ffa9
-	lifetime: 30
+	lifetime: 60
 }
   reloadTime: 17.5
   restitution: 0.03
@@ -27,9 +27,10 @@ shootType: {
   shootCone: 15
  
 requirements: [
+copper/50
+lead/50
 silicon/15
-copper/35
-titanium/10
+duo-essence/5
 ]
 category: turret
 research: duo
