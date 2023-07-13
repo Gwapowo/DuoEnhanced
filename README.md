@@ -12,3 +12,4 @@ Made by GWAPO, that one person who likes turtles, and duos.
 
 Discord: gwapowo#5637
 gwapowo#0000
+𓆉 Ｇｗａｐｏ#5637
