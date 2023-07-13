@@ -10,4 +10,4 @@ A mod in Mindustry that adds a multitude of new enhanced duo turrets! The Duo is
 <b>MISCELLANEOUS:</b> Duo Driver, Duo Wall, Duo Factory, Duo Fragment, Duo Core, ..this weird brown force projector <br> <br> <br> 
 Made by GWAPO, that one person who likes turtles, and duos.
 
-Discord: 𓆉 Ｇｗａｐｏ#5637
+Discord: gwapowo#0000
