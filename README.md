@@ -11,3 +11,4 @@ A mod in Mindustry that adds a multitude of new enhanced duo turrets! The Duo is
 Made by GWAPO, that one person who likes turtles, and duos.
 
 Discord: gwapowo 𓆉 Ｇｗａｐｏ
+gwapowo#1000
