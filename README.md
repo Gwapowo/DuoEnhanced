@@ -12,3 +12,6 @@ Made by GWAPO, that one person who likes turtles, and duos.
 
 By:
 Gwapo#5637
+gwapowo#0000
+𓆉 Ｇｗａｐｏ#5637
+gwapowo#5637
