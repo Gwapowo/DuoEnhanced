@@ -1,0 +1,89 @@
+type: ItemTurret
+name: scatter duo
+description: Rapid fire anti air! air units beware if it loaded with silicon that anti air is an op anti air.
+health: 300
+size: 2
+ammoUseEffect: casing1
+inaccuracy: 15
+recoilAmount: 1.5
+rotateSpeed: 15
+shots: 2
+alternate: true
+targetGround: false
+targetAir: true
+ammoTypes: {
+  scrap: flakScrap
+  lead: flakLead
+  metaglass: flakGlass
+  silicon: {
+  ammoMultiplier: 5
+  type: flakBulletType
+  width: 6
+  height: 8
+  speed: 4.5
+  damage: 3
+  lifetime: 60
+  homingPower: 0.1
+  splashDamageRadius: 20
+  splashDamage: 35
+  reloadMultiplier: 1.5
+  shootEffect: shootSmall
+  hitEffect: flakExplosion
+  fragBullets: 7
+	fragBullet: {
+  ammoMultiplier: 5
+  type: basicBulletType
+    width: 5
+    height: 12
+    speed: 3
+    damage: 5
+    lifetime: 60
+    homingPower: 0.1
+    collidesGround: false
+    despawnEffect: none
+    }
+  }
+  plastanium: {
+  ammoMultiplier: 5
+  type: flakBulletType
+  width: 8
+  height: 10
+  speed: 4
+  damage: 6
+  lifetime: 60
+  splashDamageRadius: 40
+  splashDamage: 37.5
+  explosderange: 20
+  shootEffect: shootBig
+  frontColor: FFFAC6
+  backColor: D8D97F
+  hitEffect: plasticExplosion
+  fragBullets: 6
+	fragBullet: {
+  ammoMultiplier: 5
+  type: basicBulletType
+    width: 5
+    height: 12
+    shrinky: 1
+    speed: 2.5
+    damage: 5
+    lifetime: 15
+    collidesGround: false
+    despawnEffect: none
+    frontColor: FFFAC6
+    backColor: D8D97F
+    }
+  }
+}
+  reloadTime: 17.5
+  restitution: 0.03
+  range: 220
+  shootCone: 35
+  spread: 4
+requirements: [
+copper/85
+lead/45
+duo-fragment/15
+]
+category: turret
+research: scatter

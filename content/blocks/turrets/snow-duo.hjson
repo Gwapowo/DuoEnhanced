@@ -1,0 +1,114 @@
+type: ItemTurret
+name: Snowball Duo
+description: Merry Christmas, probably? When the time is merry, or any other day, this duo shoots snowballs!
+health: 250
+size: 1
+ammoUseEffect: casing1
+inaccuracy: 2
+rotateSpeed: 10
+shots: 2
+alternate: true
+heatColor: defffe
+ammoTypes: {
+sand: {
+  type: basicBulletType
+  ammoMultiplier: 2
+  width: 8
+  height: 9
+  speed: 2
+  damage: 9
+  lifetime: 60
+  backColor: c9feff
+  frontColor: e1feff
+  hitEffect: freezing
+  statusDuration: 240
+  status: freezing
+  }
+  titanium: {
+  ammoMultiplier: 4
+  type: basicBulletType
+  width: 9
+  height: 11
+  speed: 2
+  damage: 18
+  lifetime: 60
+  backColor: c9feff
+  frontColor: e1feff
+  hitEffect: freezing
+  statusDuration: 600
+  status: freezing
+  }
+  blast-compound: {
+  type: basicBulletType
+  ammoMultiplier: 5
+  width: 10
+	height: 12
+  speed: 3
+	damage: 16
+  reloadMultiplier: 0.5
+	lifetime: 60
+  backColor: c9feff
+  frontColor: defcff
+  hitEffect: freezing
+  statusDuration: 240
+  status: freezing
+  splashDamageRadius: 20
+  splashDamage: 8
+  fragBullets: 10
+	  fragBullet: {
+	    type: basicBulletType
+		  width: 7
+	    height: 9
+      speed: 3
+	    damage: 7
+      ammoMultiplier: 2
+	    lifetime: 15
+      backColor: c9feff
+      frontColor: e1feff
+      hitEffect: freezing
+      statusDuration: 240  
+      status: freezing
+    }
+  }
+  metaglass: {
+  type: basicBulletType
+  ammoMultiplier: 3
+  width: 10
+	height: 12
+  speed: 3
+	damage: 12
+  reloadMultiplier: 0.7
+	lifetime: 60
+  backColor: c9feff
+  frontColor: defcff
+  hitEffect: freezing
+  statusDuration: 240
+  status: freezing
+  fragBullets: 6
+  fragBullet: {
+	    type: basicBulletType
+		  width: 7
+	    height: 9
+      speed: 3
+	    damage: 5
+      ammoMultiplier: 2
+	    lifetime: 15
+      backColor: c9feff
+      frontColor: e1feff
+      hitEffect: freezing
+      statusDuration: 120  
+      status: freezing
+    }
+  }
+}
+  reloadTime: 20
+  restitution: 0.03
+  range: 110
+  shootCone: 15
+  spread: 4
+requirements: [
+copper/50
+titanium/25
+]
+category: turret
+research: duo
