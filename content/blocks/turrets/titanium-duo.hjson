@@ -42,7 +42,7 @@ ammoTypes: {
     frontColor: lightishOrange
     backColor: lightOrange
     status: burning
-    hitEffect: hitBulletSmall, fireHit
+    hitEffect: fireHit
     ammoMultiplier: 6
     splashDamage: 8
     splashDamageRadius: 13.5
