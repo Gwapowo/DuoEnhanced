@@ -5,13 +5,12 @@ health: 400
 size: 1
 recoil: 0.5
 shootY: 3
-reloadTime: 18.5
+reload: 18.5
 range: 110
 shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 1.5
 rotateSpeed: 11
-shots: 2
 alternate: true
 targetGround: true
 targetAir: true
@@ -62,6 +61,12 @@ ammoTypes: {
     ammoMultiplier: 5
     lifetime: 60
   }
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 3
 }
  
 requirements: [
