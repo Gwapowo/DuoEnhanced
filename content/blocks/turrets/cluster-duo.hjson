@@ -1,16 +1,13 @@
 type: ItemTurret
 localizedName: Cluster Duo
 description: Shoots bullets that split into other bullet types depending on the ammo you give!
-health: 1260
+health: 1250
 size: 3
-reloadTime: 18
+reload: 18
 ammoUseEffect: casing1
 inaccuracy: 4
 rotateSpeed: 12
 range: 220
-shots: 2
-spread: 4
-alternate: true
 targetGround: true
 targetAir: true
 ammoTypes: {
@@ -113,7 +110,13 @@ ammoTypes: {
 		lightningDamage: 18
 		}
         }	
-}				
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 4
+}
 			
 requirements: [
 copper/145
