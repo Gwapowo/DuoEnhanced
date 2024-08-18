@@ -20,7 +20,7 @@ shootCone: 24
 shootSound: shootBig
 
 ammoTypes: {
-	copper: 
+	copper: {
 		damage: 28
 		speed: 6
 		hitSize: 4.5
