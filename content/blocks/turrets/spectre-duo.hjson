@@ -68,6 +68,7 @@ ammoTypes: {
 		pierceCap: 2
 		pierceBuilding: true
 		knockback: 0.7
+		}
 	}
 
 shoot: {
