@@ -3,14 +3,11 @@ localizedName: Super Duo
 description: It's a duo on steroids!! Fires extremely fast and has super range.
 health: 600
 size: 1
-reloadTime: 0.1
+reload: 0.1
 range: 750
 ammoUseEffect: casing1 
 inaccuracy: 2
 rotateSpeed: 12
-shots: 2
-spread: 4
-alternate: true
 targetGround: true
 targetAir: true
 ammoTypes: {
@@ -26,6 +23,14 @@ ammoTypes: {
 		}
 		
 }
+
+shoot: {
+	type: ShootAlternate
+	shots: 2
+	shotDelay: 1
+	spread: 4	
+}
+	
 requirements: [
 copper/500
 duo-fragment/50
