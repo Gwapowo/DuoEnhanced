@@ -3,14 +3,12 @@ name: Railgun Duo
 description: Fires high velocity armor-piercing bullets. The power of electro magnetism! Shreds swarms of units with ease.
 health: 1350
 size: 3
-reloadTime: 75
+reload: 75
 ammoUseEffect: casing1
 shootSound: shootBig
 inaccuracy: 1
 rotateSpeed: 10
 range: 265
-shots: 2
-alternate: true
 targetGround: true
 targetAir: true
 
@@ -61,7 +59,12 @@ ammoTypes: {
 			ammoPerShot: 2
 			}					
 }
-			
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 6
+}
 		
 requirements: [
 copper/125
