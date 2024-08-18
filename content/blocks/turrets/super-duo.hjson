@@ -28,7 +28,7 @@ shoot: {
 	type: ShootAlternate
 	shots: 2
 	shotDelay: 1
-	spread: 4	
+	spread: 3	
 }
 	
 requirements: [
