@@ -58,6 +58,7 @@ ammoTypes: {
 		ammoMultiplier: 3
 		splashDamage: 20
 		splashDamageRadius: 25
+		}
 	thorium: {
 		damage: 80
 		speed: 8
