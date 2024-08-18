@@ -1,7 +1,7 @@
 type: ItemTurret
 localizedName: Ripple Duo
 description: Rapid fire artillery! Ground units beware.
-health: 770
+health: 750
 size: 2
 reloadTime: 19.5
 ammoEjectBack: 1
@@ -14,18 +14,99 @@ shootShake: 1
 inaccuracy: 6
 rotateSpeed: 10
 range: 240
-minRange: 40
+minRange: 50
 shots: 2
 shootCone: 10
 alternate: true
 targetGround: true
 targetAir: false
 ammoTypes: {
-	graphite:  artilleryDense
-	silicon: artilleryHoming
-	pyratite: artilleryIncendiary
-	blast-compound: artilleryExplosive
-	plastanium: artilleryPlastic 
+	graphite: {
+		type: ArtilleryBulletType
+		speed: 3
+		splashDamage: 33
+		splashDamageRadius: 18.75
+		knockback: 0.8
+		lifetime: 80
+		width: 11
+		height: 11
+		collidesTiles: false
+	}
+		
+	silicon: {
+		type: ArtilleryBulletType
+		speed: 3
+		splashDamage: 33
+		splashDamageRadius: 18.75
+		reloadMultiplier: 1.2
+		ammoMultiplier: 3
+		homingPower: 0.08
+		homingRange: 50
+		knockback: 0.8
+		lifetime: 80
+		width: 11
+		height: 11
+		collidesTiles: false
+	}
+	pyratite: {
+		type: ArtilleryBulletType
+		speed: 3
+		splashDamage: 45
+		splashDamageRadius: 18.75
+		hitEffect: blastExplosion
+		knockback: 0.8
+		lifetime: 80
+		width: 13
+		height: 13
+		collidesTiles: false
+		status: burning
+		statusDuration: 740
+		frontColor: lightishOrange
+		backColor: lightOrange
+		makeFire: true
+		trailEffect: incendTrail
+		ammoMultiplier: 4
+	}
+	blast-compound:	{
+		type: ArtilleryBulletType
+		speed: 2
+		splashDamage: 55
+		splashDamageRadius: 33.75
+		knockback: 0.8
+		lifetime: 80
+		width: 14
+		height: 14
+		collidesTiles: false
+		ammoMultiplier: 4
+		backColor: missileYellowBack
+		frontColor: missileYellow
+		status: blasted
+	}
+	plastanium:	{
+		type: ArtilleryBulletType
+		speed: 3.4
+		splashDamage: 45
+		splashDamageRadius: 26.25
+		knockback: 1
+		lifetime: 80
+		width: 13
+		height: 13
+		collidesTiles: false
+		fragBullet: {
+			type: BasicBulletType
+       width: 10
+       height: 12
+       shrinkY: 1
+       lifetime: 15
+       backColor: plastaniumBack
+       frontColor: plastaniumFront
+       despawnEffect: none
+  		 collidesAir: false
+			}
+		fragBullets: 10
+		backColor: plastaniumBack
+		frontColor: plastaniumFront
+	} 
 }
 			
 requirements: [
