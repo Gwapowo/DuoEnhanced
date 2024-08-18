@@ -1,7 +1,7 @@
 type: ItemTurret
 localizedName: Thorium Duo
 description: An even more advanced version of the Duo, upgraded with thorium.
-health: 650
+health: 600
 size: 1
 ammoUseEffect: casing1
 inaccuracy: 1
@@ -9,25 +9,70 @@ shots: 2
 alternate: true
 targetGround: true
 targetAir: true
+reloadTime: 15
+restitution: 0.03
+range: 120
+shootCone: 15 
+rotateSpeed: 14
 
 ammoTypes: {
-copper: standardCopper
-graphite: standardDense
-pyratite: standardIncendiary 
-silicon: standardHoming
-thorium: standardThorium
+	copper: {
+    damage: 9
+	  speed: 2.5
+    width: 7
+    height: 9
+	  lifetime: 60
+	  ammoMultiplier: 2
+	}
+	graphite: {
+  	  damage: 18
+  	  speed: 3.5
+  	  width: 9
+  	  height: 12
+  	  reloadMultiplier: 0.6
+  	  ammoMultiplier: 4
+  	  lifetime: 60
+  }
+	pyratite: {
+		damage: 16
+		speed: 3.5
+		width: 8
+		height: 10
+		frontColor: lightishOrange
+		backColor: lightOrange
+		status: burning
+		hitEffect: fireHit
+		ammoMultiplier: 6
+		splashDamage: 8
+		splashDamageRadius: 13.5
+		makeFire: true
+		lifetime: 60
+	}
+	silicon: {
+	    damage: 12
+	    speed: 3
+	    width: 7
+	    height: 9
+	    homingPower: 0.11
+	    reloadMultiplier: 1.5
+	    ammoMultiplier: 5
+	    lifetime: 60
+	  }
+thorium: {
+	damage: 26
+	speed: 4
+	width: 9
+	height: 12
+	shootEffect: shootBig
+	smokeEffect: shootBigSmoke
+	ammoMultiplier: 4
+	lifetime: 6
 }
-	reloadTime: 15
-	restitution: 0.03
-	range: 130
-	shootCone: 15 
-	inaccuracy: 0
-	rotateSpeed: 14
 
 requirements: [
 copper/15
-titanium/35
-thorium/55
+titanium/15
+thorium/35
 ]
 category: turret
 research: duo
