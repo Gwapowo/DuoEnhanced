@@ -12,6 +12,9 @@ ammoUseEffect: casing1
 inaccuracy: 1.5
 rotateSpeed: 11
 shots: 2
+alternate: true
+targetGround: true
+targetAir: true
 researchCostMultiplier: 0.5
 restitution: 0.03
 
@@ -63,7 +66,7 @@ ammoTypes: {
  
 requirements: [
 copper/15
-titanium/25
+titanium/35
 ]
 category: turret
 research: duo
