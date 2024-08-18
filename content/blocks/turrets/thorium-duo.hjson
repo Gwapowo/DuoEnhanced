@@ -64,6 +64,7 @@ thorium: {
 	smokeEffect: shootBigSmoke
 	ammoMultiplier: 4
 	lifetime: 6
+	}
 }
 
 shoot: {
