@@ -2,16 +2,12 @@ type: ItemTurret
 name: Spectrum Duo
 description: Shoots colorful homing missiles that burst into oil, destroy your enemy with style! 
 details: Sprite by sk7225 - author of BetaMindy
-health: 1200
+health: 1350
 size: 3
-reloadTime: 20
+reload: 20
 inaccuracy: 8
-spread: 8
 rotateSpeed: 12
 range: 240
-shots: 4
-alternate: true
-burstSpacing: 5
 shootSound: missile
 ammoTypes: {
 	pyratite: {
@@ -73,7 +69,14 @@ ammoTypes: {
 			}
 		}		
 }
-				
+//TODO regionpart
+shoot: {
+	type: ShootAlternate
+	spread: 6
+	shots: 4
+	shootDelay: 5
+}
+
 requirements: [
 copper/95
 duo-fragment/25
