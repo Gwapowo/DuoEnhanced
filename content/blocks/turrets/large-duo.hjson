@@ -3,14 +3,12 @@ localizedName: Large Duo
 description: A larger version of the Duo. Nothing really special here.
 health: 1500
 size: 3
-reloadTime: 20
+reload: 20
 range: 170
 ammoUseEffect: casing1
-shots: 2
-alternate: true
 targetGround: true
 targetAir: true
-recoilAmount: 0.5
+recoil: 0.5
 inaccuracy: 2
 rotateSpeed: 12
 ammoTypes: {
@@ -22,7 +20,7 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2
-	}
+		}
 	
 	graphite: {
 		speed: 4.2
@@ -33,7 +31,7 @@ ammoTypes: {
 		smokeEffect: shootSmallSmoke
 		reloadMultiplier: 0.6
 		ammoMultiplier: 4
-			}
+		}
 		
 	pyratite: {
 	speed: 4
@@ -62,7 +60,13 @@ ammoTypes: {
 		homingRange: 12
 		}
 }
-		
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 4
+}
+
 requirements: [
 copper/150
 ]
