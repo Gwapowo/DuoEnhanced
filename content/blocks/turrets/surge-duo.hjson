@@ -79,6 +79,7 @@ surge-alloy: {
 	shootEffect: shootBig
 	collidesGround: true
 	explodeRange: 18
+	}
 }
 
 shoot: {
