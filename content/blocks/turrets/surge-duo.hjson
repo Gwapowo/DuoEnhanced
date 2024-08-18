@@ -6,13 +6,9 @@ size: 1
 ammoUseEffect: casing1
 range: 130
 inaccuracy: 0.5
-shots: 2
-spread: 6
-alternate: true
 targetGround: true
 targetAir : true
-reloadTime: 12.5
-restitution: 0.03
+reload: 12.5
 shootCone: 15
 rotateSpeed: 15
 
@@ -85,6 +81,11 @@ surge-alloy: {
 	explodeRange: 18
 }
 
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 3
+}
 				
 requirements: [
 copper/15
