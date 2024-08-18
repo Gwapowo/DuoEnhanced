@@ -4,18 +4,16 @@ description: The ultimate rapid fire duo! Fires faster than the actual Spectre, 
 health: 1850
 size: 3
 itemCapacity: 80
-reloadTime: 4.5
+reload: 4.5
 coolantMultiplier: 0.8
 restitution: 0.1
 ammoUseEffect: casing3
-range: 250
+range: 260
 inaccuracy: 3.5
-recoilAmount: 3
-xRand: 3
-shotWidth: 4
-shootShake: 1
-shots: 4
-alternate: true
+recoil: 3
+recoilTime: 12
+coolantMultiplier: 0.5
+shake: 1.5
 targetGround: true
 targetAir: false
 shootCone: 24
@@ -71,8 +69,12 @@ ammoTypes: {
 		pierceBuilding: true
 		knockback: 0.7
 	}
-	
 
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 5
+}
 	  requirements: [
 copper/650
 graphite/250
