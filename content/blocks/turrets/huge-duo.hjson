@@ -1,18 +1,15 @@
 type: ItemTurret
 localizedName: HUGE Duo
-description: A HUGE version of the Duo, shoots massive bullets that lets nothing stop it's path.
-health: 7550
+description: A HUGE version of the Duo, shoots massive bullets that lets nothing stop its path.
+health: 8000
 size: 16
-reloadTime: 60
+reload: 60
 range: 335
 ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 12
 shootShake: 0.5
 ammoEjectBack: 3
-shots: 2
-spread: 20
-alternate: true
 targetGround: true
 targetAir: true
 ammoTypes: {
@@ -94,6 +91,12 @@ ammoTypes: {
 		fragBullet: standardHoming
 		fragBullets: 8
 		}
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 42
 }
 		
 requirements: [
