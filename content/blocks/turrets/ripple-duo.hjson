@@ -15,6 +15,7 @@ inaccuracy: 6
 rotateSpeed: 10
 range: 240
 minRange: 50
+coolant: 0.3
 shots: 2
 shootCone: 10
 alternate: true
@@ -94,15 +95,17 @@ ammoTypes: {
 		collidesTiles: false
 		fragBullet: {
 			type: BasicBulletType
-       width: 10
-       height: 12
-       shrinkY: 1
-       lifetime: 15
-       backColor: plastaniumBack
-       frontColor: plastaniumFront
-       despawnEffect: none
-  		 collidesAir: false
-			}
+			speed: 2.5
+			damage: 10
+			width: 10
+      height: 12
+      shrinkY: 1
+      lifetime: 15
+      backColor: plastaniumBack
+      frontColor: plastaniumFront
+      despawnEffect: none
+ 		 collidesAir: false
+		}
 		fragBullets: 10
 		backColor: plastaniumBack
 		frontColor: plastaniumFront
