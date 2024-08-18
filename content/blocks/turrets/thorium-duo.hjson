@@ -16,7 +16,7 @@ shootCone: 15
 rotateSpeed: 14
 
 ammoTypes: {
-	copper: {
+copper: {
     damage: 9
 	  speed: 2.5
     width: 7
