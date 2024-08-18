@@ -5,12 +5,9 @@ health: 600
 size: 1
 ammoUseEffect: casing1
 inaccuracy: 1
-shots: 2
-alternate: true
 targetGround: true
 targetAir: true
-reloadTime: 15
-restitution: 0.03
+reload: 15
 range: 120
 shootCone: 15 
 rotateSpeed: 14
@@ -67,6 +64,12 @@ thorium: {
 	smokeEffect: shootBigSmoke
 	ammoMultiplier: 4
 	lifetime: 6
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 3
 }
 
 requirements: [
