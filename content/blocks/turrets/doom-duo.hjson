@@ -3,15 +3,13 @@ name: Doom Duo
 description: The ground shall tremble, for doom has come on those who dare tarnish this duo. 
 health: 1800
 size: 2
-reloadTime: 250
+reload: 250
 ammoUseEffect: casing3Double
 shootShake: 3
 shootSound: artillery
 inaccuracy: 5
 range: 299
 ammoPerShot: 20
-shots: 2
-alternate: true
 rotateSpeed: 2
 targetGround: true
 targetAir: false
@@ -28,13 +26,13 @@ targetAir: false
 		hitEffect: shockwave
 		shootEffect: shootSmall 
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 2 
+		ammoMultiplier: 0.5
 	        fragBullets: 3 
                  fragBullet: { 
                  type: ArtilleryBulletType
 		 splashDamage: 40
                  splashDamageRadius: 30
-                 lifetime: 60
+                 lifetime: 50
                  width: 17
                  height: 17
 		 status: blasted
@@ -57,7 +55,7 @@ targetAir: false
                    splashDamage: 30
                    splashDamageRadius: 25
                    knockback: 1
-                   lifetime: 100
+                   lifetime: 80
                    width: 13
                    height: 13
                    status: burning
@@ -70,7 +68,7 @@ targetAir: false
                     type: ArtilleryBulletType
                     splashDamage: 55
                     splashDamageRadius: 65
-                    lifetime: 200
+                    lifetime: 160
                     knockback: 1.5
                     frontColor: missileYellowFront
                     backColor: missileYellowBack
@@ -86,15 +84,21 @@ targetAir: false
                }          
       }
 }
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 4
+}
 				
 		requirements: [
-copper/285
+copper/300
 duo-fragment/50
 plastanium/115
 graphite/95
 titanium/85
 silicon/85
-blast-compound/75
+blast-compound/85
 
 ]
 category: turret
