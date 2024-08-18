@@ -3,7 +3,7 @@ name: Railgun Duo
 description: Fires high velocity armor-piercing bullets. The power of electro magnetism! Shreds swarms of units with ease.
 health: 1350
 size: 3
-reloadTime: 85
+reloadTime: 75
 ammoUseEffect: casing1
 shootSound: shootBig
 inaccuracy: 1
@@ -41,7 +41,7 @@ ammoTypes: {
 			pierceCap: 8
 			hitEffect: shockwave
 			smokeEffect: shootBigSmoke
-			reloadMultiplier: 0.65
+			reloadMultiplier: 0.69
 			ammoMultiplier: 1
 			ammoPerShot: 2
 			}
@@ -64,7 +64,7 @@ ammoTypes: {
 			
 		
 requirements: [
-copper/75
+copper/125
 lead/55
 titanium/55
 thorium/175
