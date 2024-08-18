@@ -5,17 +5,16 @@ health: 750
 size: 2
 reloadTime: 19.5
 ammoEjectBack: 1
-ammoUseEffect: casing2
+ammoUseEffect: casing3Double
 shootSound: bang
-velocityInaccuracy: 0.2
-restitution: 0.2
+velocityRnd: 0.2
 recoilAmount: 3
-shootShake: 1
+shake: 1
 inaccuracy: 6
 rotateSpeed: 10
 range: 240
 minRange: 50
-coolant: 0.3
+coolantMultiplier: 0.3
 shots: 2
 shootCone: 10
 alternate: true
@@ -98,20 +97,26 @@ ammoTypes: {
 			speed: 2.5
 			damage: 10
 			width: 10
-      height: 12
-      shrinkY: 1
-      lifetime: 15
-      backColor: plastaniumBack
-      frontColor: plastaniumFront
-      despawnEffect: none
- 		 collidesAir: false
+			height: 12
+			shrinkY: 1
+			lifetime: 15
+			backColor: plastaniumBack
+			frontColor: plastaniumFront
+			despawnEffect: none
+			collidesAir: false
 		}
 		fragBullets: 10
 		backColor: plastaniumBack
 		frontColor: plastaniumFront
 	} 
 }
-			
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 4
+}
+
 requirements: [
 copper/150
 graphite/55
