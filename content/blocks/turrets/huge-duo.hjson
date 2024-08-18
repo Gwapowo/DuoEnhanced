@@ -13,7 +13,7 @@ ammoEjectBack: 3
 targetGround: true
 targetAir: true
 ammoTypes: {
-	copper : {
+	copper: {
 		speed: 16
 		damage: 24
 		width: 48
@@ -28,7 +28,16 @@ ammoTypes: {
 		lifetime: 40
 		knockback: 80
 		effect: blastExplosion
-		fragBullet: standardCopper
+		fragBullet: {
+			type: BasicBulletType
+			damage: 9
+			speed: 3
+			width: 7
+			height: 9
+			shrinkY: 1
+			lifetime: 30
+			despawnEffect: none
+		}
 		fragBullets: 8
 	}
 	
@@ -47,7 +56,16 @@ ammoTypes: {
 		pierceCap: 20
 		lifetime: 40
 		knockback: 135
-		fragBullet: standardDense
+		fragBullet: {
+			type: BasicBulletType
+			speed: 4
+			damage: 18
+			width: 9
+			height: 12
+			shrinkY; 1
+			lifetime: 30
+			despawnEffect: none
+			}		
 		fragBullets: 10
 		}
 		
@@ -68,10 +86,25 @@ ammoTypes: {
 		pierceCap: 15
 		lifetime: 40
 		knockback: 60
-		fragBullet: standardIncendiary
-		fragBullets: 8
-		}
-			
+		fragBullet: {
+			type: BasicBulletType
+			damage: 16
+			speed: 4
+			width: 8
+			height: 10
+			shrinkY: 1
+			frontColor: lightishOrange
+			backColor: lightOrange
+			status: burning
+			hitEffect: fireHit
+			splashDamage: 8
+			splashDamageRadius: 13.5
+			makeFire: true
+			lifetime: 30
+			despawnEffect: none
+			fragBullets: 8
+			}
+		}		
 		silicon: {
 		speed: 16
 		damage: 23
@@ -88,7 +121,17 @@ ammoTypes: {
 		pierceCap: 15
 		lifetime: 40
 		knockback: 60
-		fragBullet: standardHoming
+		fragBullet: {
+			type: BasicBulletType
+			speed: 3.5
+			damage: 12
+			width: 7
+			height: 9
+			shrinkY: 1
+			homingPower: 0.1
+			lifetime: 30
+			despawnEffect: none
+			}
 		fragBullets: 8
 		}
 }
