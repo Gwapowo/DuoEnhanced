@@ -62,7 +62,7 @@ ammoTypes: {
 			damage: 18
 			width: 9
 			height: 12
-			shrinkY; 1
+			shrinkY: 1
 			lifetime: 30
 			despawnEffect: none
 			}		

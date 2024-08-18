@@ -33,7 +33,7 @@ ammoTypes: {
 	graphite: {
 		damage: 50
 		speed: 7.5
-		hitSize = 4.8
+		hitSize: 4.8
 		width: 15
 		height: 21
 		shootEffect: shootBig
