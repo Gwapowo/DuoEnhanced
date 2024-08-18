@@ -1,14 +1,14 @@
 type: LiquidTurret
 localizedName: Hydro Duo
-description: Water go bbrrrrrrrrrrrrrrrrrrrrrrrrrrrrr!!
-health: 750
+description: Fires jet streams of water that pushes enemies away. The immense pressure is enough to cause damage. Water go bbrrrrrrrrrrrrrrrrrrrrrrrrrrrrr!!
+health: 350
 size: 2
 reloadTime: 1
-shootCone: 45
-inaccuracy: 3
-recoilAmount: 1
-range: 575
-liquidCapacity: 99
+shootCone: 35
+inaccuracy: 1.5
+recoilAmount: 0.5
+range: 550
+liquidCapacity: 40
 shootSound: splash
 shootEffect: shootLiquid
 shots: 2
@@ -21,10 +21,11 @@ power: 1.2
 
 ammoTypes: {
 	water: {
-	type: LiquidBulletType
+	type: liquidBulletType
 	liquid: water
-        damage: 2
-        knockback: 10
+        damage: 3
+        knockback: 8.5
+	drag: 0.01
 	speed: 10
 	lifetime: 75
 	height: 13
@@ -32,10 +33,15 @@ ammoTypes: {
 	}
 }	
 
+consumes: {
+power: 8
+}
+
 requirements: [
 copper/55
-titanium/45
+lead/55
 metaglass/45
+titanium/15
 duo-fragment/5
 ]
 category: turret
