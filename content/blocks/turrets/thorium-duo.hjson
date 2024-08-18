@@ -17,12 +17,12 @@ rotateSpeed: 14
 
 ammoTypes: {
 copper: {
-    damage: 9
-	  speed: 2.5
-    width: 7
-    height: 9
-	  lifetime: 60
-	  ammoMultiplier: 2
+	damage: 9
+	speed: 2.5
+	width: 7
+	height: 9
+	lifetime: 60
+	ammoMultiplier: 2
 	}
 	graphite: {
   	  damage: 18
