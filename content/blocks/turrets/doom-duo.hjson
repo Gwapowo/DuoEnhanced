@@ -88,8 +88,9 @@ targetAir: false
 						          collidesTiles: false
 						          splashDamage: 55
 						          splashDamageRadius: 34
-						          backColor: missileYellowBack
-						          frontColor: missileYellow
+						          backColor: 38393f
+						          frontColor: 6e7080
+                      trailEffect: instTrail
 						          status: blasted
 						          }
                     }
