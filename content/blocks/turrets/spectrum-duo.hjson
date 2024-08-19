@@ -72,9 +72,9 @@ ammoTypes: {
 //TODO regionpart
 shoot: {
 	type: ShootAlternate
-	spread: 6
+	spread: 7
 	shots: 4
-	shootDelay: 5
+	shotDelay: 5
 }
 
 requirements: [
@@ -82,7 +82,7 @@ copper/95
 duo-fragment/25
 plastanium/85
 titanium/55
-graphite/55
+silicon/35
 ]
 category: turret
 research: swarmer

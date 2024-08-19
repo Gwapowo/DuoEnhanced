@@ -6,7 +6,6 @@ size: 3
 itemCapacity: 80
 reload: 4.5
 coolantMultiplier: 0.8
-restitution: 0.1
 ammoUseEffect: casing3
 range: 260
 inaccuracy: 3.5
@@ -75,15 +74,16 @@ ammoTypes: {
 shoot: {
   type: ShootAlternate
   shots: 2
-  spread: 5
+  spread: 7
+  shotDelay: 2.25
 }
 	  requirements: [
-copper/650
+copper/750
 graphite/250
-thorium/225
-plastanium/150
-surge-alloy/150
-duo-fragment/50
+thorium/200
+plastanium/125
+surge-alloy/175
+duo-fragment/25
 ]
 
 category: turret

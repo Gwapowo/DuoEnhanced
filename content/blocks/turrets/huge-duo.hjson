@@ -1,10 +1,11 @@
 type: ItemTurret
 localizedName: HUGE Duo
 description: A HUGE version of the Duo, shoots massive bullets that lets nothing stop its path.
-health: 8000
+health: 12000
 size: 16
 reload: 60
 range: 335
+minRange: 30
 ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 12
@@ -12,21 +13,22 @@ shootShake: 0.5
 ammoEjectBack: 3
 targetGround: true
 targetAir: true
+ammoPerShot: 4
 ammoTypes: {
 	copper: {
 		speed: 16
-		damage: 24
+		damage: 48
+		hitSize: 18
 		width: 48
 		height: 58
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 1
-		ammoPerShot: 3
+		ammoMultiplier: 2
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 15
 		lifetime: 40
-		knockback: 80
+		knockback: 10
 		effect: blastExplosion
 		fragBullet: {
 			type: BasicBulletType
@@ -43,19 +45,19 @@ ammoTypes: {
 	
 	graphite: {
 		speed: 16
-		damage: 48
+		damage: 96
+		hitSize: 20
 		width: 52
 		height: 62
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		reloadMultiplier: 0.6
-		ammoMultiplier: 1
-		ammoPerShot: 4
+		ammoMultiplier: 4
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 20
 		lifetime: 40
-		knockback: 135
+		knockback: 12
 		fragBullet: {
 			type: BasicBulletType
 			speed: 4
@@ -71,13 +73,13 @@ ammoTypes: {
 		
 	pyratite: {
 		speed: 16
-		damage: 48
-		width: 48
-		height: 58
+		damage: 76
+		hitSize: 21
+		width: 54
+		height: 62
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 1
-		ammoPerShot: 3
+		ammoMultiplier: 5
 		frontColor: FC9D5DFF
 		backColor: FFAD7DFF
 		status: burning 
@@ -85,7 +87,7 @@ ammoTypes: {
 		pierceBuilding: true
 		pierceCap: 15
 		lifetime: 40
-		knockback: 60
+		knockback: 6.5
 		fragBullet: {
 			type: BasicBulletType
 			damage: 16
@@ -102,25 +104,25 @@ ammoTypes: {
 			makeFire: true
 			lifetime: 30
 			despawnEffect: none
-			fragBullets: 8
 			}
+			fragBullets: 8
 		}		
 		silicon: {
 		speed: 16
 		damage: 23
+		hitSize; 19
 		width: 48
 		height: 58
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke 
 		homingPower: 0.1
-		ammoMultiplier: 1
-		ammoPerShot: 3
+		ammoMultiplier: 5
 		reloadMultiplier: 1.2 
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 15
 		lifetime: 40
-		knockback: 60
+		knockback: 7
 		fragBullet: {
 			type: BasicBulletType
 			speed: 3.5
@@ -140,6 +142,7 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 42
+  shotDelay: 30
 }
 		
 requirements: [

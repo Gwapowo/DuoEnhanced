@@ -28,11 +28,11 @@ shoot: {
 	type: ShootAlternate
 	shots: 2
 	shotDelay: 1
-	spread: 3	
+	spread: 3.5	
 }
 	
 requirements: [
-copper/500
+copper/550
 duo-fragment/50
 ]
 category: turret

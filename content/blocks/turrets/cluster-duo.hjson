@@ -97,16 +97,19 @@ ammoTypes: {
 			fragBullet: { 
 		type: BasicBulletType 
 		collidesTiles: false 
-		speed: 8
-		lifetime: 10
+		speed: 12
+		lifetime: 7.5
+		hitEffect: hitLancer
+		despawnEffect: spark
+		status: shocked
 		width: 5
 		height: 7
 		splashDamageRadius: 50
 		splashDamage: 12 
 		status: shocked
 		statusDuration: 30
-		lightning: 4 
-		lightningLength: 11
+		lightning: 3 
+		lightningLength: 12
 		lightningDamage: 18
 		}
         }	
@@ -116,12 +119,12 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 4
+  shotDelay: 9
 }
 			
 requirements: [
-copper/145
-lead/55
-plastanium/115
+copper/185
+plastanium/155
 surge-alloy/35
 duo-fragment/35
 ]

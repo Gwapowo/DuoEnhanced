@@ -85,7 +85,8 @@ surge-alloy: {
 shoot: {
   type: ShootAlternate
   shots: 2
-  spread: 3
+  spread: 3.5
+  shotDelay: 6.25
 }
 				
 requirements: [

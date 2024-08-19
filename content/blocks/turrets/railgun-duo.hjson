@@ -14,11 +14,11 @@ targetAir: true
 
 ammoTypes: {
 	copper: {
-		speed: 8
+		speed: 10
 		damage: 35
 		width: 9
 		height: 17
-		lifetime: 40
+		lifetime: 30
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 6
@@ -29,11 +29,11 @@ ammoTypes: {
 		}
 		
 		graphite: {
-			speed: 8
+			speed: 10
 			damage: 70
 			width: 11
 			height: 19
-			lifetime: 40
+			lifetime: 30
 			pierce: true
 			pierceBuilding: true
 			pierceCap: 8
@@ -45,11 +45,11 @@ ammoTypes: {
 			}
 					
 		thorium: { 
-			speed: 8
+			speed: 10
 			damage: 88
 			width: 9
 			height: 17
-			lifetime: 40
+			lifetime: 30
 			pierce: true
 			pierceBuilding: true
 			pierceCap: 9
@@ -63,15 +63,16 @@ ammoTypes: {
 shoot: {
   type: ShootAlternate
   shots: 2
-  spread: 6
+  spread: 7
+  shotDelay: 37.5
 }
 		
 requirements: [
 copper/125
-lead/55
-titanium/55
 thorium/175
-duo-fragment/18
+metaglass/55
+silicon/55
+duo-fragment/20
 ]
 category: turret
 research: salvo

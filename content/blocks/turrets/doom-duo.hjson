@@ -9,46 +9,46 @@ shootShake: 3
 shootSound: artillery
 inaccuracy: 5
 range: 299
-ammoPerShot: 20
+ammoPerShot: 10
 rotateSpeed: 2
 targetGround: true
 targetAir: false
-        ammoTypes: {
-	blast-compound: {
-		speed: 6
-		damage: 32
-		width: 16
-		height: 24
-		lifetime: 50
-		splashDamageRadius: 58
-		splashDamage: 38
-		status: blasted
-		hitEffect: shockwave
-		shootEffect: shootSmall 
-		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 0.5
-	        fragBullets: 3 
-                 fragBullet: { 
-                 type: ArtilleryBulletType
-		 splashDamage: 40
-                 splashDamageRadius: 30
-                 lifetime: 50
-                 width: 17
-                 height: 17
-		 status: blasted
-                 knockback: 1
-                 fragBullets: 6
-                  fragBullet: {
-                  type: ArtilleryBulletType
-                  splashDamage: 45
-                  splashDamageRadius: 35 
-                  knockback: 1
-                  width: 13
-                  height: 13
-                  lifetime: 80
-                  frontColor: EFF2ADFF
-		  backColor: plastaniumBack
-		  status: blasted
+  ammoTypes: {
+  	blast-compound: {
+	  	speed: 6
+		  damage: 32
+      width: 16
+      height: 24
+      lifetime: 50
+      splashDamageRadius: 58
+      splashDamage: 38
+      status: blasted
+      hitEffect: shockwave
+      shootEffect: shootSmall 
+      smokeEffect: shootSmallSmoke
+      ammoMultiplier: 1
+	    fragBullets: 3 
+        fragBullet: { 
+          type: ArtilleryBulletType
+		       splashDamage: 40
+            splashDamageRadius: 30
+            lifetime: 50
+            width: 17
+            height: 17
+		        status: blasted
+            knockback: 1
+            fragBullets: 6
+            fragBullet: {
+              type: ArtilleryBulletType
+              splashDamage: 45
+              splashDamageRadius: 35 
+              knockback: 1
+              width: 13
+              height: 13
+              lifetime: 80
+              frontColor: EFF2ADFF
+		          backColor: plastaniumBack
+		          status: blasted
                   fragBullets: 3
                    fragBullet: {
                    type: ArtilleryBulletType
@@ -63,7 +63,7 @@ targetAir: false
                    backColor: lightOrange
                    trailEffect: incendTrail
                    fragBullets: 3
-		   makeFire: true
+		               makeFire: true
                    fragBullet: {
                     type: ArtilleryBulletType
                     splashDamage: 55
@@ -72,48 +72,47 @@ targetAir: false
                     knockback: 1.5
                     frontColor: missileYellowFront
                     backColor: missileYellowBack
-		    trailColor: ED735BFF
-		    status: blasted
-		    homingPower: 0.2
-		    homingRange: 80
+		                trailColor: ED735BFF
+		                status: blasted
+		                homingPower: 0.2
+		                homingRange: 80
                     fragBullets: 1
                     fragBullet: {
-						type: ArtilleryBulletType
-						speed: 2
-						hitEffect: blastExplosion
-						knockback: 0.8
-						lifetime: 80
-						width: 14
-						height: 14
-						collidesTiles: false
-						splashDamage: 55
-						splashDamageRadius: 34
-						backColor: missileYellowBack
-						frontColor: missileYellow
-						status: blasted
-						}
+						          type: ArtilleryBulletType
+						          speed: 2
+						          hitEffect: blastExplosion
+						          knockback: 0.8
+						          lifetime: 80
+						          width: 14
+						          height: 14
+						          collidesTiles: false
+						          splashDamage: 55
+						          splashDamageRadius: 34
+						          backColor: missileYellowBack
+						          frontColor: missileYellow
+						          status: blasted
+						          }
                     }
-                   }
-                 }  
-               }          
+                  }
+                }  
+              }          
       }
 }
 
 shoot: {
   type: ShootAlternate
   shots: 2
-  spread: 4
+  spread: 6
+  shotDelay: 125
 }
 				
 		requirements: [
-copper/300
-duo-fragment/50
-plastanium/115
-graphite/95
-titanium/85
+copper/650
+plastanium/275
+graphite/165
 silicon/85
 blast-compound/85
-
+duo-fragment/50
 ]
 category: turret
 research: ripple

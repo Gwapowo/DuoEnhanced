@@ -11,7 +11,6 @@ shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 1.5
 rotateSpeed: 11
-alternate: true
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
@@ -66,7 +65,8 @@ ammoTypes: {
 shoot: {
   type: ShootAlternate
   shots: 2
-  spread: 3
+  spread: 3.5
+  shotDelay: 9.25
 }
  
 requirements: [

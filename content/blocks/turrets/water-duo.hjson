@@ -3,7 +3,7 @@ localizedName: Hydro Duo
 description: Fires jet streams of water that pushes enemies away. The immense pressure is enough to cause damage. Water go bbrrrrrrrrrrrrrrrrrrrrrrrrrrrrr!!
 health: 350
 size: 2
-reloadTime: 1
+reload: 5
 shootCone: 35
 inaccuracy: 1.5
 recoilAmount: 0.5
@@ -24,27 +24,32 @@ ammoTypes: {
 	type: liquidBulletType
 	liquid: water
         damage: 2.5
-        knockback: 8.5
-	drag: 0.01
-	speed: 10
-	lifetime: 75
+        knockback: 3
+	drag: 0.005
+	speed: 11
+	lifetime: 30
 	orbSize: 2.8
 	puddleSize: 5.5
 	statusDuration: 140
-	ammoMultiplier: 0.95
 	}
 }	
 
+shoot: {
+	type: ShootAlternate
+	shots: 2
+	spread: 5
+	shotDelay: 2.5
+}
 consumes: {
-power: 0.08
+power: 0.95
 }
 
 requirements: [
-copper/55
+copper/35
 lead/55
 metaglass/45
-titanium/15
-duo-fragment/5
+titanium/45
+duo-fragment/8
 ]
 category: turret
 research: wave

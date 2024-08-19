@@ -1,20 +1,20 @@
 type: ItemTurret
 localizedName: Boom Duo
-description: Maximizes explosiveness to deliver a great BOOM. Deals
+description: Maximizes explosiveness to deliver a great BOOM.
 targetAir: true
 targetGround: true
-health: 1050
+health: 1100
 size: 2
-reloadTime: 20
+reload: 30
 ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 12
 range: 140
-hitShake: 1
+shake: 1
 targetGround: true
 targetAir: true
 ammoTypes: {
-	blast-compound : {
+	blast-compound: {
 		speed: 4.5
 		width: 10
 		height: 10
@@ -45,7 +45,8 @@ ammoTypes: {
 			makeFire: true
 			}
 			plastanium: {
-				speed: 3
+				type: FlakBulletType
+				speed: 3.5
 				lifetime: 50
 				width: 10
 				height: 10
@@ -57,15 +58,15 @@ ammoTypes: {
 					speed: 2.5
 					width: 10
 					height: 12
-					shrinkY: 1
+					shrinkY: 1.25
 					lifetime: 15
-					backColor: plastaniumBack
-					frontColor: plastaniumFront
+					backColor: d8d97f
+					frontColor: fffac6t
 					despawnEffect: none
 				}
 				fragBullets: 8
-				backColor: plastaniumBack
-				frontColor: plastaniumFront
+				backColor: d8d97f
+				frontColor: fffac6t
 				hitEffect: shockwave
 				despawnEffect: bigShockwave
 				shootEffect: shootSmall
@@ -78,13 +79,14 @@ ammoTypes: {
 shoot: {
   type: ShootAlternate
   shots: 2
-  spread: 4
+  spread: 6
+  shotDelay: 15
 }
 
 requirements: [
-copper/95
-graphite/65
-titanium/65
+copper/115
+graphite/75
+titanium/75
 blast-compound/45
 duo-fragment/20
 ]

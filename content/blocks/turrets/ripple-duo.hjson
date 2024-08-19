@@ -3,7 +3,7 @@ localizedName: Ripple Duo
 description: Rapid fire artillery! Ground units beware.
 health: 750
 size: 2
-reloadTime: 19.5
+reload: 20
 ammoEjectBack: 1
 ammoUseEffect: casing3Double
 shootSound: bang
@@ -114,12 +114,13 @@ ammoTypes: {
 shoot: {
   type: ShootAlternate
   shots: 2
-  spread: 4
+  spread: 5
+  shotDelay: 10
 }
 
 requirements: [
-copper/150
-graphite/55
+copper/180
+graphite/95
 titanium/55
 duo-fragment/10
 ]
