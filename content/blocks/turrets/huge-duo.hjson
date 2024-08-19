@@ -110,7 +110,7 @@ ammoTypes: {
 		silicon: {
 		speed: 16
 		damage: 23
-		hitSize; 19
+		hitSize: 19
 		width: 48
 		height: 58
 		shootEffect: shootBig

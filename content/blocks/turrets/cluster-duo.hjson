@@ -100,7 +100,7 @@ ammoTypes: {
 		speed: 12
 		lifetime: 7.5
 		hitEffect: hitLancer
-		despawnEffect: spark
+		hitSound: spark
 		status: shocked
 		width: 5
 		height: 7
