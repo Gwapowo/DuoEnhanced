@@ -8,7 +8,7 @@ ammoEjectBack: 1
 ammoUseEffect: casing3Double
 shootSound: bang
 velocityRnd: 0.2
-recoilAmount: 3
+recoil: 3
 shake: 1
 inaccuracy: 6
 rotateSpeed: 10
@@ -17,7 +17,6 @@ minRange: 50
 coolantMultiplier: 0.3
 shots: 2
 shootCone: 10
-alternate: true
 targetGround: true
 targetAir: false
 ammoTypes: {

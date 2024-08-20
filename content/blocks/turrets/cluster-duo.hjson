@@ -13,26 +13,28 @@ targetAir: true
 ammoTypes: {
 	pyratite: {
 		speed: 5
-		damage: 9 
+		damage: 8 
 		lifetime: 60
 		width: 12
 		height: 16
-		splashDamageRadius: 29 
+		splashDamageRadius: 18 
 		frontColor: FC9D5DFF
 		backColor: FFAD7DFF
+		hitEffect: [fireHit, ]
 		splashDamage: 24
 		ammoMultiplier: 3
 		status: burning
 		statusDuration: 120
 		fragBullets: 5
+		fragAngle: 240
 		fragBullet: {
-			type: BombBulletType 
+			type: BombBulletType
 			frontColor: FC9D5DFF
 			backColor: FFAD7DFF
-			height: 13
-			width: 9
+			height: 11
+			width: 7
 			hitEffect: flakExplosion 
-			speed: 6
+			speed: 6.5
 			splashDamage: 16
 			splashDamageRadius: 40
 			incendChance: 5
@@ -43,22 +45,23 @@ ammoTypes: {
 			}
 		}
 		blast-compound:	{
-			speed: 5
+			speed: 5.5
 			damage: 6 
 			lifetime: 60	
 			width: 12
 			height: 16
-			splashDamageRadius: 58
+			splashDamageRadius: 29
 			splashDamage: 49
 			ammoMultiplier: 3
 			status: blasted
 			statusDuration: 100
 			fragBullets: 6
+			fragAngle: 240
 			fragBullet: {
 				type: BombBulletType 
 				speed: 3
-				width: 9
-				height: 13
+				width: 7
+				height: 11
 				damage: 30
 				hitEffect: flakExplosion
 				status: blasted
@@ -73,52 +76,68 @@ ammoTypes: {
 				height: 15
 				ammoMultiplier: 2
 				fragBullets: 8
+				fragAngle: 240
+				fragSpread: 20
+				fragRandomSpread: 140
 				fragBullet: {
 					type: BasicBulletType
-					speed: 5
+					speed: 3.5
+					drag: 0.0005
 					damage: 9
 					width: 7
 					height: 9
-					lifetime: 50
+					lifetime: 60
 					}			
 				} 
 				
 			surge-alloy: { 
 			speed: 5
-			damage: 8
+			damage: 12
 			lifetime: 60
-			splashDamage: 33 
-			splashDamageRadius: 33
+			hitEffect: sparkExplosion
+			hitSound: spark
 			width: 12 
 			height: 16 
 			status: shocked
+			lightning: 6
+			lightningLength: 3
+			lightningDamage: 12
 			statusDuration: 100
 			fragBullets: 4
+			fragAngle: 240
+			fragSpread: 20
+			fragRandomSpread: 180
 			fragBullet: { 
-		type: BasicBulletType 
-		collidesTiles: false 
-		speed: 12
-		lifetime: 7.5
-		hitEffect: hitLancer
-		hitSound: spark
-		status: shocked
-		width: 5
-		height: 7
-		splashDamageRadius: 50
-		splashDamage: 12 
-		status: shocked
-		statusDuration: 30
-		lightning: 3 
-		lightningLength: 12
-		lightningDamage: 18
-		}
+				type: BasicBulletType
+				collidesTiles: false 
+				speed: 8
+				drag: 0.0005
+				lifetime: 12
+				hitEffect: hitLancer
+				hitSound: spark
+				trailEffect
+				status: shocked
+				width: 6
+				height: 6
+				frontColor: f3e979
+				backColor: f3e979
+				splashDamageRadius: 50
+				splashDamage: 12 
+				status: shocked
+				statusDuration: 30
+				lightning: 3 
+				lightningLength: 6
+				lightningLengthRand: 4
+				lightningDamage: 18
+				lightningCone: 280
+				}
         }	
 }
 
 shoot: {
   type: ShootAlternate
   shots: 2
-  spread: 4
+  spread: 7
   shotDelay: 9
 }
 			

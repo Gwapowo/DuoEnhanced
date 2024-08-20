@@ -69,7 +69,6 @@ ammoTypes: {
 			}
 		}		
 }
-//TODO regionpart
 shoot: {
 	type: ShootAlternate
 	spread: 7

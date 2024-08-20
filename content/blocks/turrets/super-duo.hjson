@@ -10,6 +10,8 @@ inaccuracy: 2
 rotateSpeed: 12
 targetGround: true
 targetAir: true
+researchCostMultiplier: 5
+
 ammoTypes: {
 	copper : {
 		speed: 6
@@ -20,8 +22,7 @@ ammoTypes: {
 		smokeEffect: shootSmallSmoke
 		lifetime: 150
 		ammoMultiplier: 4
-		}
-		
+		}	
 }
 
 shoot: {

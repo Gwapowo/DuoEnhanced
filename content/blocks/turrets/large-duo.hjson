@@ -11,6 +11,8 @@ targetAir: true
 recoil: 0.5
 inaccuracy: 2
 rotateSpeed: 12
+researchCostMultiplier: 0.25
+
 ammoTypes: {
 	copper : {
 		speed: 3.9

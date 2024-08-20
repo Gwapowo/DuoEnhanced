@@ -70,9 +70,9 @@ targetAir: false
                     splashDamageRadius: 65
                     lifetime: 160
                     knockback: 1.5
-                    frontColor: missileYellowFront
-                    backColor: missileYellowBack
-		                trailColor: ED735BFF
+                    frontColor: 6e7080
+                    backColor: 38393f
+		                trailColor: 221c1c
 		                status: blasted
 		                homingPower: 0.2
 		                homingRange: 80
@@ -90,7 +90,7 @@ targetAir: false
 						          splashDamageRadius: 34
 						          backColor: 38393f
 						          frontColor: 6e7080
-                      trailEffect: instTrail
+                      trailEffect: rocketSmokeLarge
 						          status: blasted
 						          }
                     }

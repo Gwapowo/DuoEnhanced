@@ -14,8 +14,6 @@ rotateSpeed: 11
 targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
-restitution: 0.03
-
 
 ammoTypes: {
   copper: {

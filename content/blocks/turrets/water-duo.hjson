@@ -15,8 +15,9 @@ shots: 2
 alternate: true
 targetGround: true
 targetAir: true
+velocityRnd: 0.2
 consumes: {
-power: 1.2
+power: 0.23
 }
 
 ammoTypes: {
@@ -41,7 +42,7 @@ shoot: {
 	shotDelay: 2.5
 }
 consumes: {
-power: 0.95
+power: 0.35
 }
 
 requirements: [

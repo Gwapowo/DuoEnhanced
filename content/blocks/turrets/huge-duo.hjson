@@ -4,15 +4,16 @@ description: A HUGE version of the Duo, shoots massive bullets that lets nothing
 health: 12000
 size: 16
 reload: 60
-range: 335
+range: 555
 minRange: 30
 ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 12
-shootShake: 0.5
+shake: 0.5
 ammoEjectBack: 3
 targetGround: true
 targetAir: true
+shootSound: shootBig
 ammoPerShot: 4
 ammoTypes: {
 	copper: {
@@ -21,15 +22,15 @@ ammoTypes: {
 		hitSize: 18
 		width: 48
 		height: 58
+		// custom effect needed
 		shootEffect: shootBig
-		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 15
 		lifetime: 40
 		knockback: 10
-		effect: blastExplosion
+		despawnEffect: blastExplosion
 		fragBullet: {
 			type: BasicBulletType
 			damage: 9
@@ -50,7 +51,6 @@ ammoTypes: {
 		width: 52
 		height: 62
 		shootEffect: shootBig
-		smokeEffect: shootSmallSmoke
 		reloadMultiplier: 0.6
 		ammoMultiplier: 4
 		pierce: true
@@ -58,6 +58,7 @@ ammoTypes: {
 		pierceCap: 20
 		lifetime: 40
 		knockback: 12
+		despawnEffect: blastExplosion
 		fragBullet: {
 			type: BasicBulletType
 			speed: 4
@@ -78,7 +79,6 @@ ammoTypes: {
 		width: 54
 		height: 62
 		shootEffect: shootBig
-		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 5
 		frontColor: FC9D5DFF
 		backColor: FFAD7DFF
@@ -88,6 +88,7 @@ ammoTypes: {
 		pierceCap: 15
 		lifetime: 40
 		knockback: 6.5
+		despawnEffect: blastExplosion
 		fragBullet: {
 			type: BasicBulletType
 			damage: 16
@@ -114,7 +115,6 @@ ammoTypes: {
 		width: 48
 		height: 58
 		shootEffect: shootBig
-		smokeEffect: shootSmallSmoke 
 		homingPower: 0.1
 		ammoMultiplier: 5
 		reloadMultiplier: 1.2 
@@ -123,6 +123,7 @@ ammoTypes: {
 		pierceCap: 15
 		lifetime: 40
 		knockback: 7
+		despawnEffect: blastExplosion
 		fragBullet: {
 			type: BasicBulletType
 			speed: 3.5

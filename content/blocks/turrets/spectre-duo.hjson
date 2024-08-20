@@ -4,7 +4,7 @@ description: The ultimate rapid fire duo! Fires faster than the actual Spectre, 
 health: 1850
 size: 3
 itemCapacity: 80
-reload: 4.5
+reload: 8
 coolantMultiplier: 0.8
 ammoUseEffect: casing3
 range: 260
@@ -17,11 +17,12 @@ targetGround: true
 targetAir: false
 shootCone: 24
 shootSound: shootBig
+researchCostMultiplier: 0.25
 
 ammoTypes: {
 	copper: {
 		damage: 28
-		speed: 6
+		speed: 7
 		hitSize: 4.5
 		width: 13
 		height: 19
@@ -30,21 +31,21 @@ ammoTypes: {
 		knockback: 0.2
 	}
 	graphite: {
-		damage: 50
+		damage: 48
 		speed: 7.5
 		hitSize: 4.8
-		width: 15
-		height: 21
+		width: 14
+		height: 20
 		shootEffect: shootBig
 		ammoMultiplier: 1.7
 		knockback: 0.3
 	}
 	pyratite: {
-		damage: 70
+		damage: 68
 		speed: 7
 		hitSize: 5
-		width: 16
-		height: 21
+		width: 15
+		height: 20
 		frontColor: lightishOrange
 		backColor: lightOrange
 		status: burning
@@ -55,15 +56,15 @@ ammoTypes: {
 		pierceBuilding: true
 		knockback: 0.6
 		ammoMultiplier: 3
-		splashDamage: 20
-		splashDamageRadius: 25
+		splashDamage: 18
+		splashDamageRadius: 23
 		}
 	thorium: {
-		damage: 80
+		damage: 78
 		speed: 8
 		hitSize: 5
-		width: 16
-		height: 23
+		width: 15
+		height: 22
 		shootEffect: shootBig
 		pierceCap: 2
 		pierceBuilding: true
@@ -75,7 +76,7 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 7
-  shotDelay: 2.25
+  shotDelay: 4
 }
 	  requirements: [
 copper/750

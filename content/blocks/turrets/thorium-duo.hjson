@@ -11,6 +11,7 @@ reload: 15
 range: 120
 shootCone: 15 
 rotateSpeed: 14
+researchCostMultiplier: 0.5
 
 ammoTypes: {
 copper: {
