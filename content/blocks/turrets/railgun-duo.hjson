@@ -28,7 +28,7 @@ ammoTypes: {
 		pierceBuilding: true
 		pierceArmor: true
 		pierceCap: 6
-		hitEffect: sfe
+		hitEffect: [shootBigColor, colorSparkBig]
 		smokeEffect: shootBigSmoke
 		ammoMultiplier: 1
 		}
@@ -44,7 +44,7 @@ ammoTypes: {
 			pierceArmor: true
 			pierceCap: 8
 			hitEffect: sfe
-			smokeEffect: shootBigSmoke
+			smokeEffect: [shootBigColor, colorSparkBig]
 			reloadMultiplier: 0.69
 			ammoMultiplier: 1
 			}
@@ -59,7 +59,7 @@ ammoTypes: {
 			pierceBuilding: true
 			pierceArmor: true
 			pierceCap: 9
-			hitEffect: sfe
+			hitEffect: [shootBigColor, colorSparkBig]
 			smokeEffect: shootBigSmoke
 			ammoMultiplier: 1
 			}					
