@@ -1,13 +1,13 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Duo Smelter
-description: Smelts copper into a duo fragment, used for constructing special types of duos.
+description: Smelts copper into a duo fragment, used for constructing special types of duos. It harnesses the true power of the duo.
 liquidCapacity: 25
 size: 2
 hasPower: true
 hasLiquids: true
 hasItems: true
 craftTime: 120
-updateEffect: smeltsmoke
+craftEffect: smeltsmoke
 consumes: {
 	power: 1
 	items: {
@@ -25,6 +25,6 @@ consumes: {
 		]
 		category: crafting
 		research: silicon-smelter
-		idleSound: respawning
-		idleSoundVolume: 0.6
+		ambientSound: respawning
+		ambientSoundVolume: 0.5
 		outputItem: duo-fragment/1
