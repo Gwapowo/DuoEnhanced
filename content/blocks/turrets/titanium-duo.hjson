@@ -31,22 +31,22 @@ ammoTypes: {
     height: 12
     reloadMultiplier: 0.6
     ammoMultiplier: 4
-    lifetime: 40
+    lifetime: 32.15
   }
   pyratite: {
     damage: 16
     speed: 3.5
     width: 8
     height: 10
-    frontColor: lightishOrange
-    backColor: lightOrange
+    frontColor: FC9D5DFF
+    backColor: FFAD7DFF
     status: burning
     hitEffect: fireHit
     ammoMultiplier: 6
     splashDamage: 8
     splashDamageRadius: 13.5
     makeFire: true
-    lifetime: 40
+    lifetime: 32.15
   }
   silicon: {
     damage: 12
@@ -56,7 +56,7 @@ ammoTypes: {
     homingPower: 0.11
     reloadMultiplier: 1.5
     ammoMultiplier: 5
-    lifetime: 45
+    lifetime: 38.575
   }
 }
 
