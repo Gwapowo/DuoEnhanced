@@ -96,8 +96,8 @@ ammoTypes: {
 			width: 8
 			height: 10
 			shrinkY: 1
-			frontColor: lightishOrange
-			backColor: lightOrange
+			frontColor: FC9D5DFF
+			backColor: FFAD7DFF
 			status: burning
 			hitEffect: fireHit
 			splashDamage: 8
