@@ -21,7 +21,7 @@ ammoTypes: {
     speed: 2.5
     width: 7
     height: 9
-    lifetime: 60
+    lifetime: 45
     ammoMultiplier: 2
   }
   graphite: {
@@ -31,7 +31,7 @@ ammoTypes: {
     height: 12
     reloadMultiplier: 0.6
     ammoMultiplier: 4
-    lifetime: 60
+    lifetime: 40
   }
   pyratite: {
     damage: 16
@@ -46,7 +46,7 @@ ammoTypes: {
     splashDamage: 8
     splashDamageRadius: 13.5
     makeFire: true
-    lifetime: 60
+    lifetime: 40
   }
   silicon: {
     damage: 12
@@ -56,7 +56,7 @@ ammoTypes: {
     homingPower: 0.11
     reloadMultiplier: 1.5
     ammoMultiplier: 5
-    lifetime: 60
+    lifetime: 45
   }
 }
 

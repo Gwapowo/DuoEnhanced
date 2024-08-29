@@ -19,7 +19,7 @@ copper: {
 	speed: 2.5
 	width: 7
 	height: 9
-	lifetime: 60
+	lifetime: 41.25
 	ammoMultiplier: 2
 	}
 	graphite: {
@@ -29,7 +29,7 @@ copper: {
   	  height: 12
   	  reloadMultiplier: 0.6
   	  ammoMultiplier: 4
-  	  lifetime: 60
+  	  lifetime: 29.5
   }
 	pyratite: {
 		damage: 16
@@ -44,7 +44,7 @@ copper: {
 		splashDamage: 8
 		splashDamageRadius: 13.5
 		makeFire: true
-		lifetime: 60
+		lifetime: 29.5
 	}
 	silicon: {
 	    damage: 12
@@ -54,7 +54,7 @@ copper: {
 	    homingPower: 0.11
 	    reloadMultiplier: 1.5
 	    ammoMultiplier: 5
-	    lifetime: 60
+	    lifetime: 35.375
 	  }
 thorium: {
 	damage: 26
@@ -64,7 +64,7 @@ thorium: {
 	shootEffect: shootBig
 	smokeEffect: shootBigSmoke
 	ammoMultiplier: 4
-	lifetime: 6
+	lifetime: 25,88
 	}
 }
 

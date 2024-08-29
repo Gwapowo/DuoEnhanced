@@ -19,7 +19,7 @@ copper: {
 	speed: 2.5
 	width: 7
 	height: 9
-	lifetime: 80
+	lifetime: 46.4
 	ammoMultiplier: 2
 	}
 graphite: {
@@ -29,7 +29,7 @@ graphite: {
   	  height: 12
   	  reloadMultiplier: 0.6
   	  ammoMultiplier: 4
-  	  lifetime: 68.5
+  	  lifetime: 33.15
   }
 pyratite: {
 		damage: 16
@@ -44,7 +44,7 @@ pyratite: {
 		splashDamage: 8
 		splashDamageRadius: 13.5
 		makeFire: true
-		lifetime: 68.6
+		lifetime: 33.15
 	}
 silicon: {
 	    damage: 12
@@ -54,7 +54,7 @@ silicon: {
 	    homingPower: 0.11
 	    reloadMultiplier: 1.5
 	    ammoMultiplier: 5
-	    lifetime: 80
+	    lifetime: 39.775
 	  }
 thorium: {
 	damage: 26
@@ -64,7 +64,7 @@ thorium: {
 	shootEffect: shootBig
 	smokeEffect: shootBigSmoke
 	ammoMultiplier: 4
-	lifetime: 60
+	lifetime: 29.775
 }
 surge-alloy: {
 	type: FlakBulletType
@@ -80,7 +80,7 @@ surge-alloy: {
 	shootEffect: shootBig
 	collidesGround: true
 	explodeRange: 18
-	lifetime: 53.334
+	lifetime: 26.5
 	}
 }
 
