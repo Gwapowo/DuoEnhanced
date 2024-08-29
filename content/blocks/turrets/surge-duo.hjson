@@ -4,11 +4,11 @@ description: A highly advanced version of the duo, upgraded with surge alloy.
 health: 800
 size: 1
 ammoUseEffect: casing1
-range: 130
+range: 135
 inaccuracy: 0.5
 targetGround: true
 targetAir : true
-reload: 12.5
+reload: 15
 shootCone: 15
 rotateSpeed: 15
 researchCostMultiplier: 0.65
@@ -19,7 +19,7 @@ copper: {
 	speed: 2.5
 	width: 7
 	height: 9
-	lifetime: 60
+	lifetime: 80
 	ammoMultiplier: 2
 	}
 graphite: {
@@ -29,7 +29,7 @@ graphite: {
   	  height: 12
   	  reloadMultiplier: 0.6
   	  ammoMultiplier: 4
-  	  lifetime: 60
+  	  lifetime: 68.5
   }
 pyratite: {
 		damage: 16
@@ -44,7 +44,7 @@ pyratite: {
 		splashDamage: 8
 		splashDamageRadius: 13.5
 		makeFire: true
-		lifetime: 60
+		lifetime: 68.6
 	}
 silicon: {
 	    damage: 12
@@ -54,7 +54,7 @@ silicon: {
 	    homingPower: 0.11
 	    reloadMultiplier: 1.5
 	    ammoMultiplier: 5
-	    lifetime: 60
+	    lifetime: 80
 	  }
 thorium: {
 	damage: 26
@@ -64,7 +64,7 @@ thorium: {
 	shootEffect: shootBig
 	smokeEffect: shootBigSmoke
 	ammoMultiplier: 4
-	lifetime: 6
+	lifetime: 60
 }
 surge-alloy: {
 	type: FlakBulletType
@@ -72,7 +72,7 @@ surge-alloy: {
 	speed: 4.5
 	width: 7
 	height: 9
-	ammoMultiplier: 6
+	ammoMultiplier: 5
 	splashDamage: 45
 	splashDamageRadius: 28
 	lightning: 2
@@ -80,6 +80,7 @@ surge-alloy: {
 	shootEffect: shootBig
 	collidesGround: true
 	explodeRange: 18
+	lifetime: 53.334
 	}
 }
 
@@ -87,7 +88,7 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 3.5
-  shotDelay: 6.25
+  shotDelay: 7.5
 }
 				
 requirements: [

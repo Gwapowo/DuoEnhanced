@@ -5,7 +5,7 @@ details: Do not use with Mass Driver.
 health: 400
 size: 2
 itemCapacity: 12
-reloadTime: 30
+reload: 30
 range: 330
 consumes : {
 power: 1.25

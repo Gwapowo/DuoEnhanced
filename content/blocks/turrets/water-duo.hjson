@@ -11,8 +11,6 @@ range: 550
 liquidCapacity: 40
 shootSound: splash
 shootEffect: shootLiquid
-shots: 2
-alternate: true
 targetGround: true
 targetAir: true
 velocityRnd: 0.2

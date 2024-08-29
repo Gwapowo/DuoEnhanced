@@ -5,7 +5,7 @@ health: 400
 size: 1
 recoil: 0.5
 shootY: 3
-reload: 18.5
+reload: 19.5
 range: 110
 shootCone: 15
 ammoUseEffect: casing1
@@ -64,7 +64,7 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 3.5
-  shotDelay: 9.25
+  shotDelay: 9.75
 }
  
 requirements: [
