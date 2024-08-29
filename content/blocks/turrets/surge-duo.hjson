@@ -29,7 +29,7 @@ graphite: {
   	  height: 12
   	  reloadMultiplier: 0.6
   	  ammoMultiplier: 4
-  	  lifetime: 39
+  	  lifetime: 40
   }
 pyratite: {
 		damage: 16
@@ -44,7 +44,7 @@ pyratite: {
 		splashDamage: 8
 		splashDamageRadius: 13.5
 		makeFire: true
-		lifetime: 39
+		lifetime: 40
 	}
 silicon: {
 	    damage: 12

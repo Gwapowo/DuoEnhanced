@@ -19,7 +19,7 @@ copper: {
 	speed: 2.5
 	width: 7
 	height: 9
-	lifetime: 49
+	lifetime: 50
 	ammoMultiplier: 2
 	}
 	graphite: {
@@ -64,7 +64,7 @@ thorium: {
 	shootEffect: shootBig
 	smokeEffect: shootBigSmoke
 	ammoMultiplier: 4
-	lifetime: 25.88
+	lifetime: 30
 	}
 }
 
