@@ -85,8 +85,8 @@ ammoTypes: {
 				height: 15
 				ammoMultiplier: 2
 				fragBullets: 8
-				fragRandomSpread: 10
-				fragAngle: 90
+				fragRandomSpread: 20
+				fragAngle: 180
 				fragBullet: {
 					type: BasicBulletType
 					speed: 3.5
@@ -102,7 +102,7 @@ ammoTypes: {
 			speed: 5
 			damage: 12
 			lifetime: 60
-			hitEffect: sparkExplosion
+			hitEffect: lightningShoot
 			hitSound: spark
 			width: 12 
 			height: 16 
@@ -112,8 +112,8 @@ ammoTypes: {
 			lightningDamage: 12
 			statusDuration: 100
 			fragBullets: 4
-			fragRandomSpread: 20
-			fragAngle: 90
+			fragRandomSpread: 60
+			fragAngle: 180
 			fragBullet: { 
 				type: BasicBulletType
 				collidesTiles: false 
