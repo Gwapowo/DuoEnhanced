@@ -86,7 +86,7 @@ ammoTypes: {
 				ammoMultiplier: 2
 				fragBullets: 8
 				fragRandomSpread: 10
-				fragCone: 120
+				fragAngle: 90
 				fragBullet: {
 					type: BasicBulletType
 					speed: 3.5
@@ -113,7 +113,7 @@ ammoTypes: {
 			statusDuration: 100
 			fragBullets: 4
 			fragRandomSpread: 20
-			fragCone: 140
+			fragAngle: 90
 			fragBullet: { 
 				type: BasicBulletType
 				collidesTiles: false 
