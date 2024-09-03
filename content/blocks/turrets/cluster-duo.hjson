@@ -85,7 +85,6 @@ ammoTypes: {
 				height: 15
 				ammoMultiplier: 2
 				fragBullets: 8
-				fragSpread: 80
 				fragRandomSpread: 10
 				fragCone: 120
 				fragBullet: {
@@ -113,9 +112,8 @@ ammoTypes: {
 			lightningDamage: 12
 			statusDuration: 100
 			fragBullets: 4
-			fragSpread: 80
-			fragRandomSpread: 40
-			fragCone: 160
+			fragRandomSpread: 20
+			fragCone: 140
 			fragBullet: { 
 				type: BasicBulletType
 				collidesTiles: false 
