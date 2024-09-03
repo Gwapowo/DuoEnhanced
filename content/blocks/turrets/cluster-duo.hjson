@@ -13,15 +13,13 @@ targetAir: true
 ammoTypes: {
 	pyratite: {
 		speed: 5
-		damage: 8 
+		damage: 16 
 		lifetime: 50
 		width: 12
 		height: 16
-		splashDamageRadius: 18 
 		frontColor: FC9D5DFF
 		backColor: FFAD7DFF
 		hitEffect: [fireHit, ]
-		splashDamage: 24
 		ammoMultiplier: 3
 		status: burning
 		statusDuration: 120
@@ -52,12 +50,10 @@ ammoTypes: {
 		}
 		blast-compound:	{
 			speed: 5.5
-			damage: 6 
+			damage: 16 
 			lifetime: 50
 			width: 12
 			height: 16
-			splashDamageRadius: 29
-			splashDamage: 49
 			ammoMultiplier: 3
 			status: blasted
 			statusDuration: 100
@@ -74,7 +70,8 @@ ammoTypes: {
 				collides: true
 				collidesTiles: true
 				shrinkY: 0.2
-				damage: 30
+				splashDamage: 30
+				splashDamageRadius: 26
 				hitEffect: flakExplosion
 				status: blasted
 				statusDuration: 60

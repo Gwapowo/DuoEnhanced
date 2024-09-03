@@ -39,7 +39,7 @@ pyratite: {
 		frontColor: FC9D5DFF
 		backColor: FFAD7DFF
 		status: burning
-		hitEffect: fireHit
+		hitEffect: [hitBulletSmall, fireHit]
 		ammoMultiplier: 6
 		splashDamage: 8
 		splashDamageRadius: 13.5

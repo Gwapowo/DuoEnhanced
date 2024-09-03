@@ -49,7 +49,7 @@ ammoTypes: {
 		frontColor: lightishOrange
 		backColor: lightOrange
 		status: burning
-		hitEffect: fireHit
+		hitEffect: [hitBulletSmall, fireHit]
 		shootEffect: shootBig
 		makeFire: true
 		pierceCap: 2

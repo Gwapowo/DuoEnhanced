@@ -14,7 +14,8 @@ ammoEjectBack: 3
 targetGround: true
 targetAir: true
 shootSound: shootBig
-ammoPerShot: 4
+buildCostMultiplier: 0.75
+ammoPerShot: 5
 ammoTypes: {
 	copper: {
 		speed: 16
@@ -30,6 +31,7 @@ ammoTypes: {
 		pierceCap: 15
 		lifetime: 40
 		knockback: 10
+		hitEffect: hitBulletBig
 		despawnEffect: blastExplosion
 		fragBullet: {
 			type: BasicBulletType
@@ -58,6 +60,7 @@ ammoTypes: {
 		pierceCap: 20
 		lifetime: 40
 		knockback: 12
+		hitEffect: hitBulletBig
 		despawnEffect: blastExplosion
 		fragBullet: {
 			type: BasicBulletType
@@ -88,6 +91,7 @@ ammoTypes: {
 		pierceCap: 15
 		lifetime: 40
 		knockback: 6.5
+		hitEffect: [hitBulletBig, fireHit]
 		despawnEffect: blastExplosion
 		fragBullet: {
 			type: BasicBulletType
@@ -99,7 +103,7 @@ ammoTypes: {
 			frontColor: FC9D5DFF
 			backColor: FFAD7DFF
 			status: burning
-			hitEffect: fireHit
+			hitEffect: [hitBulletSmall, fireHit]
 			splashDamage: 8
 			splashDamageRadius: 13.5
 			makeFire: true
@@ -123,6 +127,7 @@ ammoTypes: {
 		pierceCap: 15
 		lifetime: 40
 		knockback: 7
+		hitEffect: hitBulletBig
 		despawnEffect: blastExplosion
 		fragBullet: {
 			type: BasicBulletType
@@ -150,7 +155,6 @@ requirements: [
 copper/2000
 duo-fragment/50
 ]
-buildCostMultiplier: 0.75
 
 category: turret
 research: duo
