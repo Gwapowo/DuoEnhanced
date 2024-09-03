@@ -13,8 +13,8 @@ ammoTypes: {
 	pyratite: {
 		type: MissileBulletType
 		lifetime: 70
-		speed: 2
-		drag: -0.005
+		speed: 1
+		drag: -0.06
 		splashDamageRadius: 36 
 		ammoMultiplier: 2
 		splashDamage: 26
@@ -51,8 +51,8 @@ ammoTypes: {
 	blast-compound: { 
 	type: MissileBulletType
 	lifetime: 70
-		speed: 2
-		drag: -0.005
+		speed: 1
+		drag: -0.06
 		damage: 8
 		splashDamageRadius: 36
 		splashDamage: 69
@@ -66,7 +66,7 @@ ammoTypes: {
 		fragBullet: {
 			type: LiquidBulletType
 			liquid: oil
-			lifetime: 4
+			lifetime: 10
 			speed: 1
 			status: tarred
 			}

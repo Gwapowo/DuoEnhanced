@@ -27,14 +27,15 @@ ammoTypes: {
 		statusDuration: 120
 		fragBullets: 5
 		fragRandomSpread: 340
-		fragLifeMin: 25
-		fragLifeMax: 35
+		fragCone: 300
+		fragLifeMin: 15
+		fragLifeMax: 25
 		fragBullet: {
 			type: BombBulletType
 			frontColor: FC9D5DFF
 			backColor: FFAD7DFF
-			height: 11
-			width: 7
+			height: 8
+			width: 8
 			hitEffect: flakExplosion 
 			speed: 6.5
 			splashDamage: 16
@@ -59,13 +60,14 @@ ammoTypes: {
 			statusDuration: 100
 			fragBullets: 6
 			fragRandomSpread: 340
-			fragLifeMin: 25
-			fragLifeMax: 35
+			fragCone: 300
+			fragLifeMin: 15
+			fragLifeMax: 25
 			fragBullet: {
 				type: BombBulletType 
 				speed: 3
-				width: 7
-				height: 11
+				width: 8
+				height: 8
 				damage: 30
 				hitEffect: flakExplosion
 				status: blasted
@@ -82,6 +84,7 @@ ammoTypes: {
 				fragBullets: 8
 				fragSpread: 80
 				fragRandomSpread: 10
+				fragCone: 120
 				fragBullet: {
 					type: BasicBulletType
 					speed: 3.5
@@ -89,7 +92,7 @@ ammoTypes: {
 					damage: 9
 					width: 7
 					height: 9
-					lifetime: 60
+					lifetime: 45
 					}			
 				} 
 				
@@ -109,6 +112,7 @@ ammoTypes: {
 			fragBullets: 4
 			fragSpread: 80
 			fragRandomSpread: 40
+			fragCone: 160
 			fragBullet: { 
 				type: BasicBulletType
 				collidesTiles: false 

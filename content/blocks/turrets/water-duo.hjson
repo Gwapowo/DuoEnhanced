@@ -6,7 +6,7 @@ size: 2
 reload: 5
 shootCone: 35
 inaccuracy: 1.5
-recoilAmount: 0.5
+recoil: 0.5
 range: 390
 liquidCapacity: 40
 shootSound: splash
