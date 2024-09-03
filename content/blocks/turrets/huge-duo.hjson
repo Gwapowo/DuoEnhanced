@@ -15,12 +15,12 @@ targetGround: true
 targetAir: true
 shootSound: shootBig
 buildCostMultiplier: 0.75
-ammoPerShot: 5
+ammoPerShot: 3
 ammoTypes: {
 	copper: {
 		speed: 16
 		damage: 48
-		hitSize: 18
+		hitSize: 16
 		width: 48
 		height: 58
 		// custom effect needed
@@ -49,7 +49,7 @@ ammoTypes: {
 	graphite: {
 		speed: 16
 		damage: 96
-		hitSize: 20
+		hitSize: 18
 		width: 52
 		height: 62
 		shootEffect: shootBig
@@ -78,7 +78,7 @@ ammoTypes: {
 	pyratite: {
 		speed: 16
 		damage: 76
-		hitSize: 21
+		hitSize: 19
 		width: 54
 		height: 62
 		shootEffect: shootBig
@@ -115,7 +115,7 @@ ammoTypes: {
 		silicon: {
 		speed: 16
 		damage: 23
-		hitSize: 19
+		hitSize: 17
 		width: 48
 		height: 58
 		shootEffect: shootBig

@@ -8,7 +8,7 @@ ammoEjectBack: 1
 ammoUseEffect: casing3Double
 shootSound: bang
 velocityRnd: 0.2
-recoil: 3
+recoil: 5
 shake: 1
 inaccuracy: 6
 rotateSpeed: 10
@@ -19,6 +19,7 @@ shots: 2
 shootCone: 10
 targetGround: true
 targetAir: false
+ammoPerShot: 2
 ammoTypes: {
 	graphite: {
 		type: ArtilleryBulletType

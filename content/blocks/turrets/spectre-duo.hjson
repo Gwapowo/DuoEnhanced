@@ -24,6 +24,7 @@ ammoTypes: {
 		damage: 28
 		speed: 7
 		hitSize: 4.5
+		collidesAir: false
 		width: 13
 		height: 19
 		shootEffect: shootBig
@@ -34,6 +35,7 @@ ammoTypes: {
 		damage: 48
 		speed: 7.5
 		hitSize: 4.8
+		collidesAir: false
 		width: 14
 		height: 20
 		shootEffect: shootBig
@@ -44,6 +46,7 @@ ammoTypes: {
 		damage: 68
 		speed: 7
 		hitSize: 5
+		collidesAir: false
 		width: 15
 		height: 20
 		frontColor: lightishOrange
@@ -63,6 +66,7 @@ ammoTypes: {
 		damage: 78
 		speed: 8
 		hitSize: 5
+		collidesAir: false
 		width: 15
 		height: 22
 		shootEffect: shootBig

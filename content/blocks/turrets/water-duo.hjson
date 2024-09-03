@@ -7,7 +7,7 @@ reload: 5
 shootCone: 35
 inaccuracy: 1.5
 recoil: 0.5
-range: 390
+range: 330
 liquidCapacity: 40
 shootSound: splash
 shootEffect: shootLiquid
@@ -24,7 +24,7 @@ ammoTypes: {
 	liquid: water
         damage: 2.5
         knockback: 3
-	drag: 0.004
+	drag: 0.0045
 	speed: 11
 	lifetime: 30
 	orbSize: 2.8

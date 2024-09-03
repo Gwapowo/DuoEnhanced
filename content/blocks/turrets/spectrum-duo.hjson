@@ -9,21 +9,22 @@ inaccuracy: 8
 rotateSpeed: 12
 range: 240
 shootSound: missile
+consumeAmmoOnce: false
 ammoTypes: {
 	pyratite: {
 		type: MissileBulletType
 		lifetime: 70
 		speed: 1
-		drag: -0.06
+		drag: -0.05
 		splashDamageRadius: 36 
-		ammoMultiplier: 2
-		splashDamage: 26
+		ammoMultiplier: 3
+		splashDamage: 29
 		frontColor: ffff00
 		backColor: 00ffff 
 		status: burning
 		statusDuration: 120
-		homingPower: 1.5
-		homingRange: 120
+		homingPower: 0.8
+		homingRange: 145
 		incendChance: 5
 		incendAmount: 1
 		fragBullets: 5
@@ -52,15 +53,15 @@ ammoTypes: {
 	type: MissileBulletType
 	lifetime: 70
 		speed: 1
-		drag: -0.06
+		drag: -0.05
 		damage: 8
 		splashDamageRadius: 36
-		splashDamage: 69
+		splashDamage: 59
 		frontColor: ffff00
 		backColor: 00ffff 
-		ammoMultiplier: 3
-		homingPower: 1.5
-		homingRange: 120
+		ammoMultiplier: 2
+		homingPower: 0.8
+		homingRange: 145
 		status: blasted
 		fragBullets: 6
 		fragBullet: {
@@ -69,6 +70,7 @@ ammoTypes: {
 			lifetime: 10
 			speed: 1
 			status: tarred
+			puddles: 2
 			}
 		}		
 }
