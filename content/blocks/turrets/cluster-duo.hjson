@@ -26,7 +26,9 @@ ammoTypes: {
 		status: burning
 		statusDuration: 120
 		fragBullets: 5
-		fragAngle: 240
+		fragRandomSpread: 340
+		fragLifeMin: 25
+		fragLifeMax: 35
 		fragBullet: {
 			type: BombBulletType
 			frontColor: FC9D5DFF
@@ -56,7 +58,9 @@ ammoTypes: {
 			status: blasted
 			statusDuration: 100
 			fragBullets: 6
-			fragAngle: 240
+			fragRandomSpread: 340
+			fragLifeMin: 25
+			fragLifeMax: 35
 			fragBullet: {
 				type: BombBulletType 
 				speed: 3
@@ -76,9 +80,8 @@ ammoTypes: {
 				height: 15
 				ammoMultiplier: 2
 				fragBullets: 8
-				fragAngle: 240
-				fragSpread: 20
-				fragRandomSpread: 140
+				fragSpread: 80
+				fragRandomSpread: 10
 				fragBullet: {
 					type: BasicBulletType
 					speed: 3.5
@@ -104,9 +107,8 @@ ammoTypes: {
 			lightningDamage: 12
 			statusDuration: 100
 			fragBullets: 4
-			fragAngle: 240
-			fragSpread: 20
-			fragRandomSpread: 180
+			fragSpread: 80
+			fragRandomSpread: 40
 			fragBullet: { 
 				type: BasicBulletType
 				collidesTiles: false 

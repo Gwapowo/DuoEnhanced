@@ -150,6 +150,8 @@ requirements: [
 copper/2000
 duo-fragment/50
 ]
+buildCostMultiplier: 0.75
+
 category: turret
 research: duo
  

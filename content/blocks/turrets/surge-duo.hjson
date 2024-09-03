@@ -80,7 +80,8 @@ surge-alloy: {
 	shootEffect: shootBig
 	collidesGround: true
 	explodeRange: 18
-	lifetime: 30
+	lifetime: 60
+	rangeChange: 150
 	}
 }
 

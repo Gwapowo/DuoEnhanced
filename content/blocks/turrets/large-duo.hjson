@@ -71,7 +71,7 @@ shoot: {
 }
 
 requirements: [
-copper/150
+copper/135
 ]
 category: turret
 research: duo
