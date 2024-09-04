@@ -1,7 +1,7 @@
 type: LiquidTurret
 localizedName: Hydro Duo
 description: Fires jet streams of water that pushes enemies away. The immense pressure is enough to cause damage. Water go bbrrrrrrrrrrrrrrrrrrrrrrrrrrrrr!!
-health: 350
+health: 1250
 size: 2
 reload: 5
 shootCone: 35
