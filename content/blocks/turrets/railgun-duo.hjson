@@ -15,10 +15,10 @@ targetAir: true
 targetUnderBlocks: true
 
 consumes: {
+        power: 1.2
 	coolant: {
 		amount: 0.3
 	}
-	power: 1.2
 }
 
 ammoTypes: {
