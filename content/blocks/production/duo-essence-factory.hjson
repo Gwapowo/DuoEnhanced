@@ -15,7 +15,6 @@ drawer: [
 		}
 	{
 		type: DrawFlame
-		top: duo-essence-factory-top
 		flameColor: ffef99
 		}
 ]
