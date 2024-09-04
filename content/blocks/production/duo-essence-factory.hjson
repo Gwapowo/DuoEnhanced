@@ -11,8 +11,12 @@ craftEffect: smeltsmoke
 
 drawer: [
 	{
+		type: DrawDefault
+		}
+	{
 		type: DrawFlame
-		suffix: -top
+		top: duo-essence-factory-top
+		flameColor: ffef99
 		}
 ]
 
