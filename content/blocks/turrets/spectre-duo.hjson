@@ -91,10 +91,10 @@ shoot: {
 
 requirements: [
 copper/750
-graphite/2500
-thorium/200
+graphite/250
+thorium/225
 plastanium/125
-surge-alloy/125
+surge-alloy/75
 duo-fragment/25
 ]
 

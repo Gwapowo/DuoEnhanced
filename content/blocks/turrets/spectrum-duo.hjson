@@ -24,7 +24,7 @@ consumes: {
 ammoTypes: {
 	pyratite: {
 		type: MissileBulletType
-		lifetime: 60
+		lifetime: 55
 		speed: 1
 		drag: -0.05
 		splashDamageRadius: 36 
@@ -51,7 +51,7 @@ ammoTypes: {
 		
 	blast-compound: { 
 	type: MissileBulletType
-	lifetime: 60
+	lifetime: 55
 		speed: 1
 		drag: -0.05
 		damage: 8
@@ -83,11 +83,11 @@ shoot: {
 }
 
 requirements: [
-copper/95
+copper/125
 duo-fragment/25
-plastanium/85
-titanium/55
-silicon/35
+plastanium/95
+titanium/85
+silicon/55
 ]
 category: turret
 research: swarmer

@@ -8,6 +8,14 @@ hasLiquids: true
 hasItems: true
 craftTime: 120
 craftEffect: smeltsmoke
+
+drawer: [
+	{
+		type: DrawFlame
+		suffix: -top
+		}
+]
+
 consumes: {
 	power: 1
 	items: {
