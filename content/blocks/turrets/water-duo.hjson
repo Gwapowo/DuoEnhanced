@@ -39,6 +39,7 @@ shoot: {
 	shots: 2
 	spread: 5
 	shotDelay: 2.5
+}
 
 requirements: [
 copper/35
