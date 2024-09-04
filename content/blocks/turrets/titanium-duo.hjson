@@ -15,6 +15,12 @@ targetGround: true
 targetAir: true
 researchCostMultiplier: 0.5
 
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
 ammoTypes: {
   copper: {
     damage: 9

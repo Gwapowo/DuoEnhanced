@@ -13,6 +13,14 @@ ammoPerShot: 10
 rotateSpeed: 2
 targetGround: true
 targetAir: false
+coolantMultiplier: 0.8
+
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
+
   ammoTypes: {
   	blast-compound: {
 	  	speed: 6
@@ -106,7 +114,7 @@ shoot: {
   spread: 6
   shotDelay: 125
 }
-				
+
 		requirements: [
 copper/650
 plastanium/275

@@ -13,6 +13,12 @@ shootCone: 15
 rotateSpeed: 14
 researchCostMultiplier: 0.5
 
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+
 ammoTypes: {
 copper: {
 	damage: 9

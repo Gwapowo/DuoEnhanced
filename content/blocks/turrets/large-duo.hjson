@@ -13,6 +13,12 @@ inaccuracy: 2
 rotateSpeed: 12
 researchCostMultiplier: 0.25
 
+consumes: {
+  coolant: {
+    amount: 0.15
+  }
+}
+
 ammoTypes: {
 	copper : {
 		speed: 3.9

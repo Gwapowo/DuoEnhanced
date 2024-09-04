@@ -19,6 +19,12 @@ shootCone: 24
 shootSound: shootBig
 researchCostMultiplier: 0.25
 
+consumes: {
+  coolant: {
+    amount: 1
+  }
+}
+
 ammoTypes: {
 	copper: {
 		damage: 28
@@ -82,7 +88,8 @@ shoot: {
   spread: 7
   shotDelay: 4
 }
-	  requirements: [
+
+requirements: [
 copper/750
 graphite/2500
 thorium/200

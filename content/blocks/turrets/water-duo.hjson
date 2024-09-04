@@ -14,6 +14,7 @@ shootEffect: shootLiquid
 targetGround: true
 targetAir: true
 velocityRnd: 0.2
+
 consumes: {
 power: 0.23
 }
@@ -38,10 +39,6 @@ shoot: {
 	shots: 2
 	spread: 5
 	shotDelay: 2.5
-}
-consumes: {
-power: 0.35
-}
 
 requirements: [
 copper/35

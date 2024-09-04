@@ -13,14 +13,18 @@ range: 295
 targetGround: true
 targetAir: true
 targetUnderBlocks: true
+
 consumes: {
+	coolant: {
+		amount: 0.3
+	}
 	power: 1.2
 }
 
 ammoTypes: {
 	copper: {
 		speed: 14
-		damage: 35
+		damage: 39
 		width: 7
 		height: 19
 		lifetime: 20
@@ -74,7 +78,13 @@ shoot: {
   spread: 7
   shotDelay: 37.5
 }
-		
+
+consumes: {
+  coolant: {
+    amount: 0.3
+  }
+}
+
 requirements: [
 copper/125
 thorium/175

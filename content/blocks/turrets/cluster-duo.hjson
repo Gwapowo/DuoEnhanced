@@ -10,22 +10,28 @@ rotateSpeed: 12
 range: 220
 targetGround: true
 targetAir: true
+
+consumes: {
+  coolant: {
+    amount: 0.2
+  }
+}
 ammoTypes: {
 	pyratite: {
-		speed: 5
+		speed: 5.5
 		damage: 16 
-		lifetime: 50
+		lifetime: 40
+		scaleLife: true
 		width: 12
 		height: 16
 		frontColor: FC9D5DFF
 		backColor: FFAD7DFF
-		hitEffect: [fireHit, ]
+		hitEffect: fireHit
 		ammoMultiplier: 3
 		status: burning
 		statusDuration: 120
 		fragBullets: 5
 		fragRandomSpread: 340
-		fragCone: 300
 		fragLifeMin: 15
 		fragLifeMax: 25
 		fragBullet: {
@@ -51,7 +57,8 @@ ammoTypes: {
 		blast-compound:	{
 			speed: 5.5
 			damage: 16 
-			lifetime: 50
+			lifetime: 40
+			scaleLife: true
 			width: 12
 			height: 16
 			ammoMultiplier: 3
@@ -59,7 +66,6 @@ ammoTypes: {
 			statusDuration: 100
 			fragBullets: 6
 			fragRandomSpread: 340
-			fragCone: 300
 			fragLifeMin: 15
 			fragLifeMax: 25
 			fragBullet: {
@@ -80,12 +86,12 @@ ammoTypes: {
 			copper: {
 				speed: 5
 				damage: 18
-				lifetime: 60
+				lifetime: 40
 				width: 11
 				height: 15
 				ammoMultiplier: 2
 				fragBullets: 8
-				fragRandomSpread: 20
+				fragRandomSpread: 50
 				fragAngle: 0
 				fragBullet: {
 					type: BasicBulletType
@@ -101,7 +107,7 @@ ammoTypes: {
 			surge-alloy: { 
 			speed: 5
 			damage: 12
-			lifetime: 60
+			lifetime: 40
 			hitEffect: colorSpark
 			hitSound: spark
 			width: 12 

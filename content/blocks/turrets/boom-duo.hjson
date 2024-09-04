@@ -13,6 +13,12 @@ range: 140
 shake: 1
 targetGround: true
 targetAir: true
+
+consumes: {
+  coolant: {
+    amount: 0.15
+  }
+}
 ammoTypes: {
 	blast-compound: {
 		speed: 4.5

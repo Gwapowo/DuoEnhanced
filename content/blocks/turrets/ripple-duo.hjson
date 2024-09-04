@@ -3,23 +3,28 @@ localizedName: Ripple Duo
 description: Rapid fire artillery! Ground units beware.
 health: 750
 size: 2
-reload: 20
+reload: 25
 ammoEjectBack: 1
 ammoUseEffect: casing3Double
 shootSound: bang
 velocityRnd: 0.2
-recoil: 5
+recoil: 3
 shake: 1
 inaccuracy: 6
 rotateSpeed: 10
 range: 240
 minRange: 50
-coolantMultiplier: 0.3
-shots: 2
 shootCone: 10
 targetGround: true
 targetAir: false
 ammoPerShot: 2
+
+consumes: {
+  coolant: {
+    amount: 0.3
+  }
+}
+
 ammoTypes: {
 	graphite: {
 		type: ArtilleryBulletType
@@ -115,7 +120,7 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 5
-  shotDelay: 10
+  shotDelay: 12.5
 }
 
 requirements: [

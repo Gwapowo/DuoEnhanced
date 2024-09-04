@@ -10,7 +10,14 @@ inaccuracy: 2
 rotateSpeed: 12
 targetGround: true
 targetAir: true
+coolantMultiplier: 2
 researchCostMultiplier: 5
+
+consumes: {
+  coolant: {
+    amount: 0.3
+  }
+}
 
 ammoTypes: {
 	copper : {
@@ -31,7 +38,7 @@ shoot: {
 	shotDelay: 1
 	spread: 3.5	
 }
-	
+
 requirements: [
 copper/550
 duo-fragment/50

@@ -9,11 +9,22 @@ inaccuracy: 8
 rotateSpeed: 12
 range: 240
 shootSound: missile
+velocityRnd: 0.1
 consumeAmmoOnce: false
+
+consumes: {
+	coolant: {
+		amount: 0.35
+	}
+	liquids: [
+		oil/0.2
+		] 
+}
+
 ammoTypes: {
 	pyratite: {
 		type: MissileBulletType
-		lifetime: 70
+		lifetime: 60
 		speed: 1
 		drag: -0.05
 		splashDamageRadius: 36 
@@ -24,7 +35,7 @@ ammoTypes: {
 		status: burning
 		statusDuration: 120
 		homingPower: 0.8
-		homingRange: 145
+		homingRange: 185
 		incendChance: 5
 		incendAmount: 1
 		fragBullets: 5
@@ -32,26 +43,15 @@ ammoTypes: {
 			type: LiquidBulletType
 			liquid: oil
 			lifetime: 10
-			speed: 1
-			status: tarred
-			fragBullets: 10
-			incendChance: 5
-			incendAmount: 1
-			fragBullet: {
-				type: LiquidBulletType
-				liquid: slag
-				lifetime: 10
-				speed: 4
-				drag: 0.0005
-				damage: 2
-				status: burning
-		        } 
+			speed: 2
+			incendChance: 1
+			incendAmount: 2
 			}
 		}
 		
 	blast-compound: { 
 	type: MissileBulletType
-	lifetime: 70
+	lifetime: 60
 		speed: 1
 		drag: -0.05
 		damage: 8
@@ -61,16 +61,17 @@ ammoTypes: {
 		backColor: 00ffff 
 		ammoMultiplier: 2
 		homingPower: 0.8
-		homingRange: 145
+		homingRange: 185
 		status: blasted
 		fragBullets: 6
 		fragBullet: {
 			type: LiquidBulletType
 			liquid: oil
 			lifetime: 10
-			speed: 1
-			status: tarred
+			speed: 4
 			puddles: 2
+			incendChance: 0.2
+			incendAmount: 1
 			}
 		}		
 }
