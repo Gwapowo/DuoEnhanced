@@ -17,7 +17,7 @@ targetGround: true
 targetAir: false
 shootCone: 24
 shootSound: shootBig
-researchCostMultiplier: 0.25
+researchCostMultiplier: 0.5
 
 consumes: {
   coolant: {
