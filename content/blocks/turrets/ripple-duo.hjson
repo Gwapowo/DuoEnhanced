@@ -18,6 +18,7 @@ shootCone: 10
 targetGround: true
 targetAir: false
 ammoPerShot: 2
+researchCostMultiplier: 0.8
 
 consumes: {
   coolant: {
