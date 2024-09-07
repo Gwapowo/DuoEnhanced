@@ -14,6 +14,7 @@ ammoEjectBack: 3
 targetGround: true
 targetAir: true
 shootSound: shootBig
+researchCostMultiplier: 0.25
 buildCostMultiplier: 0.75
 coolantMultiplier: 0.5
 ammoPerShot: 3
