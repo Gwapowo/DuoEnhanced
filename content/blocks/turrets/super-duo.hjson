@@ -11,7 +11,7 @@ rotateSpeed: 12
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
-researchCostMultiplier: 5
+researchCostMultiplier: 1.5
 
 consumes: {
   coolant: {
