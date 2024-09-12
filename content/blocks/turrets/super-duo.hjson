@@ -21,14 +21,27 @@ consumes: {
 
 ammoTypes: {
 	copper : {
-		speed: 6
+		ammoPerShot: 20
+		speed: 0
 		damage: 8
 		width: 7
 		height: 9
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		lifetime: 150
+		lifetime: 0
 		ammoMultiplier: 4
+		fragBullet: {
+			speed: 6
+			damage: 8
+			width: 7
+			height: 9
+			lifetime: 150
+			}
+		fragBullets: 20
+		fragVelocityMin: 0.99
+		fragOffsetMax: 1
+		fragSpread: 0.05
+		fragRandomSpread: 0.1
 		}	
 }
 
