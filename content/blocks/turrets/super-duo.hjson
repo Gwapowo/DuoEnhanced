@@ -1,6 +1,7 @@
 type: ItemTurret
 localizedName: Super Duo
 description: It's a duo on steroids!! Fires extremely fast and has super range.
+detail: thank u ilya for making super duo actually super :3
 health: 600
 size: 1
 reload: 0.1
