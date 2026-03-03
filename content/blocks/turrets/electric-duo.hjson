@@ -6,8 +6,6 @@ size: 1
 ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 10
-shots: 2
-alternate: true
 poweruse: 1.5
 shootType: {
   type: basicBulletType
@@ -25,6 +23,14 @@ shootType: {
   range: 550
   shootCone: 15
   spread: 4
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 3.5
+  shotDelay: 9
+}
+
 requirements: [
 silicon/80
 lead/50
