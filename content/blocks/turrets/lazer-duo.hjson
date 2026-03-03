@@ -1,0 +1,38 @@
+type: powerTurret
+name: Laser Duo
+description: Shoots a powerful laser, definitely not like the Lancer.
+health: 375
+size: 2
+ammoUseEffect: casing1
+inaccuracy: 2
+rotateSpeed: 12
+shots: 2
+alternate: true
+poweruse: 3
+shootType: {
+  type: LaserBoltBulletType
+  width: 7.5
+	height: 16
+	speed: 12
+	damage: 65
+  pierce: true
+  pierceBuilding: true
+	pierceCap: 6
+  frontColor: a9d8ffff
+  backColor: a9d8ff66
+	lifetime: 25
+}
+  reloadTime: 22.5
+  restitution: 0.03
+  range: 135
+  shootCone: 15
+  inaccuracy: 0
+ 
+requirements: [
+silicon/80
+lead/80
+duo-essence/15
+]
+category: turret
+research: duo
+ 

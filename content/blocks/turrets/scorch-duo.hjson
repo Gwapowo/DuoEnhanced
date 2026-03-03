@@ -1,0 +1,132 @@
+type: ItemTurret
+name: scorch Duo
+description: A double barrel scorch that is duo and pure dps turret good with wall.
+health: 275
+size: 1
+ammoUseEffect: casing1
+shootsound: flame
+inaccuracy: 2
+rotateSpeed: 12
+shots: 2
+ammoTypes: {
+coal: {
+  type: basicBulletType
+  ammoMultiplier: 3
+  speed: 2
+  damage: 16
+  hitSize: 7
+  lifetime: 60
+  width: 0.1
+	height: 0.1
+  frontcolor: F8AD42
+  backcolor: F68021
+  pierce: true
+  collidesAir: true
+  statusDuration: 240
+  shootEffect: shootSmallFlame
+  hitEffect: hitFlameSmall
+  despawnEffect: none
+  status: burning
+  keepVelocity: false
+  hittable: false
+  }
+  pyratite: {
+  type: basicBulletType
+  ammoMultiplier: 6
+  speed: 2
+  damage: 25
+  hitSize: 7
+  lifetime: 60
+  width: 0.1
+	height: 0.1
+  frontcolor: F8AD42
+  backcolor: F68021
+  pierce: true
+  collidesAir: true
+  statusDuration: 600
+  shootEffect: shootPyraFlame
+  hitEffect: hitFlameSmall
+  despawnEffect: none
+  status: burning
+  keepVelocity: false
+  hittable: false
+  }
+  spore-pod:{
+  type: basicBulletType
+  ammoMultiplier: 5
+  speed: 2
+  damage: 19
+  hitSize: 7
+  lifetime: 60
+  width: 0.1
+	height: 0.1
+  frontcolor: F8AD42
+  backcolor: F68021
+  pierce: true
+  collidesAir: true
+  statusDuration: 360
+  shootEffect: shootPyraFlame
+  hitEffect: hitFlameSmall
+  despawnEffect: none
+  status: burning
+  keepVelocity: false
+  hittable: false
+  fragBullets: 5
+		fragBullet: {
+			type: LiquidBulletType
+			liquid: oil
+			lifetime: 5
+			speed: 1
+      statusDuration: 360
+			status: tarred
+			incendChance: 5
+			incendAmount: 1
+    }
+  }
+  plastanium:{
+  type: basicBulletType
+  ammoMultiplier: 4
+  speed: 2
+  damage: 29
+  hitSize: 7
+  lifetime: 60
+  width: 0.1
+	height: 0.1
+  frontcolor: F8AD42
+  backcolor: F68021
+  pierce: true
+  collidesAir: true
+  statusDuration: 720
+  shootEffect: shootPyraFlame
+  hitEffect: hitFlameSmall
+  despawnEffect: none
+  status: burning
+  keepVelocity: false
+  hittable: false
+  fragBullets: 5
+		fragBullet: {
+			type: LiquidBulletType
+			liquid: oil
+			lifetime: 5
+			speed: 1
+      statusDuration: 720
+			status: tarred
+			incendChance: 5
+			incendAmount: 1
+    }
+  }
+}
+  reloadTime: 6
+  restitution: 0.03
+  range: 110
+  shootCone: 15
+  inaccuracy: 1
+ 
+requirements: [
+copper/45
+graphite/35
+titanium/10
+duo-fragment/5
+]
+category: turret
+research: scorch

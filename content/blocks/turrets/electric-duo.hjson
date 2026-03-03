@@ -1,0 +1,35 @@
+type: powerTurret
+name: Energy Duo
+description: Harnesses the power of electricity to conjure electrical bullets at lightning speed!
+health: 300
+size: 1
+ammoUseEffect: casing1
+inaccuracy: 2
+rotateSpeed: 10
+shots: 2
+alternate: true
+poweruse: 1.5
+shootType: {
+  type: basicBulletType
+  width: 9
+	height: 12
+	speed: 10
+	damage: 14
+	lifetime: 60
+  homingPower: 0.1
+  reloadMultiplier: 1.5
+  status: shocked
+}
+  reloadTime: 10
+  restitution: 0.03
+  range: 550
+  shootCone: 15
+  spread: 4
+requirements: [
+silicon/80
+lead/50
+duo-essence/15
+]
+category: turret
+research: duo
+ 

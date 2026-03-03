@@ -1,0 +1,31 @@
+type: ItemTurret
+localizedName: Inverted Duo
+description: Shoots backwards.
+health: 250
+size: 1
+ammoUseEffect: casing1
+inaccuracy: 360
+shots: 2
+alternate: true
+targetGround: true
+targetAir: true
+
+ammoTypes: {
+copper: standardCopper
+graphite: standardDense
+pyratite: standardIncendiary 
+silicon: standardHoming
+thorium: standardThorium
+}
+	reloadTime: 20
+	restitution: 0.03
+	range: 110
+	shootCone: 15 
+	rotateSpeed: 10
+
+requirements: [
+copper/35
+duo-essence/3
+]
+category: turret
+research: duo
