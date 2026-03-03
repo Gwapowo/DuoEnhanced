@@ -22,7 +22,13 @@ copper: {
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   fragBullets: 10
-	fragBullet: standardCopper
+	fragBullet: {
+    type: basicBulletType
+    damage: 8
+    speed: 2.5
+    width: 7
+    height: 9
+    lifetime: 45
   }
   graphite: {
   ammoMultiplier: 1
