@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Compress Duo
-description: Compresses an entire item into one bullet, which frags into ten more bullets!
+description: Compresses a bunch of items into one bullet, which frags into many bullets!
 health: 450
 size: 1
 ammoUseEffect: casing1
@@ -12,8 +12,7 @@ maxAmmo: 250
 ammoPerShot: 10
 ammoTypes: {
 copper: {
-  type: basicBulletType
-  ammoMultiplier: 1
+  ammoPerShot: 3
   width: 10
   height: 12
   speed: 2
@@ -21,7 +20,7 @@ copper: {
   lifetime: 60
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  fragBullets: 10
+  fragBullets: 30
 	fragBullet: {
     type: basicBulletType
     damage: 8
@@ -31,8 +30,7 @@ copper: {
     lifetime: 45
   }
   graphite: {
-  ammoMultiplier: 1
-  type: basicBulletType
+  ammoMultiplier: 3
   width: 10
   height: 12
   speed: 2
@@ -41,12 +39,12 @@ copper: {
   reloadMultiplier: 0.5
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  fragBullets: 10
+  fragBullets: 30
 	fragBullet: standardDense
   }
   pyratite: {
   type: basicBulletType
-  ammoMultiplier: 1
+  ammoPerShot: 3
   width: 10
   height: 12
   speed: 2
@@ -57,11 +55,25 @@ copper: {
   status: burning
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  fragBullets: 10
-	fragBullet: standardIncendiary
+  fragBullets: 30
+	fragBullet: {
+        damage: 12
+		speed: 3.5
+		width: 8
+		height: 10
+		frontColor: FC9D5DFF
+		backColor: FFAD7DFF
+		status: burning
+		hitEffect: [hitBulletSmall, fireHit]
+		ammoMultiplier: 6
+		splashDamage: 8
+		splashDamageRadius: 13.5
+		makeFire: true
+		lifetime: 35
+	}
   }
   silicon: {
-  ammoMultiplier: 1
+  ammoPerShot: 3
   type: basicBulletType
   width: 10
   height: 12
@@ -95,10 +107,10 @@ copper: {
   shootCone: 15
   spread: 4
 requirements: [
-copper/75
-silicon/55
-titanium/45
-duo-fragment/15
+copper/45
+silicon/45
+plastanium/125
+duo-fragment/20
 ]
 category: turret
 research: duo
