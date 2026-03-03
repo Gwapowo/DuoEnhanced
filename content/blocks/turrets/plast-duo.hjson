@@ -35,7 +35,7 @@ ammoTypes: {
      lifetime: 15
      backColor: "d8d97f"
      frontColor: "fffac6"
-     despawnEffect: Fx.none
+     despawnEffect: none
 }}
   metaglass: {
    type: FlakBulletType
