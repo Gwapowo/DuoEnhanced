@@ -5,32 +5,97 @@ health: 725
 size: 1
 ammoUseEffect: casing1
 inaccuracy: 1
-shots: 2
-alternate: true
 targetGround: true
 targetAir: true
 
 ammoTypes: {
-  plastanium: fragPlastic
-  metaglass: fragGlass
+  plastanium: {
+    type: FlakBulletType 
+    collidesGround: true
+    speed: 4
+    damage: 8
+    ammoMultiplier: 4
+    splashDamageRadius: 37.5
+    splashDamage: 35
+    fragBullets: 6
+    hitEffect: Fx.plasticExplosion
+    frontColor: "fffac6"
+    backColor: "d8d97f"
+    shootEffect: Fx.shootBig
+    collidesGround: true
+    explodeRange: 20
+    despawnEffect: Fx.hitBulletColor
+    fragBullet: { 
+     type: BasicBulletType
+     speed: 2.5
+     damage: 10
+     width: 10
+     height: 12
+     shrinkY: 1
+     lifetime: 15
+     backColor: "d8d97f"
+     frontColor: "fffac6"
+     despawnEffect: Fx.none
+}}
+  metaglass: {
+   type: FlakBulletType
+   speed: 4
+   damage: 6
+   ammoMultiplier: 2
+   shootEffect: Fx.shootSmall
+   reloadMultiplier: 0.8
+   width: 6
+   height: 11
+   hitEffect: Fx.flakExplosion
+   splashDamage: 40
+   splashDamageRadius: 25
+   fragBullets: 4
+   explodeRange: 20
+   collidesGround: true
+   backColor: "b9c9df"
+   hitColor: "b9c9df"
+   trailColor: "b9c9df"
+   frontColor: "ffffff"
+   despawnEffect: Fx.hitBulletColor
+   fragBullet: {
+    type: BasicBulletType
+    speed: 3
+    damage: 10
+    width: 5
+    height: 12
+    shrinkY: 1
+    lifetime: 20
+    backColor: "454545"
+    frontColor: "ffffff"
+    despawnEffect: Fx.none
+}}
   blast-compound: {
     type: missileBulletType
-    ammoMultiplier: 4
-    width: 8
-    height: 8
+    ammoMultiplier: 3
+    width: 9
+    height: 9
 	strinky: 0
 	drag: -0.01
     speed: 3.7
     damage: 10
-	splashDamageRadius: 30
-    splashDamage: 45
+	splashDamageRadius: 45
+    splashDamage: 55
 	reloadMultiplier: 0.125
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
 	status: blasted
 	statusDuraction: 60
   }
-  thorium: standardThorium
+  thorium: {
+	damage: 26
+	speed: 4
+	width: 9
+	height: 12
+	shootEffect: shootBig
+	smokeEffect: shootBigSmoke
+	ammoMultiplier: 4
+	lifetime: 30
+	}
 }
 	reloadTime: 13.5
 	restitution: 0.03
@@ -39,8 +104,17 @@ ammoTypes: {
 	inaccuracy: 0
 	rotateSpeed: 14
 
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 3.5
+  shotDelay: 9
+}
+
 requirements: [
-copper/100
+copper/65
+titanium/25
+thorium/25
 plastanium/60
 duo-essence/15
 ]
