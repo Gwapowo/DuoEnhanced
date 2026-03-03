@@ -1,5 +1,5 @@
 type: powerTurret
-name: Repair Duo
+name: Mend Duo
 description: Shoots beams with healing properties. Does it target allied blocks? Of course not!
 health: 250
 size: 1
@@ -17,21 +17,27 @@ shootType: {
 	damage: 10
   healPercent: 2.5
   collidesTeam: true
-  frontColor: ffffff
-  backColor: 98ffa9
+  frontColor: "ffffff"
+  backColor: "98ffa9"
 	lifetime: 60
 }
   reloadTime: 17.5
   restitution: 0.03
   range: 125
   shootCone: 15
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 3.5
+  shotDelay: 9
+}
  
 requirements: [
-copper/50
-lead/50
+copper/40
+lead/60
 silicon/15
-duo-essence/5
+duo-fragment/5
 ]
 category: turret
 research: duo
- 
