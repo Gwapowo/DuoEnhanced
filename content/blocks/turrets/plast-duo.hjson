@@ -18,13 +18,13 @@ ammoTypes: {
     splashDamageRadius: 37.5
     splashDamage: 35
     fragBullets: 6
-    hitEffect: Fx.plasticExplosion
+    hitEffect: plasticExplosion
     frontColor: "fffac6"
     backColor: "d8d97f"
-    shootEffect: Fx.shootBig
+    shootEffect: shootBig
     collidesGround: true
     explodeRange: 20
-    despawnEffect: Fx.hitBulletColor
+    despawnEffect: hitBulletColor
     fragBullet: { 
      type: BasicBulletType
      speed: 2.5
@@ -42,11 +42,11 @@ ammoTypes: {
    speed: 4
    damage: 6
    ammoMultiplier: 2
-   shootEffect: Fx.shootSmall
+   shootEffect: shootSmall
    reloadMultiplier: 0.8
    width: 6
    height: 11
-   hitEffect: Fx.flakExplosion
+   hitEffect: flakExplosion
    splashDamage: 40
    splashDamageRadius: 25
    fragBullets: 4
@@ -56,7 +56,7 @@ ammoTypes: {
    hitColor: "b9c9df"
    trailColor: "b9c9df"
    frontColor: "ffffff"
-   despawnEffect: Fx.hitBulletColor
+   despawnEffect: hitBulletColor
    fragBullet: {
     type: BasicBulletType
     speed: 3
@@ -67,7 +67,7 @@ ammoTypes: {
     lifetime: 20
     backColor: "454545"
     frontColor: "ffffff"
-    despawnEffect: Fx.none
+    despawnEffect: none
 }}
   blast-compound: {
     type: missileBulletType
