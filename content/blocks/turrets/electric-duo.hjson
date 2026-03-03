@@ -28,7 +28,7 @@ shootType: {
 requirements: [
 silicon/80
 lead/50
-duo-essence/15
+duo-fragment/15
 ]
 category: turret
 research: duo
