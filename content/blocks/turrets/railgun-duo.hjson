@@ -1,74 +1,97 @@
 type: ItemTurret
 name: Railgun Duo
-description: Fires high velocity armor-piercing bullets. The power of electro magnetism! Shreds swarms of units with ease.
+description: Fires high velocity armor-piercing bullets. Pierces through everything.
 health: 1350
 size: 3
-reloadTime: 85
+reload: 75
 ammoUseEffect: casing1
-shootSound: shootBig
+shootSound: cannon
+recoil: 3
 inaccuracy: 1
 rotateSpeed: 10
-range: 265
-shots: 2
-alternate: true
+range: 295
 targetGround: true
 targetAir: true
+targetUnderBlocks: true
+researchCostMultiplier: 1.15
+
+consumes: {
+        power: 1.2
+	coolant: {
+		amount: 0.3
+	}
+}
 
 ammoTypes: {
 	copper: {
-		speed: 8
-		damage: 35
-		width: 9
-		height: 17
-		lifetime: 40
+		speed: 14
+		damage: 39
+		width: 7
+		height: 19
+		lifetime: 20
 		pierce: true
 		pierceBuilding: true
+		pierceArmor: true
 		pierceCap: 6
-		hitEffect: shockwave
+		pierceDamageFactor: 0.1
+		hitEffect: [shootBigColor, colorSparkBig]
 		smokeEffect: shootBigSmoke
 		ammoMultiplier: 1
-		ammoPerShot: 2
 		}
 		
 		graphite: {
-			speed: 8
+			speed: 15
 			damage: 70
-			width: 11
-			height: 19
-			lifetime: 40
+			width: 9
+			height: 21
+			lifetime: 20
 			pierce: true
 			pierceBuilding: true
+			pierceArmor: true
 			pierceCap: 8
-			hitEffect: shockwave
+			pierceDamageFactor: 0.1
+			hitEffect: [shootBigColor, colorSparkBig]
 			smokeEffect: shootBigSmoke
-			reloadMultiplier: 0.65
+			reloadMultiplier: 0.69
 			ammoMultiplier: 1
-			ammoPerShot: 2
 			}
 					
 		thorium: { 
-			speed: 8
+			speed: 15
 			damage: 88
-			width: 9
-			height: 17
-			lifetime: 40
+			width: 8
+			height: 20
+			lifetime: 20
 			pierce: true
 			pierceBuilding: true
+			pierceArmor: true
 			pierceCap: 9
-			hitEffect: shockwave
+			pierceDamageFactor: 0.1
+			hitEffect: [shootBigColor, colorSparkBig]
 			smokeEffect: shootBigSmoke
 			ammoMultiplier: 1
-			ammoPerShot: 2
 			}					
 }
-			
-		
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 7
+  shotDelay: 37.5
+}
+
+consumes: {
+  coolant: {
+    amount: 0.3
+  }
+}
+
 requirements: [
-copper/75
-lead/55
-titanium/55
+copper/125
 thorium/175
-duo-fragment/18
+metaglass/55
+silicon/55
+duo-fragment/20
 ]
 category: turret
 research: salvo

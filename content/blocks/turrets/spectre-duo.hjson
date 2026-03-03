@@ -1,49 +1,101 @@
 type: ItemTurret
 localizedName: Spectre Duo
-description: The ultimate rapid fire duo! Stronger than the actual Spectre.
+description: The ultimate rapid fire duo! Fires faster than the actual Spectre, but cannot aim high against aerial targets.
 health: 1850
 size: 3
 itemCapacity: 80
-reloadTime: 3.5
+reload: 8
 coolantMultiplier: 0.8
-restitution: 0.1
 ammoUseEffect: casing3
-range: 250
-inaccuracy: 3
-recoilAmount: 3
-xRand: 3
-shotWidth: 4
-shootShake: 1
-shots: 4
-alternate: true
+range: 260
+inaccuracy: 3.5
+recoil: 3
+recoilTime: 12
+coolantMultiplier: 0.5
+shake: 1.5
 targetGround: true
-targetAir: true
+targetAir: false
 shootCone: 24
 shootSound: shootBig
+researchCostMultiplier: 0.5
+
+consumes: {
+  coolant: {
+    amount: 1
+  }
+}
 
 ammoTypes: {
 	copper: {
-    type: basicBulletType
-    ammoMultiplier: 2
-    width: 15
-    height: 21
-    speed: 7.5
-    damage: 27.5
-    lifetime: 40
-    shootEffect: shootBig
-  }
-	graphite: standardDenseBig
-	pyratite: standardIncendiaryBig
-	thorium: standardThoriumBig
+		damage: 28
+		speed: 7
+		hitSize: 4.5
+		collidesAir: false
+		width: 13
+		height: 19
+		shootEffect: shootBig
+		ammoMultiplier: 1.4
+		knockback: 0.2
 	}
-	
-	  requirements: [
-copper/350
-graphite/300
+	graphite: {
+		damage: 48
+		speed: 7.5
+		hitSize: 4.8
+		collidesAir: false
+		width: 14
+		height: 20
+		shootEffect: shootBig
+		ammoMultiplier: 1.7
+		knockback: 0.3
+	}
+	pyratite: {
+		damage: 68
+		speed: 7
+		hitSize: 5
+		collidesAir: false
+		width: 15
+		height: 20
+		frontColor: lightishOrange
+		backColor: lightOrange
+		status: burning
+		hitEffect: [hitBulletSmall, fireHit]
+		shootEffect: shootBig
+		makeFire: true
+		pierceCap: 2
+		pierceBuilding: true
+		knockback: 0.6
+		ammoMultiplier: 3
+		splashDamage: 18
+		splashDamageRadius: 23
+		}
+	thorium: {
+		damage: 78
+		speed: 8
+		hitSize: 5
+		collidesAir: false
+		width: 15
+		height: 22
+		shootEffect: shootBig
+		pierceCap: 2
+		pierceBuilding: true
+		knockback: 0.7
+		}
+	}
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 7
+  shotDelay: 4
+}
+
+requirements: [
+copper/750
+graphite/250
 thorium/225
-plastanium/95
-surge-alloy/85
-duo-fragment/30
+plastanium/125
+surge-alloy/75
+duo-fragment/25
 ]
 
 category: turret

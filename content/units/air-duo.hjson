@@ -16,7 +16,13 @@ weapons: [
 	 reload: 10
 	 recoil: 0.5
 	alternate: true 
-	bullet: standardCopper
+	bullet: {
+		type: BasicBulletType
+		speed: 2.5
+		damage: 12
+		width: 7
+		height: 9
+		}
 	ejectEffect: casing1
 	shootEffect: shootSnap
 	}

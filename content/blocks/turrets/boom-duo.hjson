@@ -3,22 +3,25 @@ localizedName: Boom Duo
 description: Maximizes explosiveness to deliver a great BOOM.
 targetAir: true
 targetGround: true
-health: 1050
+health: 1100
 size: 2
-reloadTime: 20
+reload: 30
 ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 12
 range: 140
-hitShake: 1
-shots: 2
-alternate: true
+shake: 1
 targetGround: true
 targetAir: true
+
+consumes: {
+  coolant: {
+    amount: 0.15
+  }
+}
 ammoTypes: {
-	blast-compound : {
+	blast-compound: {
 		speed: 4.5
-		damage: 12
 		width: 10
 		height: 10
 		splashDamageRadius: 69
@@ -33,7 +36,6 @@ ammoTypes: {
 		pyratite: {
 			speed: 4.5
 			lifetime: 50
-			damage: 18
 			width: 10
 			height: 10
 			splashDamageRadius: 35
@@ -49,17 +51,28 @@ ammoTypes: {
 			makeFire: true
 			}
 			plastanium: {
-				speed: 3
+				type: FlakBulletType
+				speed: 3.5
 				lifetime: 50
-				damage: 9
 				width: 10
 				height: 10
 				splashDamageRadius: 55
 				splashDamage: 48
-				fragBullet: artilleryPlasticFrag
-				fragBullets: 7
-				backColor: plastaniumBack
-				frontColor: plastaniumFront
+				fragBullet: {
+					type: BasicBulletType
+					damage: 12
+					speed: 2.5
+					width: 10
+					height: 12
+					shrinkY: 1.25
+					lifetime: 15
+					backColor: d8d97f
+					frontColor: fffac6t
+					despawnEffect: none
+				}
+				fragBullets: 8
+				backColor: d8d97f
+				frontColor: fffac6t
 				hitEffect: shockwave
 				despawnEffect: bigShockwave
 				shootEffect: shootSmall
@@ -68,10 +81,18 @@ ammoTypes: {
 				ammoMultiplier: 3
 				}
 		}
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 6
+  shotDelay: 15
+}
+
 requirements: [
-copper/95
-graphite/65
-titanium/65
+copper/115
+graphite/75
+titanium/75
 blast-compound/45
 duo-fragment/20
 ]

@@ -14,7 +14,14 @@ weapons: [
 	 reload: 20
 	 recoil: 0.5
 	alternate: true 
-	bullet: standardDense
+	bullet: {
+		type: BasicBulletType
+		damage: 18
+		speed: 3.5
+		width: 9
+		height: 12
+		lifetime: 60
+		}
 	ejectEffect: casing1
 	shootEffect: shootSnap
 	}

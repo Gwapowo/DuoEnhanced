@@ -3,61 +3,67 @@ name: Doom Duo
 description: The ground shall tremble, for doom has come on those who dare tarnish this duo. 
 health: 1800
 size: 2
-reloadTime: 250
+reload: 250
 ammoUseEffect: casing3Double
-shootShake: 3
+shake: 3
 shootSound: artillery
 inaccuracy: 5
 range: 299
-ammoPerShot: 20
-shots: 2
-alternate: true
+ammoPerShot: 10
 rotateSpeed: 2
 targetGround: true
 targetAir: false
-        ammoTypes: {
-	blast-compound: {
-		speed: 6
-		damage: 32
-		width: 16
-		height: 24
-		lifetime: 50
-		splashDamageRadius: 58
-		splashDamage: 38
-		status: blasted
-		hitEffect: shockwave
-		shootEffect: shootSmall 
-		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 2 
-	        fragBullets: 3 
-                 fragBullet: { 
-                 type: ArtilleryBulletType
-		 splashDamage: 40
-                 splashDamageRadius: 30
-                 lifetime: 60
-                 width: 17
-                 height: 17
-		 status: blasted
-                 knockback: 1
-                 fragBullets: 6
-                  fragBullet: {
-                  type: ArtilleryBulletType
-                  splashDamage: 45
-                  splashDamageRadius: 35 
-                  knockback: 1
-                  width: 13
-                  height: 13
-                  lifetime: 80
-                  frontColor: EFF2ADFF
-		  backColor: plastaniumBack
-		  status: blasted
+coolantMultiplier: 0.8
+
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
+
+  ammoTypes: {
+  	blast-compound: {
+	  	speed: 6
+		  damage: 32
+      width: 16
+      height: 24
+      lifetime: 50
+      splashDamageRadius: 58
+      splashDamage: 38
+      status: blasted
+      hitEffect: shockwave
+      shootEffect: shootSmall 
+      smokeEffect: shootSmallSmoke
+      ammoMultiplier: 1
+	    fragBullets: 3 
+        fragBullet: { 
+          type: ArtilleryBulletType
+		       splashDamage: 40
+            splashDamageRadius: 30
+            lifetime: 50
+            width: 17
+            height: 17
+		        status: blasted
+            knockback: 1
+            fragBullets: 6
+            fragBullet: {
+              type: ArtilleryBulletType
+              splashDamage: 45
+              splashDamageRadius: 35 
+              knockback: 1
+              width: 13
+              height: 13
+              lifetime: 80
+              frontColor: EFF2ADFF
+		          backColor: plastaniumBack
+		          status: blasted
                   fragBullets: 3
                    fragBullet: {
                    type: ArtilleryBulletType
                    splashDamage: 30
                    splashDamageRadius: 25
                    knockback: 1
-                   lifetime: 100
+                   lifetime: 80
                    width: 13
                    height: 13
                    status: burning
@@ -65,37 +71,57 @@ targetAir: false
                    backColor: lightOrange
                    trailEffect: incendTrail
                    fragBullets: 3
-		   makeFire: true
+		               makeFire: true
                    fragBullet: {
                     type: ArtilleryBulletType
                     splashDamage: 55
                     splashDamageRadius: 65
-                    lifetime: 200
+                    lifetime: 160
                     knockback: 1.5
-                    frontColor: missileYellowFront
-                    backColor: missileYellowBack
-		    trailColor: ED735BFF
-		    status: blasted
-		    homingPower: 0.2
-		    homingRange: 80
+                    frontColor: 6e7080
+                    backColor: 38393f
+		                trailColor: 221c1c
+		                status: blasted
+		                homingPower: 0.2
+		                homingRange: 80
                     fragBullets: 1
-                    fragBullet: artilleryExplosive
+                    fragBullet: {
+						          type: ArtilleryBulletType
+						          speed: 2
+						          hitEffect: blastExplosion
+						          knockback: 0.8
+						          lifetime: 80
+						          width: 14
+						          height: 14
+						          collidesTiles: false
+						          splashDamage: 55
+						          splashDamageRadius: 34
+						          backColor: 38393f
+						          frontColor: 6e7080
+                      trailEffect: rocketSmokeLarge
+						          status: blasted
+						          }
                     }
-                   }
-                 }  
-               }          
+                  }
+                }  
+              }          
       }
 }
-				
-		requirements: [
-copper/285
-duo-fragment/50
-plastanium/115
-graphite/95
-titanium/85
-silicon/85
-blast-compound/75
 
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 6
+  shotDelay: 125
+}
+
+		requirements: [
+copper/650
+plastanium/275
+graphite/165
+silicon/85
+blast-compound/85
+duo-fragment/50
 ]
 category: turret
 research: ripple

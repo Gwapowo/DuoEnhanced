@@ -1,8 +1,9 @@
 {
 "name": "DuoEnhanced",
 "displayName": "DuoEnhanced",
+"subtitle": "Duo best turret, in duo we trust.",
 "author": "Gwapo",
-"description": "A mod that adds many different types of duos, recreates vanilla blocks into duos, and duo units! Discord Tag: Gwapo #9604",
-"version": "0.8.4",
-"minGameVersion": "126.1",
+"description": "A mod that adds many different types of duos, recreates vanilla blocks into duos, and duo units! Discord Tag: gwapowo",
+"version": "0.9.7",
+"minGameVersion": "136"
  }

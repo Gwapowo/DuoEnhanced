@@ -1,36 +1,108 @@
 type: ItemTurret
 localizedName: Surge Duo
 description: A highly advanced version of the duo, upgraded with surge alloy. 
-health: 850
+health: 800
 size: 1
 ammoUseEffect: casing1
-range: 150
-inaccuracy: 2
-shots: 2
-spread: 6
-alternate: true
+range: 135
+inaccuracy: 0.5
 targetGround: true
 targetAir : true
+reload: 15
+shootCone: 15
+rotateSpeed: 15
+researchCostMultiplier: 0.65
+
+consumes: {
+  coolant: {
+    amount: 0.2
+  }
+}
 
 ammoTypes: {
-copper: standardCopper
-graphite: standardDense
-pyratite: standardIncendiary
-silicon: standardHoming
-thorium: standardThorium
-surge-alloy: fragSurge
+copper: {
+	damage: 9
+	speed: 2.5
+	width: 7
+	height: 9
+	lifetime: 55
+	ammoMultiplier: 2
+	}
+graphite: {
+  	  damage: 18
+  	  speed: 3.5
+  	  width: 9
+  	  height: 12
+  	  reloadMultiplier: 0.6
+  	  ammoMultiplier: 4
+  	  lifetime: 40
+  }
+pyratite: {
+		damage: 16
+		speed: 3.5
+		width: 8
+		height: 10
+		frontColor: FC9D5DFF
+		backColor: FFAD7DFF
+		status: burning
+		hitEffect: [hitBulletSmall, fireHit]
+		ammoMultiplier: 6
+		splashDamage: 8
+		splashDamageRadius: 13.5
+		makeFire: true
+		lifetime: 40
+	}
+silicon: {
+	    damage: 12
+	    speed: 3
+	    width: 7
+	    height: 9
+	    homingPower: 0.11
+	    reloadMultiplier: 1.5
+	    ammoMultiplier: 5
+	    lifetime: 45
+	  }
+thorium: {
+	damage: 26
+	speed: 4
+	width: 9
+	height: 12
+	shootEffect: shootBig
+	smokeEffect: shootBigSmoke
+	ammoMultiplier: 4
+	lifetime: 34.5
 }
-reloadTime: 10
-restitution: 0.03
-shootCone: 15
-inaccuracy: 0
-rotateSpeed: 16
+surge-alloy: {
+	type: FlakBulletType
+	damage: 7
+	speed: 4.5
+	width: 7
+	height: 9
+	ammoMultiplier: 5
+	splashDamage: 45
+	splashDamageRadius: 28
+	lightning: 2
+	lightningLength: 6
+	shootEffect: shootBig
+	collidesGround: true
+	explodeRange: 18
+	lifetime: 45
+	rangeChange: 150
+	}
+}
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 3.5
+  shotDelay: 7.5
+}
 				
 requirements: [
 copper/15
-titanium/25
-thorium/35
-surge-alloy/55
+titanium/15
+thorium/15
+surge-alloy/35
 ]
 category: turret
 research: thorium-duo
