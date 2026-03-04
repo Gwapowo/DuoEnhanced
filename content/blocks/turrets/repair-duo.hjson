@@ -7,15 +7,18 @@ ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 12
 shots: 2
-alternate: true
-poweruse: 0.5
+
+consumes: {
+power: 0.45
+}
+
 shootType: {
   type: BasicBulletType
   width: 7
 	height: 9
 	speed: 4
 	damage: 10
-  healPercent: 2.5
+  healPercent: 3
   collidesTeam: true
   frontColor: "ffffff"
   backColor: "98ffa9"
