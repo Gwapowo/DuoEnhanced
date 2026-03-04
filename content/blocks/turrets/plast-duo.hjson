@@ -115,11 +115,11 @@ shoot: {
 }
 
 requirements: [
-copper/65
-titanium/25
-thorium/25
+copper/15
+titanium/15
+thorium/15
 plastanium/65
-duo-fragment/15
+duo-fragment/5
 ]
 category: turret
 research: thorium-duo
