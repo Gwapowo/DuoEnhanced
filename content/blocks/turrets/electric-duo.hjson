@@ -3,28 +3,31 @@ name: Energy Duo
 description: Harnesses the power of electricity to conjure electrical bullets at lightning speed!
 health: 300
 size: 1
-ammoUseEffect: casing1
-inaccuracy: 2
+inaccuracy: 4
 rotateSpeed: 10
 
 consumes: {
-power: 1.75
+power: 2.85
 }
 
 shootType: {
   type: basicBulletType
-  width: 8
-	height: 14
+    width: 8
+    height: 14
+    frontColor: "fbd367"
+    backColor: "fbad67"
 	speed: 10
 	damage: 14
-	lifetime: 20
-  homingPower: 0.1
-  reloadMultiplier: 1.5
+	lifetime: 30
+  homingPower: 0.125
+  reloadMultiplier: 1.3
+  lightning: 1
+  lightningLength: 5
   status: shocked
 }
   reloadTime: 10
   restitution: 0.03
-  range: 660
+  range: 240
   shootCone: 15
   spread: 4
 
