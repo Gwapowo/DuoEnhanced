@@ -5,10 +5,8 @@ health: 300
 size: 2
 ammoUseEffect: casing1
 inaccuracy: 15
-recoilAmount: 1.5
+recoil: 1.5
 rotateSpeed: 15
-shots: 2
-alternate: true
 targetGround: false
 targetAir: true
 ammoTypes: {
@@ -34,7 +32,7 @@ ammoTypes: {
     height: 12
     speed: 3
     damage: 5
-    lifetime: 60
+    lifetime: 15
     homingPower: 0.1
     collidesGround: false
     despawnEffect: none
@@ -72,15 +70,25 @@ ammoTypes: {
     }
   }
 }
-  reloadTime: 17.5
+
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 3.5
+  shotDelay: 8.5
+}
+
+  reload: 17.5
   restitution: 0.03
   range: 220
   shootCone: 35
   spread: 4
+
 requirements: [
 copper/85
 lead/45
 duo-fragment/15
 ]
+
 category: turret
 research: scatter
