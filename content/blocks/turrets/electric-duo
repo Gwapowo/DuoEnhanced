@@ -6,21 +6,25 @@ size: 1
 ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 10
-poweruse: 1.5
+
+consumes: {
+power: 1.75
+}
+
 shootType: {
   type: basicBulletType
-  width: 9
-	height: 12
+  width: 8
+	height: 14
 	speed: 10
 	damage: 14
-	lifetime: 60
+	lifetime: 20
   homingPower: 0.1
   reloadMultiplier: 1.5
   status: shocked
 }
   reloadTime: 10
   restitution: 0.03
-  range: 550
+  range: 660
   shootCone: 15
   spread: 4
 
