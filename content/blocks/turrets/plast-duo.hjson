@@ -5,6 +5,8 @@ health: 725
 size: 1
 ammoUseEffect: casing1
 inaccuracy: 1
+reload: 15
+range: 135
 targetGround: true
 targetAir: true
 
@@ -13,6 +15,7 @@ ammoTypes: {
     type: FlakBulletType 
     collidesGround: true
     speed: 4
+    lifetime: 35
     damage: 8
     ammoMultiplier: 4
     splashDamageRadius: 37.5
@@ -40,6 +43,7 @@ ammoTypes: {
   metaglass: {
    type: FlakBulletType
    speed: 4
+   lifetime: 35
    damage: 6
    ammoMultiplier: 2
    shootEffect: shootSmall
@@ -77,10 +81,11 @@ ammoTypes: {
 	strinky: 0
 	drag: -0.01
     speed: 3.7
-    damage: 10
+    lifetime: 38
+    damage: 12
 	splashDamageRadius: 45
     splashDamage: 55
-	reloadMultiplier: 0.125
+	reloadMultiplier: 0.6
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
 	status: blasted
@@ -94,12 +99,10 @@ ammoTypes: {
 	shootEffect: shootBig
 	smokeEffect: shootBigSmoke
 	ammoMultiplier: 4
-	lifetime: 30
+	lifetime: 35
 	}
 }
-	reloadTime: 13.5
 	restitution: 0.03
-	range: 130
 	shootCone: 15 
 	inaccuracy: 0
 	rotateSpeed: 14
@@ -108,14 +111,14 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 3.5
-  shotDelay: 9
+  shotDelay: 7.5
 }
 
 requirements: [
 copper/65
 titanium/25
 thorium/25
-plastanium/60
+plastanium/65
 duo-fragment/15
 ]
 category: turret
